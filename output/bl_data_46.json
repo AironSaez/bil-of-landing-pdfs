@@ -1,0 +1,208 @@
+{
+  "id": 46,
+  "template": "master_transbordo.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "zc-2005-71951",
+  "export_ref": "PO-5382 / INV-76204",
+  "fecha_emision": "02-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Juan Rafael Ramírez Hernández E.I.R.L.",
+    "calle": "Arturo Prat 99",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "49.512.136-4",
+    "fono": "+56 600 243 316"
+  },
+  "consignee": {
+    "nombre": "Carmen Génesis Díaz Roa E.I.R.L.",
+    "calle": "Brandon Ramos 22",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "notify": {
+    "nombre": "Mamani, Vargas y Castillo Sociedad Anónima",
+    "calle": "Avda. Carolina Bascuñán 69",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "correo": "mjorquera@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Corporación Esparza, Vargas y Urzúa SPA",
+    "calle": "Gustavo Oyarzo 87 Piso 16",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "correo": "joaquin01@example.com"
+  },
+  "embarcador": {
+    "nombre": "Juan Rafael Ramírez Hernández E.I.R.L.",
+    "calle": "Arturo Prat 99",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "49.512.136-4",
+    "fono": "+56 600 243 316"
+  },
+  "consignatario": {
+    "nombre": "Carmen Génesis Díaz Roa E.I.R.L.",
+    "calle": "Brandon Ramos 22",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Juan Jacob Ojeda Hidalgo E.I.R.L.",
+    "calle": "Manuel Montt 361 Dpto. 1739",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "84.318.100-7",
+    "fono": "+56 43 230 5154",
+    "adu": "A-13"
+  },
+  "representante": {
+    "nombre": "Club Sobarzo, Cabrera y Contreras Sociedad Anónima",
+    "calle": "Manuel Rodríguez 22 Dpto. 75",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "97.086.634-5",
+    "correo": "miguel74@example.net"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "TRB",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV oOl-dvRi",
+  "voyage": "3871N",
+  "nave": "MV zac-qPBX",
+  "viaje": "2809N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Rotterdam, Netherlands",
+    "locode": "NLRTM"
+  },
+  "port_discharge": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Busan, Corea del Sur",
+  "destino_final": "Guayaquil, Ecuador",
+  "transbordos": "—",
+  "lugar_recepcion": "Rotterdam, Netherlands CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "URWU6896299",
+    "tipo": "45P1",
+    "sello": "0246002",
+    "status": "EMPTY",
+    "peso": 8901.6,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "qcUV-zKWZ / N° 01",
+      "bultos": 7,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 5062.93,
+      "volumen": 5.32,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "vxoC-dCto / N° 02",
+      "bultos": 12,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3838.63,
+      "volumen": 6.13,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 19,
+  "peso_total": 8901.56,
+  "volumen_total": 11.45,
+  "mercancia": "Aceite de Oliva",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "qcUV-zKWZ / N° 01",
+      "cantidad": 7,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 5062.93,
+      "volumen": 5.32,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "vxoC-dCto / N° 02",
+      "cantidad": 12,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3838.63,
+      "volumen": 6.13,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "14 DAYS FREE TIME DEMURRAGE / PORT OF LOADING CY - DOOR DELIVERY",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "YWAU8318020",
+      "tipo": "22T1",
+      "sello": "3177986",
+      "status": "EMPTY",
+      "peso": 2225.4,
+      "operador": "SHIPPER OWNER",
+      "bultos": 5,
+      "volumen": 2.86
+    },
+    {
+      "numero": "TFCU1111840",
+      "tipo": "45G0",
+      "sello": "2077044",
+      "status": "EMPTY",
+      "peso": 2225.4,
+      "operador": "LEASED",
+      "bultos": 5,
+      "volumen": 2.86
+    },
+    {
+      "numero": "KXZU2840654",
+      "tipo": "45G0",
+      "sello": "8700486",
+      "status": "EMPTY",
+      "peso": 2225.4,
+      "operador": "CARRIER OWNED",
+      "bultos": 4,
+      "volumen": 2.87
+    },
+    {
+      "numero": "DUDU8274717",
+      "tipo": "42G1",
+      "sello": "7515490",
+      "status": "EMPTY",
+      "peso": 2225.4,
+      "operador": "CARRIER OWNED",
+      "bultos": 5,
+      "volumen": 2.86
+    }
+  ],
+  "bl_madre": "SUDU333557386"
+}

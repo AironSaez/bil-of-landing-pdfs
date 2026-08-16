@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>BILL OF LADING - TRANSBORDO MULTIMODAL</title>
+<style>
+/* ============================================================
+   TEMPLATE 5 · TRANSBORDO MULTIMODAL
+   Tema: teal/violeta + sans-serif geométrico. Cajas separadas
+   para Pre-Carriage, Ocean Vessel y Puerto de Transbordo.
+   Listado complejo de múltiples bultos, pesos (KGM) y volumen (MTQ).
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 11mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  color: #170a2e;
+  font-size: 8.6pt;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ---------- Encabezado ---------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0f2f3d 0%, #3b1d5e 100%);
+  color: #fff;
+  padding: 9px 12px;
+  margin-bottom: 9px;
+  border-bottom: 4px solid #00c8a8;
+}
+.header .brand h1 {
+  margin: 0;
+  font-size: 15pt;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.header .brand p { margin: 0; font-size: 7pt; color: #b8e6da; }
+.header .doc-code { text-align: right; font-size: 8pt; color: #e9e2f7; }
+.header .doc-code strong { display: block; font-size: 10pt; color: #7df0d9; }
+
+/* ---------- Cajas de partes ---------- */
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 9px;
+}
+.party {
+  flex: 1 1 49%;
+  min-height: 60px;
+  border: 1.5px solid #3b1d5e;
+  border-left: 6px solid #00c8a8;
+  padding: 5px 8px;
+  background: #faf8ff;
+}
+.party .label {
+  font-weight: bold;
+  font-size: 7pt;
+  letter-spacing: 1.5px;
+  color: #3b1d5e;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 2px;
+}
+.party .name { font-weight: bold; font-size: 9pt; }
+.party .addr { color: #4c4070; font-size: 8pt; }
+
+/* ---------- Ruta multimodal ---------- */
+.legs {
+  display: flex;
+  margin-bottom: 9px;
+  gap: 5px;
+}
+.leg {
+  flex: 1;
+  border: 1.5px solid #3b1d5e;
+  padding: 5px 8px;
+  background: #faf8ff;
+  text-align: center;
+}
+.leg .label {
+  font-weight: bold;
+  font-size: 7pt;
+  letter-spacing: 1px;
+  color: #00a88d;
+  text-transform: uppercase;
+}
+.leg .value { font-size: 9.5pt; font-weight: bold; color: #170a2e; }
+
+/* ---------- Contenedores ---------- */
+.cont-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 9px;
+}
+.cont-table th {
+  background: #3b1d5e;
+  color: #fff;
+  padding: 4px 6px;
+  font-size: 7.5pt;
+  letter-spacing: 1px;
+  text-align: center;
+  border: 1px solid #2a1250;
+}
+.cont-table td {
+  border: 1px solid #d5c8ee;
+  padding: 4px 6px;
+  text-align: center;
+  font-size: 8.3pt;
+}
+.cont-table tr:nth-child(even) td { background: #f4f0fc; }
+
+/* ---------- Detalle de bultos (múltiple) ---------- */
+.bultos {
+  margin-bottom: 9px;
+}
+.bultos .b-head {
+  background: #00a88d;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 8pt;
+  letter-spacing: 1px;
+}
+table.det {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.det th {
+  background: #e3f6f1;
+  color: #0f5c4e;
+  padding: 4px 6px;
+  font-size: 7.5pt;
+  text-align: center;
+  border: 1px solid #b5d8cf;
+}
+table.det td {
+  border: 1px solid #b5d8cf;
+  padding: 4px 6px;
+  font-size: 8pt;
+}
+table.det td.left { text-align: left; }
+table.det td.right { text-align: right; }
+table.det tr.total td {
+  background: #d9f2ec;
+  font-weight: bold;
+}
+
+/* ---------- Observaciones ---------- */
+.obs {
+  border: 1.5px solid #3b1d5e;
+  padding: 5px 8px;
+  min-height: 40px;
+  margin-bottom: 9px;
+  color: #4c4070;
+  font-size: 8pt;
+}
+.obs .label { font-weight: bold; color: #3b1d5e; }
+
+/* ---------- Firma ---------- */
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sign .line {
+  width: 150px;
+  border-top: 1px solid #170a2e;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 7.5pt;
+}
+</style>
+</head>
+<body>
+
+<!-- ================= ENCABEZADO ================= -->
+<div class="header">
+  <div class="brand">
+    <h1>{{ naviera }}</h1>
+    <p>MULTIMODAL &amp; TRANSSHIPMENT DIVISION</p>
+  </div>
+  <div class="doc-code">
+    <strong>BILL OF LADING MULTIMODAL</strong>
+    B/L N° {{ bl_number }}<br>
+    Emisión: {{ fecha_emision }}
+  </div>
+</div>
+
+<!-- ================= PARTES ================= -->
+<div class="parties">
+  <div class="party">
+    <span class="label">Shipper / Embarcador</span>
+    <div class="name">{{ shipper.company }}</div>
+    <div class="addr">{{ shipper.address }}<br>{{ shipper.city }}, {{ shipper.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Consignee / Consignatario</span>
+    <div class="name">{{ consignee.company }}</div>
+    <div class="addr">{{ consignee.address }}<br>{{ consignee.city }}, {{ consignee.country }}</div>
+    <div class="name">RUT: {{ consignatario_rut }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Notify Party</span>
+    <div class="name">{{ notify.company }}</div>
+    <div class="addr">{{ notify.address }}<br>{{ notify.city }}, {{ notify.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Forwarding Agent</span>
+    <div class="name">{{ forwarding_agent.company }}</div>
+    <div class="addr">{{ forwarding_agent.address }}<br>{{ forwarding_agent.city }}, {{ forwarding_agent.country }}</div>
+  </div>
+</div>
+
+<!-- ================= RUTA MULTIMODAL ================= -->
+<div class="legs">
+  <div class="leg">
+    <div class="label">Pre-Carriage</div>
+    <div class="value">{{ pre_carriage }}</div>
+  </div>
+  <div class="leg">
+    <div class="label">Ocean Vessel</div>
+    <div class="value">{{ ocean_vessel }}</div>
+  </div>
+  <div class="leg">
+    <div class="label">Puerto de Transbordo</div>
+    <div class="value">{{ puerto_transbordo }}</div>
+  </div>
+  <div class="leg">
+    <div class="label">Puerto Embarque</div>
+    <div class="value">{{ puerto_embarque }}</div>
+  </div>
+  <div class="leg">
+    <div class="label">Puerto Desembarque</div>
+    <div class="value">{{ puerto_desembarque }}</div>
+  </div>
+  <div class="leg">
+    <div class="label">Destino Final</div>
+    <div class="value">{{ destino_final }}</div>
+  </div>
+</div>
+
+<!-- ================= CONTENEDORES ================= -->
+<table class="cont-table">
+  <tr>
+    <th>Contenedor</th>
+    <th>Tipo</th>
+    <th>Sello</th>
+    <th>Status</th>
+    <th>Peso (KGM)</th>
+    <th>Bultos</th>
+    <th>Volumen (MTQ)</th>
+  </tr>
+  {% for c in contenedores %}
+  <tr>
+    <td>{{ c.numero }}</td>
+    <td>{{ c.tipo }}</td>
+    <td>{{ c.sello }}</td>
+    <td>{{ c.status }}</td>
+    <td>{{ "%.1f"|format(c.peso) }}</td>
+    <td>{{ c.bultos }}</td>
+    <td>{{ "%.2f"|format(c.volumen) }}</td>
+  </tr>
+  {% endfor %}
+  <tr class="total">
+    <td colspan="4">TOTAL</td>
+    <td>{{ "%.1f"|format(peso_bruto) }}</td>
+    <td>{{ bultos_total }}</td>
+    <td>{{ "%.2f"|format(volumen_total) }}</td>
+  </tr>
+</table>
+
+<!-- ================= DETALLE DE BULTOS ================= -->
+<div class="bultos">
+  <div class="b-head">DETALLE DE BULTOS · PESOS (KGM) · VOLUMEN (MTQ)</div>
+  <table class="det">
+    <tr>
+      <th>Marcas / N°</th>
+      <th>N° de Bultos</th>
+      <th>Descripción</th>
+      <th>Peso Bruto (KGM)</th>
+      <th>Volumen (MTQ)</th>
+    </tr>
+    {% for b in bultos_detalle %}
+    <tr>
+      <td class="left">{{ b.marcas }}</td>
+      <td class="right">{{ b.cantidad }}</td>
+      <td class="left">{{ b.descripcion }}</td>
+      <td class="right">{{ "%.2f"|format(b.peso) }}</td>
+      <td class="right">{{ "%.2f"|format(b.volumen) }}</td>
+    </tr>
+    {% endfor %}
+    <tr class="total">
+      <td class="left">TOTAL</td>
+      <td class="right">{{ bultos_total }}</td>
+      <td></td>
+      <td class="right">{{ "%.2f"|format(peso_bruto) }}</td>
+      <td class="right">{{ "%.2f"|format(volumen_total) }}</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ================= OBSERVACIONES ================= -->
+<div class="obs">
+  <span class="label">OBSERVACIONES</span><br>
+  {{ observaciones }}
+</div>
+
+<!-- ================= FIRMA ================= -->
+<div class="sign">
+  <div class="line">Firma del Agente (Pre-Carriage)</div>
+  <div class="line">Firma del Transportista (Ocean)</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+{
+  "id": 41,
+  "template": "master_reefer.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "RM-1984-10472",
+  "export_ref": "PO-8410 / INV-77944",
+  "fecha_emision": "01-AUG-2026",
+  "fecha_embarque": "10-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Arriagada SPA",
+    "calle": "Calle Elsa Godoy 786",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "43.852.182-8"
+  },
+  "consignee": {
+    "nombre": "Proyectos Romero, Rojas y Mella Ltda.",
+    "calle": "Johana Mamani 304",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "correo": "cluna@example.net"
+  },
+  "notify": {
+    "nombre": "Gutiérrez y Henríquez S.A.",
+    "calle": "Avda. Los Lirios 200",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "fono": "+56 44 282 2370",
+    "correo": "anapenaloza@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Cofré y Cortés Ltda.",
+    "calle": "Francisco Bilbao 615 Piso 27",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 2 3627 0612"
+  },
+  "embarcador": {
+    "nombre": "Arriagada SPA",
+    "calle": "Calle Elsa Godoy 786",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "43.852.182-8"
+  },
+  "consignatario": {
+    "nombre": "Proyectos Romero, Rojas y Mella Ltda.",
+    "calle": "Johana Mamani 304",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "correo": "cluna@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Elsa Espinoza-Rocha E.I.R.L.",
+    "calle": "Calle Víctor Arancibia 281 Of. 940",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "63.086.684-7",
+    "correo": "rojasnorma@example.net",
+    "adu": "A-90"
+  },
+  "representante": {
+    "nombre": "Grupo Bustos y Asociados Ltda.",
+    "calle": "Las Rosas 485",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "85.638.409-8",
+    "fono": "+56 58 237 7427",
+    "correo": "manuelgomez@example.org"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "I",
+  "incoterm": "FOB",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV kkA-zQsk",
+  "voyage": "1768N",
+  "nave": "MV cXG-xOXU",
+  "viaje": "8549N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Busan, Corea del Sur",
+    "locode": "KRPUS"
+  },
+  "port_discharge": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Guayaquil, Ecuador",
+  "destino_final": "Kaohsiung, Taiwan",
+  "transbordos": "—",
+  "lugar_recepcion": "Busan, Corea del Sur CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "NDRU0483651",
+    "tipo": "45R1",
+    "sello": "6190678",
+    "status": "FCL/FCL",
+    "peso": 10796.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "HxOD-WHwo / N° 01",
+      "bultos": 11,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5840.84,
+      "volumen": 9.87,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "CgOy-tcrZ / N° 02",
+      "bultos": 13,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4955.23,
+      "volumen": 11.7,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 24,
+  "peso_total": 10796.07,
+  "volumen_total": 21.57,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "HxOD-WHwo / N° 01",
+      "cantidad": 11,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5840.84,
+      "volumen": 9.87,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "CgOy-tcrZ / N° 02",
+      "cantidad": 13,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4955.23,
+      "volumen": 11.7,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "14 DAYS FREE TIME DEMURRAGE / TEMP CONTROL: +1°C (REEFER) / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 05/08",
+  "encargado_reefer": "Pedro Arriagada Arenas"
+}

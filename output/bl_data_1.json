@@ -1,0 +1,158 @@
+{
+  "id": 1,
+  "template": "master_transito.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "ya-1977-61055",
+  "export_ref": "PO-0087 / INV-54751",
+  "fecha_emision": "01-AUG-2026",
+  "fecha_embarque": "09-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Grupo Mamani y Peña Ltda.",
+    "calle": "Esmeralda 2568 Of. 9515",
+    "ciudad": "Kaohsiung",
+    "pais": "Taiwán",
+    "fono": "+56 41 389 4055",
+    "correo": "lsoto@example.net"
+  },
+  "consignee": {
+    "nombre": "Valeska Johana Hormazábal Campos EIRL",
+    "calle": "Pedro de Valdivia 409 Dpto. 808",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "nit": "273177848"
+  },
+  "notify": {
+    "nombre": "Katherine Myriam Iturra Calderón EIRL",
+    "calle": "Arturo Prat 36 Piso 0",
+    "ciudad": "La Paz",
+    "pais": "Bolivia"
+  },
+  "forwarding_agent": {
+    "nombre": "Peña SPA",
+    "calle": "Nataly Valenzuela 684",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Grupo Mamani y Peña Ltda.",
+    "calle": "Esmeralda 2568 Of. 9515",
+    "ciudad": "Kaohsiung",
+    "pais": "Taiwán",
+    "fono": "+56 41 389 4055",
+    "correo": "lsoto@example.net"
+  },
+  "consignatario": {
+    "nombre": "Valeska Johana Hormazábal Campos EIRL",
+    "calle": "Pedro de Valdivia 409 Dpto. 808",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "nit": "273177848"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "273177848",
+  "almacenista": {
+    "nombre": "Irene Anahí Jiménez Urbina E.I.R.L.",
+    "calle": "Calle Carmen Muñoz 997 Piso 5",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "35.911.442-7",
+    "fono": "+56 800 178 768",
+    "correo": "margarita17@example.net",
+    "adu": "A-84"
+  },
+  "representante": {
+    "nombre": "Corporación Herrera, Acevedo y Córdova S.p.A.",
+    "calle": "Francisco Quezada 9",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "40.014.429-K",
+    "fono": "+56 2 2762 2948"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "TR",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV KNZ-kjLH",
+  "voyage": "3695N",
+  "nave": "MV DMo-RTeJ",
+  "viaje": "6032N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "port_discharge": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Kaohsiung, Taiwan",
+  "destino_final": "La Paz",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "Hamburg, Alemania CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "QLPU8833228",
+    "tipo": "45R1",
+    "sello": "7973091",
+    "status": "LCL/LCL",
+    "peso": 5407.6,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "huGG-PgoM / N° 01",
+      "bultos": 14,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 5407.65,
+      "volumen": 21.07,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 14,
+  "peso_total": 5407.65,
+  "volumen_total": 21.07,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "huGG-PgoM / N° 01",
+      "cantidad": 14,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 5407.65,
+      "volumen": 21.07,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "QLPU8833228",
+      "tipo": "45R1",
+      "sello": "7973091",
+      "status": "LCL/LCL",
+      "peso": 5407.6,
+      "operador": "CARRIER OWNED",
+      "bultos": 14,
+      "volumen": 21.07
+    }
+  ]
+}

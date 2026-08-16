@@ -1,0 +1,179 @@
+{
+  "id": 19,
+  "template": "master_transito.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "Kh-1978-50602",
+  "export_ref": "PO-1331 / INV-11454",
+  "fecha_emision": "07-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Comercial Becerra y Arias S.A.",
+    "calle": "María Pérez 9621 Piso 61",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 64 236 0802"
+  },
+  "consignee": {
+    "nombre": "Despacho Flores, Uribe y Herrera S.p.A.",
+    "calle": "Calle Esmeralda 2253 Dpto. 201",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "nit": "943214456"
+  },
+  "notify": {
+    "nombre": "Laboratorio Fernández, Paredes y Navarro Ltda.",
+    "calle": "Calle Gabriela Mistral 123",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "fono": "+56 2 3559 0855",
+    "correo": "xquezada@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Figueroa, Gutiérrez y Ortega Limitada",
+    "calle": "Gerardo Soto 441",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 2 3507 6536",
+    "correo": "hrojas@example.net"
+  },
+  "embarcador": {
+    "nombre": "Comercial Becerra y Arias S.A.",
+    "calle": "María Pérez 9621 Piso 61",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 64 236 0802"
+  },
+  "consignatario": {
+    "nombre": "Despacho Flores, Uribe y Herrera S.p.A.",
+    "calle": "Calle Esmeralda 2253 Dpto. 201",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "nit": "943214456"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "943214456",
+  "almacenista": {
+    "nombre": "Ramírez y Lara Ltda.",
+    "calle": "Avenida Emily Moreno 83",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "64.877.196-7",
+    "fono": "+56 64 295 0122",
+    "adu": "A-22"
+  },
+  "representante": {
+    "nombre": "Jenny Carmen Pardo Vargas E.I.R.L.",
+    "calle": "Anastasia Vera 55",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "19.715.436-5",
+    "fono": "+56 64 321 7353"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "TR",
+  "incoterm": "CPT",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV UKW-MRFg",
+  "voyage": "8164N",
+  "nave": "MV Cno-aZJz",
+  "viaje": "9432N",
+  "bandera": "SG",
+  "port_loading": {
+    "nombre": "Callao, Perú",
+    "locode": "PECLL"
+  },
+  "port_discharge": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Callao, Perú",
+  "destino_final": "La Paz",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Callao, Perú CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "QLMU0972592",
+    "tipo": "22U1",
+    "sello": "1774465",
+    "status": "FCL/FCL",
+    "peso": 4256.4,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "NkIU-sAnf / N° 01",
+      "bultos": 18,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 1602.38,
+      "volumen": 8.85,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "keYj-CRXE / N° 02",
+      "bultos": 13,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2653.99,
+      "volumen": 10.05,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 31,
+  "peso_total": 4256.37,
+  "volumen_total": 18.9,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "NkIU-sAnf / N° 01",
+      "cantidad": 18,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 1602.38,
+      "volumen": 8.85,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "keYj-CRXE / N° 02",
+      "cantidad": 13,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2653.99,
+      "volumen": 10.05,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-THREE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "QLMU0972592",
+      "tipo": "22U1",
+      "sello": "1774465",
+      "status": "FCL/FCL",
+      "peso": 4256.4,
+      "operador": "CARRIER OWNED",
+      "bultos": 31,
+      "volumen": 18.9
+    }
+  ]
+}

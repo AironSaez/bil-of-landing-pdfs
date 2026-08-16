@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BILL OF LADING - DANGEROUS CARGO (IMO)</title>
+<style>
+@page { size: A4; margin: 7mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Courier New", Courier, monospace; color: #2a0000; }
+.doc { border: 3px solid #000; }
+.t { font-family: Arial, Helvetica, sans-serif; font-size: 7px; color: #7a0000; text-transform: uppercase; font-weight: bold; letter-spacing: 0.4px; line-height: 1.2; }
+.d { font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; line-height: 1.3; overflow-wrap: break-word; }
+.d small { font-weight: normal; }
+.box { border: 1px solid #000; padding: 3px 6px; min-height: 44px; }
+
+/* BANNER */
+.hazard { background: repeating-linear-gradient(45deg, #000 0, #000 10px, #ffd400 10px, #ffd400 20px); color: #000; font-weight: 900; text-align: center; font-family: Arial; font-size: 11px; letter-spacing: 5px; padding: 4px; border-bottom: 2px solid #000; }
+
+/* ENCABEZADO */
+.topbar { display: grid; grid-template-columns: 1.5fr 1fr 1fr; border-bottom: 1px solid #000; }
+.topbar .box { border-right: 1px solid #000; min-height: 44px; }
+.topbar .box:last-child { border-right: none; }
+.topbar .naviera { font-size: 19px; font-weight: bold; letter-spacing: 2px; color: #b30000; }
+
+/* PARTES */
+.parties { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #000; }
+.parties .box { border-right: 1px solid #000; min-height: 60px; }
+.parties .box:nth-child(even) { border-right: none; }
+
+/* RUTA */
+.route { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; border-bottom: 1px solid #000; }
+.route .box { border-right: 1px solid #000; min-height: 40px; }
+.route .box:last-child { border-right: none; }
+
+/* DATOS IMO */
+.imo { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; border-bottom: 1px solid #000; background: #fff4f4; }
+.imo .box { border-right: 1px solid #000; min-height: 40px; }
+.imo .box:last-child { border-right: none; }
+.imo .val { font-size: 11px; font-weight: 900; color: #b30000; }
+
+/* GRILLA CARGA */
+table.cargo { width: 100%; border-collapse: collapse; border: 1px solid #000; table-layout: fixed; }
+table.cargo th { border: 1px solid #000; font-family: Arial; font-size: 7px; color: #7a0000; text-transform: uppercase; text-align: left; padding: 3px 5px; background: #ffd9d9; }
+table.cargo td { border: 1px solid #000; font-size: 9px; font-weight: bold; padding: 3px 5px; vertical-align: top; }
+table.cargo td.num { text-align: right; }
+table.cargo tr.total td { background: #ffc9c9; font-weight: bold; }
+
+/* EMERGENCIA */
+.emerg { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #000; }
+.emerg .box { border-right: 1px solid #000; min-height: 40px; }
+.emerg .box:last-child { border-right: none; }
+
+/* OBSERVACIONES */
+.obs { border-bottom: 1px solid #000; padding: 3px 6px; font-size: 9px; font-weight: bold; min-height: 26px; }
+
+/* FIRMA */
+.sign { display: grid; grid-template-columns: 1fr 1fr; }
+.sign .box { min-height: 46px; }
+.sign .line { border-top: 1px solid #000; margin-top: 22px; padding-top: 2px; font-family: Arial; font-size: 6.5px; color: #333; text-align: center; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <div class="hazard">DANGEROUS CARGO · CARGA PELIGROSA (IMO)</div>
+
+  <!-- ENCABEZADO -->
+  <div class="topbar">
+    <div class="box">
+      <div class="naviera">{{ naviera }}</div>
+      <div class="t">Unidad de Carga Peligrosa · IMO Certified</div>
+    </div>
+    <div class="box">
+      <div class="t">Bill Of Lading No.</div>
+      <div class="d">{{ bl_number }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Type Of Move / Issue Date</div>
+      <div class="d">{{ tipo_servicio }}<br><small>{{ fecha_emision }}</small></div>
+    </div>
+  </div>
+
+  <!-- PARTES -->
+  <div class="parties">
+    <div class="box">
+      <div class="t">Shipper</div>
+      <div class="d">{{ shipper.nombre }}<br>{{ shipper.calle }}<br>{{ shipper.ciudad }}, {{ shipper.pais }}<br><small>R.U.T.: {{ shipper.rut }}</small></div>
+    </div>
+    <div class="box">
+      <div class="t">Consignee</div>
+      <div class="d">{{ consignee.nombre }}<br>{{ consignee.calle }}<br>{{ consignee.ciudad }}, {{ consignee.pais }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Notify Party (Emergency)</div>
+      <div class="d">{{ notify.nombre }}<br>{{ notify.calle }}<br>{{ notify.ciudad }}, {{ notify.pais }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Forwarding Agent</div>
+      <div class="d">{{ forwarding_agent.nombre }}<br>{{ forwarding_agent.ciudad }}, {{ forwarding_agent.pais }}</div>
+    </div>
+  </div>
+
+  <!-- RUTA -->
+  <div class="route">
+    <div class="box">
+      <div class="t">Port Of Loading</div>
+      <div class="d">{{ port_loading.nombre }} [{{ port_loading.locode }}]</div>
+    </div>
+    <div class="box">
+      <div class="t">Port Of Discharge</div>
+      <div class="d">{{ port_discharge.nombre }} [{{ port_discharge.locode }}]</div>
+    </div>
+    <div class="box">
+      <div class="t">Vessel / Voyage</div>
+      <div class="d">{{ vessel }}<br><small>V. {{ voyage }} · [{{ bandera }}]</small></div>
+    </div>
+    <div class="box">
+      <div class="t">Container / Type</div>
+      <div class="d">{{ contenedor.numero }}<br><small>{{ contenedor.tipo }} · SEAL {{ contenedor.sello }}</small></div>
+    </div>
+  </div>
+
+  <!-- DATOS IMO -->
+  <div class="imo">
+    <div class="box">
+      <div class="t">Proper Shipping Name</div>
+      <div class="val">{{ nombre_embarque }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Class IMO</div>
+      <div class="val">{{ clase_imo }}</div>
+    </div>
+    <div class="box">
+      <div class="t">UN Number</div>
+      <div class="val">{{ numero_onu }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Packing Group</div>
+      <div class="val">{{ grupo_embalaje }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Flash Point</div>
+      <div class="val">{{ punto_inflamacion }}</div>
+    </div>
+    <div class="box">
+      <div class="t">EMS</div>
+      <div class="val">{{ ems }}</div>
+    </div>
+  </div>
+
+  <!-- GRILLA CARGA -->
+  <table class="cargo">
+    <thead>
+      <tr>
+        <th style="width:18%;">Marks &amp; Numbers</th>
+        <th style="width:12%;">Packages</th>
+        <th style="width:32%;">Description Of Goods</th>
+        <th style="width:14%;">Gross Weight (KGS)</th>
+        <th style="width:12%;">Measurement (CBM)</th>
+        <th style="width:12%;">Marine Pollutant</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in carga %}
+      <tr>
+        <td>{{ item.marcas }}</td>
+        <td>{{ item.bultos }} {{ item.unidad }}</td>
+        <td>{{ item.descripcion }}<br><span style="color:#900;font-size:8px;">IMO {{ item.imo }} / {{ item.onu }}</span></td>
+        <td class="num">{{ item.peso|miles }}</td>
+        <td class="num">{{ item.volumen|miles }}</td>
+        <td>{{ contaminante_marino }}</td>
+      </tr>
+      {% endfor %}
+      <tr class="total">
+        <td>TOTAL</td>
+        <td>{{ bultos_total }}</td>
+        <td>{{ contenedor.numero }} · {{ mercancia }}</td>
+        <td class="num">{{ peso_total|miles }}</td>
+        <td class="num">{{ volumen_total|miles }}</td>
+        <td>{{ contaminante_marino }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- EMERGENCIA -->
+  <div class="emerg">
+    <div class="box">
+      <div class="t">24h Emergency Contact</div>
+      <div class="d">{{ contacto_emergencia }} · {{ telefono_emergencia }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Segregation / Stowage</div>
+      <div class="d">{{ estiba }}</div>
+    </div>
+  </div>
+
+  <!-- OBSERVACIONES -->
+  <div class="obs">
+    <span class="t">Remarks / Observaciones: </span>{{ observaciones }}
+  </div>
+
+  <!-- FIRMA -->
+  <div class="sign">
+    <div class="box">
+      <div class="t">Place And Date Of Issue</div>
+      <div class="d">{{ lugar_emision }}, {{ fecha_emision }}</div>
+      <div class="line">Shipper's Dangerous Goods Declaration</div>
+    </div>
+    <div class="box">
+      <div class="t">Approval Authority</div>
+      <div class="d">DG-CERT {{ numero_certificado }}</div>
+      <div class="line">Signed As Agent For The Carrier</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

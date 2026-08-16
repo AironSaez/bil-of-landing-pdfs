@@ -1,0 +1,172 @@
+{
+  "id": 44,
+  "template": "master_transbordo.html",
+  "naviera": "ATACAMA OCEAN FREIGHT",
+  "bl_number": "OW-2010-55116",
+  "export_ref": "PO-3893 / INV-73168",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Comercial Rodríguez y Asociados SPA",
+    "calle": "Calle Los Naranjos 24",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "71.053.308-3",
+    "fono": "+56 2 3216 4140",
+    "correo": "jaraivonne@example.net"
+  },
+  "consignee": {
+    "nombre": "Alvarez, Durán y Pavez S.p.A.",
+    "calle": "Calle Los Calafates 61 Of. 2245",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 52 319 3915"
+  },
+  "notify": {
+    "nombre": "Valdebenito y León S.p.A.",
+    "calle": "Michimalonco 8239 Of. 2252",
+    "ciudad": "Callao",
+    "pais": "Perú",
+    "fono": "+56 2 3773 0806"
+  },
+  "forwarding_agent": {
+    "nombre": "Industrias Concha, Arancibia y Muñoz Ltda.",
+    "calle": "Camino Las Azucenas 912 Dpto. 536",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "fono": "+56 33 315 7282",
+    "correo": "vtapia@example.com"
+  },
+  "embarcador": {
+    "nombre": "Comercial Rodríguez y Asociados SPA",
+    "calle": "Calle Los Naranjos 24",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "71.053.308-3",
+    "fono": "+56 2 3216 4140",
+    "correo": "jaraivonne@example.net"
+  },
+  "consignatario": {
+    "nombre": "Alvarez, Durán y Pavez S.p.A.",
+    "calle": "Calle Los Calafates 61 Of. 2245",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 52 319 3915"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Comercial Olguín, Inzunza y Lazo S.A.",
+    "calle": "Calle Aladino Lara 9",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "40.571.461-2",
+    "fono": "+56 35 377 9451",
+    "adu": "A-97"
+  },
+  "representante": {
+    "nombre": "Astorga y Rebolledo SPA",
+    "calle": "Las Margaritas 5618",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "19.057.612-4"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "TRB",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV AZY-STMd",
+  "voyage": "1723N",
+  "nave": "MV Zuw-hqpG",
+  "viaje": "6683N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Buenos Aires, Argentina",
+    "locode": "ARBUE"
+  },
+  "port_discharge": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Callao, Perú",
+  "transbordos": "—",
+  "lugar_recepcion": "Buenos Aires, Argentina CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "AYZU7450389",
+    "tipo": "45R1",
+    "sello": "8907046",
+    "status": "FCL/FCL",
+    "peso": 8216.3,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "BZjE-zefP / N° 01",
+      "bultos": 18,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 8216.28,
+      "volumen": 11.59,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 18,
+  "peso_total": 8216.28,
+  "volumen_total": 11.59,
+  "mercancia": "Aceite de Oliva",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "BZjE-zefP / N° 01",
+      "cantidad": 18,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 8216.28,
+      "volumen": 11.59,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT / 14 DAYS FREE TIME DEMURRAGE / MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "TKFU4713671",
+      "tipo": "45U1",
+      "sello": "4718245",
+      "status": "FCL/FCL",
+      "peso": 4108.1,
+      "operador": "CARRIER OWNED",
+      "bultos": 9,
+      "volumen": 5.79
+    },
+    {
+      "numero": "DXMU4882667",
+      "tipo": "45P1",
+      "sello": "7638936",
+      "status": "FCL/FCL",
+      "peso": 4108.2,
+      "operador": "SHIPPER OWNER",
+      "bultos": 9,
+      "volumen": 5.8
+    }
+  ],
+  "bl_madre": "SUDU357059738"
+}

@@ -1,0 +1,154 @@
+{
+  "id": 48,
+  "template": "master_exportacion.html",
+  "naviera": "ANDES CARRIER CO.",
+  "bl_number": "lb-1975-37304",
+  "export_ref": "PO-6720 / INV-58600",
+  "fecha_emision": "03-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Juan Isaías Palma Moyano EIRL",
+    "calle": "Arturo Alessandri 34 Piso 9",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "26.132.715-5",
+    "fono": "+56 2 3980 9119"
+  },
+  "consignee": {
+    "nombre": "Lobos Ltda.",
+    "calle": "Caupolicán 5746 Of. 511",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "fono": "+56 2 3243 0230"
+  },
+  "notify": {
+    "nombre": "Andrés Carlos Carvajal Olivares EIRL",
+    "calle": "Sara Benavides 67 Dpto. 483",
+    "ciudad": "Kaohsiung",
+    "pais": "Taiwán",
+    "fono": "+56 58 238 3304",
+    "correo": "yalarcon@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Holding Pérez y Asociados Limitada",
+    "calle": "Colo Colo 828",
+    "ciudad": "Valparaíso",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Juan Isaías Palma Moyano EIRL",
+    "calle": "Arturo Alessandri 34 Piso 9",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "26.132.715-5",
+    "fono": "+56 2 3980 9119"
+  },
+  "consignatario": {
+    "nombre": "Lobos Ltda.",
+    "calle": "Caupolicán 5746 Of. 511",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "fono": "+56 2 3243 0230"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Josefa Ruth Palma Herrera E.I.R.L.",
+    "calle": "Samuel Cortés 90",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "37.689.878-4",
+    "fono": "+56 2 3928 5163",
+    "adu": "A-16"
+  },
+  "representante": {
+    "nombre": "Rodríguez, Inostroza y Carrasco S.A.",
+    "calle": "María Ruz 84 Of. 577",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "8.415.712-0",
+    "fono": "+56 2 3497 2221",
+    "correo": "ricardo52@example.com"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV YRS-ReTi",
+  "voyage": "7989N",
+  "nave": "MV WJl-wyQt",
+  "viaje": "5984N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "port_discharge": {
+    "nombre": "Miami, USA",
+    "locode": "USMIA"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Santos, Brasil",
+  "destino_final": "Valencia, España",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "EJLU9399515",
+    "tipo": "22T1",
+    "sello": "0128371",
+    "status": "FCL/FCL",
+    "peso": 11275.3,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "rtLp-XCms / N° 01",
+      "bultos": 6,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 11275.26,
+      "volumen": 19.16,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 6,
+  "peso_total": 11275.26,
+  "volumen_total": 19.16,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "rtLp-XCms / N° 01",
+      "cantidad": 6,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 11275.26,
+      "volumen": 19.16,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE / 14 DAYS FREE TIME DEMURRAGE / FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 07/08",
+  "encargado_reefer": "Cristóbal Rojas"
+}

@@ -1,0 +1,180 @@
+{
+  "id": 45,
+  "template": "master_transbordo.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "vk-1990-62214",
+  "export_ref": "PO-5015 / INV-30260",
+  "fecha_emision": "03-AUG-2026",
+  "fecha_embarque": "10-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Olivares y Díaz Limitada",
+    "calle": "Los Aromos 5515 Piso 19",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "24.301.143-4",
+    "fono": "+56 2 2912 6811",
+    "correo": "patricia82@example.com"
+  },
+  "consignee": {
+    "nombre": "Comercial Toledo, Carrasco y Muñoz Ltda.",
+    "calle": "Calle Eduardo Pérez 3",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "correo": "marianavarro@example.org"
+  },
+  "notify": {
+    "nombre": "Barrientos y Garrido Limitada",
+    "calle": "Avenida Anaís Vásquez 2802",
+    "ciudad": "Miami",
+    "pais": "USA"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Páez y Asociados Sociedad Anónima",
+    "calle": "Calle Las Maravillas 8401 Piso 70",
+    "ciudad": "La Serena",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Olivares y Díaz Limitada",
+    "calle": "Los Aromos 5515 Piso 19",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "24.301.143-4",
+    "fono": "+56 2 2912 6811",
+    "correo": "patricia82@example.com"
+  },
+  "consignatario": {
+    "nombre": "Comercial Toledo, Carrasco y Muñoz Ltda.",
+    "calle": "Calle Eduardo Pérez 3",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "correo": "marianavarro@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Quiroz S.A.",
+    "calle": "Calle Franco Ortiz 92",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "28.411.006-4",
+    "fono": "+56 800 833 079",
+    "adu": "A-36"
+  },
+  "representante": {
+    "nombre": "Holding González, Cea y Rodríguez Limitada",
+    "calle": "Los Aromos 4 Of. 869",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "85.836.434-5",
+    "fono": "+56 600 414 382"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "TRB",
+  "incoterm": "CIF",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV fkd-UyZJ",
+  "voyage": "3668N",
+  "nave": "MV ObT-VUdw",
+  "viaje": "5503N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Kaohsiung, Taiwan",
+  "destino_final": "Shanghai, China",
+  "transbordos": "—",
+  "lugar_recepcion": "Guayaquil, Ecuador CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "ARZU3470042",
+    "tipo": "22U1",
+    "sello": "9052762",
+    "status": "FCL/FCL",
+    "peso": 12300.2,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "rhOo-oHvs / N° 01",
+      "bultos": 11,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 12300.22,
+      "volumen": 23.99,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 11,
+  "peso_total": 12300.22,
+  "volumen_total": 23.99,
+  "mercancia": "Vino Embotellado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "rhOo-oHvs / N° 01",
+      "cantidad": 11,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 12300.22,
+      "volumen": 23.99,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT / 14 DAYS FREE TIME DEMURRAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "TAEU8380549",
+      "tipo": "42G1",
+      "sello": "5142196",
+      "status": "FCL/FCL",
+      "peso": 4100.1,
+      "operador": "LEASED",
+      "bultos": 4,
+      "volumen": 8.0
+    },
+    {
+      "numero": "JAJU7490581",
+      "tipo": "22T1",
+      "sello": "3961438",
+      "status": "FCL/FCL",
+      "peso": 4100.1,
+      "operador": "LEASED",
+      "bultos": 4,
+      "volumen": 7.99
+    },
+    {
+      "numero": "MPYU1104456",
+      "tipo": "42G1",
+      "sello": "5511015",
+      "status": "FCL/FCL",
+      "peso": 4100.0,
+      "operador": "LEASED",
+      "bultos": 3,
+      "volumen": 8.0
+    }
+  ],
+  "bl_madre": "SUDU429174351"
+}

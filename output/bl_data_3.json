@@ -1,0 +1,157 @@
+{
+  "id": 3,
+  "template": "master_peligrosa.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "rN-2012-51838",
+  "export_ref": "PO-0125 / INV-37392",
+  "fecha_emision": "07-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Laboratorio Rodríguez, Morales y Vega SPA",
+    "calle": "Calle Las Lilas 532 Piso 68",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "18.985.812-4"
+  },
+  "consignee": {
+    "nombre": "José Salas Jiménez E.I.R.L.",
+    "calle": "Lautaro 38 Of. 3809",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 2 3220 1805"
+  },
+  "notify": {
+    "nombre": "Tapia y Palma SPA",
+    "calle": "Calle Benjamín Rodríguez 71",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 71 224 1577",
+    "correo": "ameliaguerra@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Pérez y Cofré Sociedad Anónima",
+    "calle": "Calle Las Maravillas 9568 Piso 75",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "fono": "+56 42 273 7355"
+  },
+  "embarcador": {
+    "nombre": "Laboratorio Rodríguez, Morales y Vega SPA",
+    "calle": "Calle Las Lilas 532 Piso 68",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "18.985.812-4"
+  },
+  "consignatario": {
+    "nombre": "José Salas Jiménez E.I.R.L.",
+    "calle": "Lautaro 38 Of. 3809",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 2 3220 1805"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Marcelo Franco Garrido Carrasco E.I.R.L.",
+    "calle": "Manuel Rodríguez 34",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "74.164.356-1",
+    "correo": "javiera28@example.org",
+    "adu": "A-44"
+  },
+  "representante": {
+    "nombre": "Ximena Martina Salazar Soto EIRL",
+    "calle": "Roberto Gallardo 306 Dpto. 3748",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "64.879.958-6",
+    "fono": "+56 53 360 0314"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "I",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV KAT-HRLJ",
+  "voyage": "2104N",
+  "nave": "MV Acl-JUGo",
+  "viaje": "7555N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Long Beach, USA",
+    "locode": "USLGB"
+  },
+  "port_discharge": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Kaohsiung, Taiwan",
+  "destino_final": "Shanghai, China",
+  "transbordos": "—",
+  "lugar_recepcion": "Long Beach, USA CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "TZAU2276695",
+    "tipo": "22T1",
+    "sello": "9490668",
+    "status": "FCL/FCL",
+    "peso": 9523.1,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "ftxI-UqiT / N° 01",
+      "bultos": 10,
+      "unidad": "SACOS",
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 9523.11,
+      "volumen": 14.56,
+      "imo": "9",
+      "onu": "UN2216",
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 10,
+  "peso_total": 9523.11,
+  "volumen_total": 14.56,
+  "mercancia": "Harina de Pescado",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "ftxI-UqiT / N° 01",
+      "cantidad": 10,
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 9523.11,
+      "volumen": 14.56,
+      "imo": "9",
+      "onu": "UN2216"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "FISH MEAL (STABILIZED)",
+  "clase_imo": "9",
+  "numero_onu": "UN2216",
+  "grupo_embalaje": "III",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-I",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "ON DECK ONLY",
+  "numero_certificado": "DGC-0378"
+}

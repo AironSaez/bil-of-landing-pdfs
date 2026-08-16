@@ -1,0 +1,156 @@
+{
+  "id": 26,
+  "template": "master_peligrosa.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "ah-2021-11063",
+  "export_ref": "PO-1973 / INV-21394",
+  "fecha_emision": "08-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Holding Vásquez y Asociados SPA",
+    "calle": "Calle Las Rosas 1654 Of. 5557",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "30.002.799-7",
+    "fono": "+56 2 3255 8835"
+  },
+  "consignee": {
+    "nombre": "Vergara S.A.",
+    "calle": "Los Naranjos 6332 Piso 7",
+    "ciudad": "Hong Kong",
+    "pais": "China"
+  },
+  "notify": {
+    "nombre": "Castro Limitada",
+    "calle": "María Olguín 474",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "correo": "julio14@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Brandon Cristóbal Reyes Villegas EIRL",
+    "calle": "Avda. Luis Rivera 660",
+    "ciudad": "Iquique",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Holding Vásquez y Asociados SPA",
+    "calle": "Calle Las Rosas 1654 Of. 5557",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "30.002.799-7",
+    "fono": "+56 2 3255 8835"
+  },
+  "consignatario": {
+    "nombre": "Vergara S.A.",
+    "calle": "Los Naranjos 6332 Piso 7",
+    "ciudad": "Hong Kong",
+    "pais": "China"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Laboratorio Rojas, Morales y Moya S.p.A.",
+    "calle": "Av. Los Robles 5345",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "5.916.734-0",
+    "fono": "+56 44 354 3293",
+    "correo": "katherineguerrero@example.com",
+    "adu": "A-12"
+  },
+  "representante": {
+    "nombre": "Comercial Concha, Rojas y Plaza Ltda.",
+    "calle": "Karina Pino 636 Piso 0",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "30.070.528-6",
+    "correo": "tamara71@example.net"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "I",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV OoE-vrbz",
+  "voyage": "1718N",
+  "nave": "MV BPg-XTCb",
+  "viaje": "0497N",
+  "bandera": "SG",
+  "port_loading": {
+    "nombre": "Valencia, España",
+    "locode": "ESVLC"
+  },
+  "port_discharge": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Santos, Brasil",
+  "destino_final": "Miami, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "Valencia, España CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "CRGU3836668",
+    "tipo": "42G1",
+    "sello": "0116598",
+    "status": "FCL/FCL",
+    "peso": 7804.7,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "RrWh-mscX / N° 01",
+      "bultos": 8,
+      "unidad": "TAMBORES",
+      "descripcion": "Peróxido de hidrógeno solución acuosa (oxidante)",
+      "peso": 7804.74,
+      "volumen": 11.57,
+      "imo": "5.1",
+      "onu": "UN2014",
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 8,
+  "peso_total": 7804.74,
+  "volumen_total": 11.57,
+  "mercancia": "Peróxido de Hidrógeno",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "RrWh-mscX / N° 01",
+      "cantidad": 8,
+      "descripcion": "Peróxido de hidrógeno solución acuosa (oxidante)",
+      "peso": 7804.74,
+      "volumen": 11.57,
+      "imo": "5.1",
+      "onu": "UN2014"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE / TEMP CONTROL: +1°C (REEFER) / SHIPPER'S LOAD, STOW AND COUNT",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "HYDROGEN PEROXIDE, AQUEOUS SOLUTION",
+  "clase_imo": "5.1",
+  "numero_onu": "UN2014",
+  "grupo_embalaje": "II",
+  "punto_inflamacion": "N/A (oxidante)",
+  "ems": "F-A, S-Q",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "ON DECK ONLY",
+  "numero_certificado": "DGC-0725"
+}

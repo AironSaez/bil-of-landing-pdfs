@@ -1,0 +1,180 @@
+{
+  "id": 35,
+  "template": "master_exportacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "mu-2000-19379",
+  "export_ref": "PO-5698 / INV-71349",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Cid, Carrasco y Urzúa SPA",
+    "calle": "Isidora Ortiz 87",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "24.851.430-2",
+    "fono": "+56 9 4541 6952",
+    "correo": "wvidal@example.com"
+  },
+  "consignee": {
+    "nombre": "Despacho Álvarez y Guajardo S.p.A.",
+    "calle": "Michimalonco 1863",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "fono": "+56 75 227 8841"
+  },
+  "notify": {
+    "nombre": "Mabel Alicia Becerra Ávalos EIRL",
+    "calle": "Caupolicán 9",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "fono": "+56 800 294 875"
+  },
+  "forwarding_agent": {
+    "nombre": "Alberto Vargas-Garrido EIRL",
+    "calle": "Calle Los Copihues 4450",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "correo": "diegovergara@example.net"
+  },
+  "embarcador": {
+    "nombre": "Cid, Carrasco y Urzúa SPA",
+    "calle": "Isidora Ortiz 87",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "24.851.430-2",
+    "fono": "+56 9 4541 6952",
+    "correo": "wvidal@example.com"
+  },
+  "consignatario": {
+    "nombre": "Despacho Álvarez y Guajardo S.p.A.",
+    "calle": "Michimalonco 1863",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "fono": "+56 75 227 8841"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Fernández y Delgado S.p.A.",
+    "calle": "Avenida Luis Sepúlveda 825 Piso 5",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "77.427.541-K",
+    "adu": "A-43"
+  },
+  "representante": {
+    "nombre": "González, Altamirano y Gómez Sociedad Anónima",
+    "calle": "Avenida Pedro Montt 56",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "61.491.960-4",
+    "fono": "+56 9 2733 5123"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV ElK-dVSP",
+  "voyage": "4303N",
+  "nave": "MV ljh-teDZ",
+  "viaje": "3015N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "port_discharge": {
+    "nombre": "Long Beach, USA",
+    "locode": "USLGB"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Guayaquil, Ecuador",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "Antofagasta CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "HZJU7849881",
+    "tipo": "45U1",
+    "sello": "3261488",
+    "status": "FCL/FCL",
+    "peso": 21749.4,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "Ytij-wBHk / N° 01",
+      "bultos": 17,
+      "unidad": "PIEZAS",
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 9012.26,
+      "volumen": 13.6,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    },
+    {
+      "marcas": "hcCl-aIqN / N° 02",
+      "bultos": 8,
+      "unidad": "PIEZAS",
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 12737.11,
+      "volumen": 13.51,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 25,
+  "peso_total": 21749.37,
+  "volumen_total": 27.11,
+  "mercancia": "Maquinaria Minera",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "Ytij-wBHk / N° 01",
+      "cantidad": 17,
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 9012.26,
+      "volumen": 13.6,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "hcCl-aIqN / N° 02",
+      "cantidad": 8,
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 12737.11,
+      "volumen": 13.51,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "TEMP CONTROL: +1°C (REEFER)",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "HZJU7849881",
+      "tipo": "45U1",
+      "sello": "3261488",
+      "status": "FCL/FCL",
+      "peso": 21749.4,
+      "operador": "CARRIER OWNED",
+      "bultos": 25,
+      "volumen": 27.11
+    }
+  ]
+}

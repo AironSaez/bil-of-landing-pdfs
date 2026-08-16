@@ -1,0 +1,192 @@
+{
+  "id": 6,
+  "template": "master_transbordo.html",
+  "naviera": "ANDES CARRIER CO.",
+  "bl_number": "pa-1983-99551",
+  "export_ref": "PO-5669 / INV-79615",
+  "fecha_emision": "03-AUG-2026",
+  "fecha_embarque": "06-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Seguel y Peña Limitada",
+    "calle": "Avda. Lautaro 8692 Piso 7",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "83.119.212-7",
+    "correo": "julian98@example.com"
+  },
+  "consignee": {
+    "nombre": "Ayala, Araya y Gajardo SPA",
+    "calle": "Carla Galaz 468 Dpto. 7468",
+    "ciudad": "Callao",
+    "pais": "Perú",
+    "fono": "+56 9 8850 1332",
+    "correo": "kgodoy@example.com"
+  },
+  "notify": {
+    "nombre": "Holding Muñoz y Asociados Sociedad Anónima",
+    "calle": "Calle O'Higgins 781",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "fono": "+56 2 3354 0115"
+  },
+  "forwarding_agent": {
+    "nombre": "Ana Consuelo Benavides Paredes EIRL",
+    "calle": "Las Rosas 8532 Piso 31",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "fono": "+56 2 2107 6177"
+  },
+  "embarcador": {
+    "nombre": "Seguel y Peña Limitada",
+    "calle": "Avda. Lautaro 8692 Piso 7",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "83.119.212-7",
+    "correo": "julian98@example.com"
+  },
+  "consignatario": {
+    "nombre": "Ayala, Araya y Gajardo SPA",
+    "calle": "Carla Galaz 468 Dpto. 7468",
+    "ciudad": "Callao",
+    "pais": "Perú",
+    "fono": "+56 9 8850 1332",
+    "correo": "kgodoy@example.com"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Giancarlo Salazar Gallardo EIRL",
+    "calle": "Avda. Los Girasoles 1152",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "20.011.321-7",
+    "fono": "+56 9 6746 1351",
+    "correo": "acunaviviana@example.com",
+    "adu": "A-69"
+  },
+  "representante": {
+    "nombre": "Reyes, Jaramillo y Bustos SPA",
+    "calle": "Calle Las Hortensias 5746 Dpto. 997",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "42.468.445-7"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "TRB",
+  "incoterm": "FOB",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV CLu-Kywa",
+  "voyage": "5654N",
+  "nave": "MV YEa-xADc",
+  "viaje": "9048N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "port_discharge": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Santos, Brasil",
+  "transbordos": "—",
+  "lugar_recepcion": "Hamburg, Alemania CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "DJNU2177533",
+    "tipo": "22U1",
+    "sello": "9848864",
+    "status": "FCL/FCL",
+    "peso": 18660.0,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "nnSs-TWzo / N° 01",
+      "bultos": 17,
+      "unidad": "PALLETS",
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 10003.1,
+      "volumen": 12.51,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "SQuk-Zgoy / N° 02",
+      "bultos": 17,
+      "unidad": "PALLETS",
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 8656.92,
+      "volumen": 11.91,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 34,
+  "peso_total": 18660.02,
+  "volumen_total": 24.42,
+  "mercancia": "Cobre Refinado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "nnSs-TWzo / N° 01",
+      "cantidad": 17,
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 10003.1,
+      "volumen": 12.51,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "SQuk-Zgoy / N° 02",
+      "cantidad": 17,
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 8656.92,
+      "volumen": 11.91,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "CY/CY - FCL/FCL / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "ZVCU3469301",
+      "tipo": "42G1",
+      "sello": "6464403",
+      "status": "FCL/FCL",
+      "peso": 9330.0,
+      "operador": "SHIPPER OWNER",
+      "bultos": 17,
+      "volumen": 12.21
+    },
+    {
+      "numero": "FBEU7431636",
+      "tipo": "45G0",
+      "sello": "5987198",
+      "status": "FCL/FCL",
+      "peso": 9330.0,
+      "operador": "LEASED",
+      "bultos": 17,
+      "volumen": 12.21
+    }
+  ],
+  "bl_madre": "SUDU890421631"
+}

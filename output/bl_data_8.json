@@ -1,0 +1,151 @@
+{
+  "id": 8,
+  "template": "master_reefer.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "wl-2025-93012",
+  "export_ref": "PO-6708 / INV-12977",
+  "fecha_emision": "16-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Romero, Alarcón y Garrido Sociedad Anónima",
+    "calle": "Lord Thomas Cochrane 899 Piso 5",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "99.185.833-4",
+    "fono": "+56 800 281 342"
+  },
+  "consignee": {
+    "nombre": "Francisco Herrera Orellana EIRL",
+    "calle": "Psje. Los Alerces 24 Of. 8042",
+    "ciudad": "Shanghai",
+    "pais": "China"
+  },
+  "notify": {
+    "nombre": "Leonor Florencia Contreras Salgado E.I.R.L.",
+    "calle": "Calle Esmeralda 69",
+    "ciudad": "New York",
+    "pais": "USA"
+  },
+  "forwarding_agent": {
+    "nombre": "Grupo Cabrera y Asociados S.A.",
+    "calle": "Pasaje Las Lilas 57",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 64 371 8244"
+  },
+  "embarcador": {
+    "nombre": "Romero, Alarcón y Garrido Sociedad Anónima",
+    "calle": "Lord Thomas Cochrane 899 Piso 5",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "99.185.833-4",
+    "fono": "+56 800 281 342"
+  },
+  "consignatario": {
+    "nombre": "Francisco Herrera Orellana EIRL",
+    "calle": "Psje. Los Alerces 24 Of. 8042",
+    "ciudad": "Shanghai",
+    "pais": "China"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Torres Sociedad Anónima",
+    "calle": "Pedro Aguirre Cerda 20 Dpto. 300",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "3.823.520-6",
+    "fono": "+56 33 340 9170",
+    "adu": "A-92"
+  },
+  "representante": {
+    "nombre": "Héctor José Muñoz Bustos EIRL",
+    "calle": "Las Manzanillas 716 Dpto. 4214",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "11.762.256-8",
+    "fono": "+56 2 2120 3830",
+    "correo": "jose30@example.org"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "S",
+  "incoterm": "CPT",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV YFM-UlLT",
+  "voyage": "9239N",
+  "nave": "MV GeV-mmFd",
+  "viaje": "2718N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "port_discharge": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Santos, Brasil",
+  "destino_final": "Callao, Perú",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "MEXU9914186",
+    "tipo": "45R1",
+    "sello": "2394246",
+    "status": "FCL/FCL",
+    "peso": 9256.6,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "nDRa-hcVH / N° 01",
+      "bultos": 7,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 9256.61,
+      "volumen": 22.4,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 7,
+  "peso_total": 9256.61,
+  "volumen_total": 22.4,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "nDRa-hcVH / N° 01",
+      "cantidad": 7,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 9256.61,
+      "volumen": 22.4,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT / 14 DAYS FREE TIME DEMURRAGE / FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 11/08",
+  "encargado_reefer": "Nicole Núñez"
+}

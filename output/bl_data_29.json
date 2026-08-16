@@ -1,0 +1,172 @@
+{
+  "id": 29,
+  "template": "master_reefer.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "xe-2014-94237",
+  "export_ref": "PO-3058 / INV-82969",
+  "fecha_emision": "04-AUG-2026",
+  "fecha_embarque": "10-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Grupo Escobar y Asociados Limitada",
+    "calle": "Josue Henríquez 1462",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "78.826.662-6",
+    "fono": "+56 65 353 8640",
+    "correo": "rgutierrez@example.com"
+  },
+  "consignee": {
+    "nombre": "Club Estay y Asociados Ltda.",
+    "calle": "Calle Eduardo Valenzuela 94",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "notify": {
+    "nombre": "Jiménez y Saavedra SPA",
+    "calle": "Padre Alberto Hurtado 69",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina"
+  },
+  "forwarding_agent": {
+    "nombre": "Valenzuela y Rojas Limitada",
+    "calle": "Calle José Miguel Carrera 6607",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "fono": "+56 35 288 2012"
+  },
+  "embarcador": {
+    "nombre": "Grupo Escobar y Asociados Limitada",
+    "calle": "Josue Henríquez 1462",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "78.826.662-6",
+    "fono": "+56 65 353 8640",
+    "correo": "rgutierrez@example.com"
+  },
+  "consignatario": {
+    "nombre": "Club Estay y Asociados Ltda.",
+    "calle": "Calle Eduardo Valenzuela 94",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Reyes, Tobar y Meneses S.A.",
+    "calle": "Manuel Antonio Matta 20",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "24.434.192-6",
+    "adu": "A-51"
+  },
+  "representante": {
+    "nombre": "Industrias Salamanca y Martínez Limitada",
+    "calle": "Calle Baquedano 43 Piso 5",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "55.169.760-6",
+    "fono": "+56 2 2232 0764",
+    "correo": "ocollao@example.net"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "FOB",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV zoY-BOrX",
+  "voyage": "6907N",
+  "nave": "MV ctI-EsYY",
+  "viaje": "1835N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "port_discharge": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Rotterdam, Netherlands",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "DRHU1111297",
+    "tipo": "45R1",
+    "sello": "9382610",
+    "status": "FCL/FCL",
+    "peso": 10495.7,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "rIDq-WVdk / N° 01",
+      "bultos": 20,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4976.37,
+      "volumen": 9.68,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "XbHt-pHwi / N° 02",
+      "bultos": 6,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5519.3,
+      "volumen": 11.73,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 26,
+  "peso_total": 10495.67,
+  "volumen_total": 21.41,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "rIDq-WVdk / N° 01",
+      "cantidad": 20,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4976.37,
+      "volumen": 9.68,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "XbHt-pHwi / N° 02",
+      "cantidad": 6,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5519.3,
+      "volumen": 11.73,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE / FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 10/08",
+  "encargado_reefer": "Gabriela Piña Henríquez"
+}

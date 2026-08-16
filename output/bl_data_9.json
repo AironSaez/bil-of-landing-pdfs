@@ -1,0 +1,157 @@
+{
+  "id": 9,
+  "template": "master_transito.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "bX-1977-54316",
+  "export_ref": "PO-1030 / INV-22502",
+  "fecha_emision": "13-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Rojas y Campos Limitada",
+    "calle": "Calle Manuel Bulnes 6 Of. 573",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "fono": "+56 2 3441 7264"
+  },
+  "consignee": {
+    "nombre": "Omar Ignacio Fica Cabello E.I.R.L.",
+    "calle": "Calle Los Alerces 34",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "nit": "204262837"
+  },
+  "notify": {
+    "nombre": "Holding Seguel, Molina y Riquelme Ltda.",
+    "calle": "Camino Bárbara Fredes 77 Of. 308",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "fono": "+56 800 612 138"
+  },
+  "forwarding_agent": {
+    "nombre": "Carlos Víctor Orellana Vallejos E.I.R.L.",
+    "calle": "Mary Fuentes 6746 Piso 0",
+    "ciudad": "Arica",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Rojas y Campos Limitada",
+    "calle": "Calle Manuel Bulnes 6 Of. 573",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "fono": "+56 2 3441 7264"
+  },
+  "consignatario": {
+    "nombre": "Omar Ignacio Fica Cabello E.I.R.L.",
+    "calle": "Calle Los Alerces 34",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "nit": "204262837"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "204262837",
+  "almacenista": {
+    "nombre": "Barra Ltda.",
+    "calle": "Calle Los Alerces 988 Piso 20",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "42.984.761-3",
+    "correo": "henriquezgabriela@example.org",
+    "adu": "A-33"
+  },
+  "representante": {
+    "nombre": "Holding Contreras y Asociados Ltda.",
+    "calle": "Portales 8",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "10.744.349-5",
+    "fono": "+56 600 224 335",
+    "correo": "xjara@example.org"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "TR",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV kax-Thfr",
+  "voyage": "8294N",
+  "nave": "MV hZG-nshK",
+  "viaje": "0823N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Busan, Corea del Sur",
+    "locode": "KRPUS"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Santos, Brasil",
+  "destino_final": "Cochabamba",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "Busan, Corea del Sur CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "QXZU9700115",
+    "tipo": "45U1",
+    "sello": "0675548",
+    "status": "LCL/LCL",
+    "peso": 4850.9,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "AhxJ-hiLM / N° 01",
+      "bultos": 10,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4850.86,
+      "volumen": 19.53,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 10,
+  "peso_total": 4850.86,
+  "volumen_total": 19.53,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "AhxJ-hiLM / N° 01",
+      "cantidad": 10,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4850.86,
+      "volumen": 19.53,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "CLEAN ON BOARD / SHIPPER'S LOAD, STOW AND COUNT / MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "QXZU9700115",
+      "tipo": "45U1",
+      "sello": "0675548",
+      "status": "LCL/LCL",
+      "peso": 4850.9,
+      "operador": "SHIPPER OWNER",
+      "bultos": 10,
+      "volumen": 19.53
+    }
+  ]
+}

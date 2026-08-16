@@ -1,0 +1,179 @@
+{
+  "id": 38,
+  "template": "master_peligrosa.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "Jy-1989-81561",
+  "export_ref": "PO-9325 / INV-19914",
+  "fecha_emision": "15-AUG-2026",
+  "fecha_embarque": "12-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Araya y Santander Limitada",
+    "calle": "Calle Yasna Gómez 94",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "34.965.775-9",
+    "fono": "+56 2 2759 8882"
+  },
+  "consignee": {
+    "nombre": "Luis Víctor Galaz Villarroel EIRL",
+    "calle": "Gabriela Mistral 95 Dpto. 861",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3985 3616",
+    "correo": "consuelo57@example.net"
+  },
+  "notify": {
+    "nombre": "Grupo Pizarro y Barrera Ltda.",
+    "calle": "Camino Salvador Allende Gossens 8755 Of. 2054",
+    "ciudad": "Hamburg",
+    "pais": "Alemania"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Baeza, Muñoz y Soto Ltda.",
+    "calle": "Calle Jorge Carvajal 1584 Dpto. 7569",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "fono": "+56 55 349 4627"
+  },
+  "embarcador": {
+    "nombre": "Araya y Santander Limitada",
+    "calle": "Calle Yasna Gómez 94",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "34.965.775-9",
+    "fono": "+56 2 2759 8882"
+  },
+  "consignatario": {
+    "nombre": "Luis Víctor Galaz Villarroel EIRL",
+    "calle": "Gabriela Mistral 95 Dpto. 861",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3985 3616",
+    "correo": "consuelo57@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Arias y López S.p.A.",
+    "calle": "Avenida Los Carrera 745 Dpto. 11",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "42.159.964-5",
+    "correo": "franciscasepulveda@example.com",
+    "adu": "A-24"
+  },
+  "representante": {
+    "nombre": "Javiera Betty Aravena Fuentes E.I.R.L.",
+    "calle": "Calle Caupolicán 929 Of. 2151",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "45.858.964-K",
+    "correo": "aburtorosa@example.org"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "I",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV obL-BOhY",
+  "voyage": "8398N",
+  "nave": "MV FNM-FDGB",
+  "viaje": "6026N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Rotterdam, Netherlands",
+    "locode": "NLRTM"
+  },
+  "port_discharge": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Valencia, España",
+  "destino_final": "Rotterdam, Netherlands",
+  "transbordos": "—",
+  "lugar_recepcion": "Rotterdam, Netherlands CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "GUUU4069902",
+    "tipo": "22U1",
+    "sello": "0045837",
+    "status": "FCL/FCL",
+    "peso": 5452.8,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "eGeD-zYmv / N° 01",
+      "bultos": 13,
+      "unidad": "CAJAS",
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2894.24,
+      "volumen": 4.17,
+      "imo": "9",
+      "onu": "UN3480",
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "vveq-eLit / N° 02",
+      "bultos": 17,
+      "unidad": "CAJAS",
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2558.53,
+      "volumen": 5.91,
+      "imo": "9",
+      "onu": "UN3480",
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 30,
+  "peso_total": 5452.77,
+  "volumen_total": 10.08,
+  "mercancia": "Baterías de Litio",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "eGeD-zYmv / N° 01",
+      "cantidad": 13,
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2894.24,
+      "volumen": 4.17,
+      "imo": "9",
+      "onu": "UN3480"
+    },
+    {
+      "marcas": "vveq-eLit / N° 02",
+      "cantidad": 17,
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2558.53,
+      "volumen": 5.91,
+      "imo": "9",
+      "onu": "UN3480"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "LITHIUM ION BATTERIES",
+  "clase_imo": "9",
+  "numero_onu": "UN3480",
+  "grupo_embalaje": "II",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-I",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "SEPARATED FROM FOODSTUFFS",
+  "numero_certificado": "DGC-4302"
+}

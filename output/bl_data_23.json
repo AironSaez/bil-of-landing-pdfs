@@ -1,0 +1,170 @@
+{
+  "id": 23,
+  "template": "master_importacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "zL-2007-40737",
+  "export_ref": "PO-4206 / INV-17667",
+  "fecha_emision": "05-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Jaime Rodrigo Araneda Rojas EIRL",
+    "calle": "Los Lirios 757 Of. 941",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "fono": "+56 2 2334 9976",
+    "correo": "mario91@example.com"
+  },
+  "consignee": {
+    "nombre": "Industrias Letelier y Muñoz S.p.A.",
+    "calle": "Los Abedules 7243 Of. 5674",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "64.731.478-3"
+  },
+  "notify": {
+    "nombre": "Navarrete Sociedad Anónima",
+    "calle": "Calle Brayan Cabello 153",
+    "ciudad": "La Serena",
+    "pais": "Chile"
+  },
+  "forwarding_agent": {
+    "nombre": "Laboratorio González, Cárdenas y Gómez Sociedad Anónima",
+    "calle": "Esmeralda 335",
+    "ciudad": "Valparaíso",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Jaime Rodrigo Araneda Rojas EIRL",
+    "calle": "Los Lirios 757 Of. 941",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "fono": "+56 2 2334 9976",
+    "correo": "mario91@example.com"
+  },
+  "consignatario": {
+    "nombre": "Industrias Letelier y Muñoz S.p.A.",
+    "calle": "Los Abedules 7243 Of. 5674",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "64.731.478-3"
+  },
+  "consignatario_rut": "64.731.478-3",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Burgos S.p.A.",
+    "calle": "Calle José Escobar 777 Of. 803",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "34.944.973-0",
+    "fono": "+56 800 837 673",
+    "adu": "A-85"
+  },
+  "representante": {
+    "nombre": "Corporación Castro y Asociados Limitada",
+    "calle": "Los Higos 5226 Dpto. 2103",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "42.229.350-7",
+    "fono": "+56 2 3355 6838"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "I",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV YWS-xKcB",
+  "voyage": "1764N",
+  "nave": "MV Vef-XuEF",
+  "viaje": "6311N",
+  "bandera": "CL",
+  "port_loading": {
+    "nombre": "Valencia, España",
+    "locode": "ESVLC"
+  },
+  "port_discharge": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Buenos Aires, Argentina",
+  "destino_final": "Santos, Brasil",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "Valencia, España CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "FBBU4150336",
+    "tipo": "45P1",
+    "sello": "0134045",
+    "status": "LCL/LCL",
+    "peso": 24056.2,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "bCJT-ElGi / N° 01",
+      "bultos": 17,
+      "unidad": "PIEZAS",
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 12644.96,
+      "volumen": 13.19,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "JZuC-jnLF / N° 02",
+      "bultos": 12,
+      "unidad": "PIEZAS",
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 11411.29,
+      "volumen": 13.06,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 29,
+  "peso_total": 24056.25,
+  "volumen_total": 26.25,
+  "mercancia": "Maquinaria Minera",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "bCJT-ElGi / N° 01",
+      "cantidad": 17,
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 12644.96,
+      "volumen": 13.19,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "JZuC-jnLF / N° 02",
+      "cantidad": 12,
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 11411.29,
+      "volumen": 13.06,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "TEMP CONTROL: +1°C (REEFER) / PORT OF LOADING CY - DOOR DELIVERY / CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-551262",
+  "bl_madre": "SUDU946533879",
+  "bl_madre_aceptacion": "WIIKA7777288",
+  "folio": "zL-2007-40737",
+  "codigo_verificacion": "314efa5c8c99e5b1f4b16b2ec6805486"
+}

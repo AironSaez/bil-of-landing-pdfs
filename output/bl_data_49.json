@@ -1,0 +1,156 @@
+{
+  "id": 49,
+  "template": "master_reefer.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "JS-1970-03322",
+  "export_ref": "PO-7429 / INV-83565",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "16-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Grupo Arias y Asociados Ltda.",
+    "calle": "Luciano Allendes 6857",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "83.212.207-6",
+    "correo": "riquelmeclaudina@example.net"
+  },
+  "consignee": {
+    "nombre": "Garrido y Aravena Limitada",
+    "calle": "Esmeralda 50",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "fono": "+56 2 2576 5306",
+    "correo": "celindagarcia@example.net"
+  },
+  "notify": {
+    "nombre": "Grupo Huerta y Asociados S.A.",
+    "calle": "Ignacia Vivanco 4526 Of. 3174",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 9 4819 7965",
+    "correo": "bsalazar@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Comercial Álvarez y Casanova Limitada",
+    "calle": "Camino Los Abedules 1217 Dpto. 3770",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "correo": "bcornejo@example.org"
+  },
+  "embarcador": {
+    "nombre": "Grupo Arias y Asociados Ltda.",
+    "calle": "Luciano Allendes 6857",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "83.212.207-6",
+    "correo": "riquelmeclaudina@example.net"
+  },
+  "consignatario": {
+    "nombre": "Garrido y Aravena Limitada",
+    "calle": "Esmeralda 50",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "fono": "+56 2 2576 5306",
+    "correo": "celindagarcia@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "José Mark Lobos Mendoza EIRL",
+    "calle": "Avda. Las Rosas 49 Of. 4431",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "40.372.185-9",
+    "fono": "+56 2 3943 7979",
+    "adu": "A-18"
+  },
+  "representante": {
+    "nombre": "Corporación Valdés y Asociados Sociedad Anónima",
+    "calle": "Los Alerces 7",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "31.878.247-4",
+    "fono": "+56 67 215 4008"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "S",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV CeX-XHRR",
+  "voyage": "3016N",
+  "nave": "MV cLM-PAbl",
+  "viaje": "2076N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "Valparaíso",
+    "locode": "CLVAP"
+  },
+  "port_discharge": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Buenos Aires, Argentina",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "PYAU0266820",
+    "tipo": "45U1",
+    "sello": "7563393",
+    "status": "FCL/FCL",
+    "peso": 9791.9,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "Znbk-LgjW / N° 01",
+      "bultos": 13,
+      "unidad": "CAJAS",
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 9791.86,
+      "volumen": 19.53,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 13,
+  "peso_total": 9791.86,
+  "volumen_total": 19.53,
+  "mercancia": "Salmón Atlántico Congelado",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "Znbk-LgjW / N° 01",
+      "cantidad": 13,
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 9791.86,
+      "volumen": 19.53,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "-20°C",
+  "ventilacion": "CLOSED",
+  "humedad": "—",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 15/08",
+  "encargado_reefer": "Sofía Saldías"
+}

@@ -1,0 +1,175 @@
+{
+  "id": 36,
+  "template": "master_exportacion.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "iK-1989-56718",
+  "export_ref": "PO-0358 / INV-46920",
+  "fecha_emision": "04-AUG-2026",
+  "fecha_embarque": "12-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Jofré Sociedad Anónima",
+    "calle": "Calle Arturo Prat 2445",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "13.187.441-3",
+    "fono": "+56 73 359 3909",
+    "correo": "drojas@example.net"
+  },
+  "consignee": {
+    "nombre": "Club Valenzuela y Asociados Sociedad Anónima",
+    "calle": "Calle Balmaceda 475",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "correo": "inostrozadaniela@example.org"
+  },
+  "notify": {
+    "nombre": "Corporación López y Castillo Ltda.",
+    "calle": "Avenida Los Encinos 52",
+    "ciudad": "New York",
+    "pais": "USA",
+    "fono": "+56 75 285 7209",
+    "correo": "zmontes@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Juan Luis Espinoza Reyes EIRL",
+    "calle": "Los Alerces 2447",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "fono": "+56 600 717 720"
+  },
+  "embarcador": {
+    "nombre": "Jofré Sociedad Anónima",
+    "calle": "Calle Arturo Prat 2445",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "13.187.441-3",
+    "fono": "+56 73 359 3909",
+    "correo": "drojas@example.net"
+  },
+  "consignatario": {
+    "nombre": "Club Valenzuela y Asociados Sociedad Anónima",
+    "calle": "Calle Balmaceda 475",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "correo": "inostrozadaniela@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Corporación Alarcón y Asociados Limitada",
+    "calle": "Calle Los Robles 7607 Of. 233",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "66.096.716-8",
+    "adu": "A-40"
+  },
+  "representante": {
+    "nombre": "Jaime Eduardo Jerez Pacheco E.I.R.L.",
+    "calle": "Calle Las Margaritas 9136 Of. 407",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "44.111.374-9",
+    "fono": "+56 61 280 1242"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "S",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV TEi-pqGe",
+  "voyage": "1613N",
+  "nave": "MV stA-UheK",
+  "viaje": "8222N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "port_discharge": {
+    "nombre": "Miami, USA",
+    "locode": "USMIA"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Hamburg, Alemania",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Arica CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "USSU4327738",
+    "tipo": "22G1",
+    "sello": "2569527",
+    "status": "FCL/FCL",
+    "peso": 8413.5,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "syRu-cvuw / N° 01",
+      "bultos": 13,
+      "unidad": "PALLETS",
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4016.12,
+      "volumen": 9.24,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "cckO-tKEH / N° 02",
+      "bultos": 12,
+      "unidad": "PALLETS",
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4397.43,
+      "volumen": 8.66,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 25,
+  "peso_total": 8413.55,
+  "volumen_total": 17.9,
+  "mercancia": "Cerezas Frescas",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "syRu-cvuw / N° 01",
+      "cantidad": 13,
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4016.12,
+      "volumen": 9.24,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "cckO-tKEH / N° 02",
+      "cantidad": 12,
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4397.43,
+      "volumen": 8.66,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID / SHIPPER'S LOAD, STOW AND COUNT / CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+1°C",
+  "ventilacion": "25 CFM",
+  "humedad": "85-90%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 09/08",
+  "encargado_reefer": "Carla Antonella Catalán Vergara"
+}

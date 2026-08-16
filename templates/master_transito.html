@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>CONOCIMIENTO DE EMBARQUE - TRANSITO A BOLIVIA</title>
+<style>
+@page { size: A4; margin: 7mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Courier New", Courier, monospace; color: #1a0d00; }
+.doc { border: 3px solid #000; }
+.t { font-family: Arial, Helvetica, sans-serif; font-size: 7px; color: #7a3b00; text-transform: uppercase; font-weight: bold; letter-spacing: 0.4px; line-height: 1.2; }
+.d { font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; line-height: 1.3; overflow-wrap: break-word; }
+.d small { font-weight: normal; }
+.box { border: 1px solid #000; padding: 3px 6px; min-height: 44px; }
+
+/* ENCABEZADO */
+.topbar { display: grid; grid-template-columns: 1.5fr 1fr 1fr; border-bottom: 2px solid #000; background: #fff2e0; }
+.topbar .box { border-right: 1px solid #000; min-height: 42px; }
+.topbar .box:last-child { border-right: none; }
+.topbar .naviera { font-size: 19px; font-weight: bold; letter-spacing: 2px; color: #b34700; }
+
+/* PARTES */
+.parties { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #000; }
+.parties .box { border-right: 1px solid #000; min-height: 62px; }
+.parties .box:nth-child(even) { border-right: none; }
+.rut { color: #b34700; font-size: 9px; font-weight: bold; }
+
+/* NAVE */
+.ship { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; border-bottom: 1px solid #000; }
+.ship .box { border-right: 1px solid #000; min-height: 40px; }
+.ship .box:last-child { border-right: none; }
+
+/* CONTENEDOR */
+.cont { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; border-bottom: 1px solid #000; }
+.cont .box { border-right: 1px solid #000; min-height: 38px; }
+.cont .box:last-child { border-right: none; }
+
+/* GRILLA CARGA */
+table.cargo { width: 100%; border-collapse: collapse; border: 1px solid #000; table-layout: fixed; }
+table.cargo th { border: 1px solid #000; font-family: Arial; font-size: 7px; color: #7a3b00; text-transform: uppercase; text-align: left; padding: 3px 5px; background: #ffe8cc; }
+table.cargo td { border: 1px solid #000; font-size: 9px; font-weight: bold; padding: 3px 5px; vertical-align: top; }
+table.cargo td.num { text-align: right; }
+table.cargo tr.total td { background: #ffd9a8; font-weight: bold; }
+
+/* OBSERVACIONES GRANDES */
+.obs { border: 2px solid #b34700; margin-top: 4px; }
+.obs .o-head { background: #b34700; color: #fff; font-weight: bold; text-align: center; font-family: Arial; font-size: 10px; letter-spacing: 3px; padding: 3px; }
+.obs .o-body { min-height: 100px; padding: 8px 10px; }
+.obs .glosa { font-weight: bold; font-size: 13px; letter-spacing: 2px; color: #b34700; text-align: center; border: 2px dashed #b34700; padding: 6px; margin-bottom: 6px; }
+
+/* FIRMA */
+.sign { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #000; }
+.sign .box { min-height: 46px; }
+.sign .line { border-top: 1px solid #000; margin-top: 22px; padding-top: 2px; font-family: Arial; font-size: 6.5px; color: #333; text-align: center; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- ENCABEZADO -->
+  <div class="topbar">
+    <div class="box">
+      <div class="naviera">{{ naviera }}</div>
+      <div class="t">Corredor Bioceánico · Tránsito Aduanero</div>
+    </div>
+    <div class="box">
+      <div class="t">Tipo Documento</div>
+      <div class="d">TRÁNSITO ({{ tipo_servicio }})</div>
+    </div>
+    <div class="box">
+      <div class="t">N° BL</div>
+      <div class="d">{{ bl_number }}</div>
+    </div>
+  </div>
+
+  <!-- PARTES -->
+  <div class="parties">
+    <div class="box">
+      <div class="t">Embarcador</div>
+      <div class="d">{{ embarcador.nombre }}<br>{{ embarcador.calle }}<br>{{ embarcador.ciudad }}, {{ embarcador.pais }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Consignatario (Bolivia)</div>
+      <div class="d">{{ consignatario.nombre }}<br>{{ consignatario.calle }}<br>{{ consignatario.ciudad }}, {{ consignatario.pais }}</div>
+      <div class="rut">NIT: {{ nit_bolivia }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Notificar A</div>
+      <div class="d">{{ notify.nombre }}<br>{{ notify.calle }}<br>{{ notify.ciudad }}, {{ notify.pais }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Almacenista (Puerto Destino)</div>
+      <div class="d">{{ almacenista.nombre }}<br>{{ almacenista.ciudad }}, {{ almacenista.pais }}</div>
+      <div class="rut">RUT: {{ almacenista.rut }} · [ADU] {{ almacenista.adu }}</div>
+    </div>
+  </div>
+
+  <!-- NAVE -->
+  <div class="ship">
+    <div class="box">
+      <div class="t">Nave</div>
+      <div class="d">{{ nave }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Viaje</div>
+      <div class="d">{{ viaje }} · [{{ bandera }}]</div>
+    </div>
+    <div class="box">
+      <div class="t">Puerto Embarque</div>
+      <div class="d">{{ port_loading.nombre }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Puerto Desembarque</div>
+      <div class="d">{{ port_discharge.nombre }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Destino Final (Bolivia)</div>
+      <div class="d">{{ destino_final }}</div>
+    </div>
+  </div>
+
+  <!-- CONTENEDOR -->
+  <div class="cont">
+    <div class="box">
+      <div class="t">Contenedor</div>
+      <div class="d">{{ contenedor.numero }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Tipo</div>
+      <div class="d">{{ contenedor.tipo }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Sello</div>
+      <div class="d">{{ contenedor.sello }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Status</div>
+      <div class="d">{{ contenedor.status }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Peso (KGM)</div>
+      <div class="d">{{ contenedor.peso|miles }}</div>
+    </div>
+  </div>
+
+  <!-- GRILLA CARGA -->
+  <table class="cargo">
+    <thead>
+      <tr>
+        <th style="width:20%;">Marcas y Números</th>
+        <th style="width:12%;">N° Bultos</th>
+        <th style="width:38%;">Descripción de la Mercancía</th>
+        <th style="width:15%;">Peso Bruto (KGM)</th>
+        <th style="width:15%;">Volumen (MTQ)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in carga %}
+      <tr>
+        <td>{{ item.marcas }}</td>
+        <td>{{ item.bultos }} {{ item.unidad }}</td>
+        <td>{{ item.descripcion }}{% if item.imo %}<br><span style="color:#900;font-size:7px;">IMO {{ item.imo }}/{{ item.onu }}</span>{% endif %}</td>
+        <td class="num">{{ item.peso|miles }}</td>
+        <td class="num">{{ item.volumen|miles }}</td>
+      </tr>
+      {% endfor %}
+      <tr class="total">
+        <td>TOTAL</td>
+        <td>{{ bultos_total }}</td>
+        <td>{{ contenedor.numero }} · {{ mercancia }}</td>
+        <td class="num">{{ peso_total|miles }}</td>
+        <td class="num">{{ volumen_total|miles }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- OBSERVACIONES (GLOSA OBLIGATORIA) -->
+  <div class="obs">
+    <div class="o-head">OBSERVACIONES</div>
+    <div class="o-body">
+      <div class="glosa">{{ glosa }}</div>
+      <div class="d">{{ observaciones }}</div>
+    </div>
+  </div>
+
+  <!-- FIRMA -->
+  <div class="sign">
+    <div class="box">
+      <div class="t">Lugar Y Fecha De Emisión</div>
+      <div class="d">{{ lugar_emision }}, {{ fecha_emision }}</div>
+      <div class="line">Firma del Agente Naviero</div>
+    </div>
+    <div class="box">
+      <div class="t">Aduana De Destino</div>
+      <div class="d">{{ destino_final }} · {{ aduana_destino }}</div>
+      <div class="line">Sello de la Aduana de Tránsito</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

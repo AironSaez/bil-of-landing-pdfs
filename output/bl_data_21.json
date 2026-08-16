@@ -1,0 +1,172 @@
+{
+  "id": 21,
+  "template": "master_importacion.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "FN-1996-03085",
+  "export_ref": "PO-7633 / INV-75578",
+  "fecha_emision": "01-AUG-2026",
+  "fecha_embarque": "16-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Holding Vega, Castro y Aguilar Limitada",
+    "calle": "Calle Las Margaritas 12 Piso 3",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 51 335 9260"
+  },
+  "consignee": {
+    "nombre": "Comercial Corvalán y Asociados SPA",
+    "calle": "Adolfo Contreras 53",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "72.679.125-2",
+    "correo": "teresavargas@example.com"
+  },
+  "notify": {
+    "nombre": "Antonia Mayra Muñoz González E.I.R.L.",
+    "calle": "Psje. Manuel Rodríguez 9406 Piso 3",
+    "ciudad": "Valparaíso",
+    "pais": "Chile"
+  },
+  "forwarding_agent": {
+    "nombre": "Industrias Álvarez y Asociados SPA",
+    "calle": "Esmeralda 2598 Dpto. 141",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "correo": "espinozaaxel@example.org"
+  },
+  "embarcador": {
+    "nombre": "Holding Vega, Castro y Aguilar Limitada",
+    "calle": "Calle Las Margaritas 12 Piso 3",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 51 335 9260"
+  },
+  "consignatario": {
+    "nombre": "Comercial Corvalán y Asociados SPA",
+    "calle": "Adolfo Contreras 53",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "72.679.125-2",
+    "correo": "teresavargas@example.com"
+  },
+  "consignatario_rut": "72.679.125-2",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Santander, Hernández y Gálvez SPA",
+    "calle": "Calle Pascual Domínguez 473 Of. 736",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "88.663.090-5",
+    "fono": "+56 2 2322 9200",
+    "correo": "fbustamante@example.com",
+    "adu": "A-47"
+  },
+  "representante": {
+    "nombre": "Rojas y Álvarez Sociedad Anónima",
+    "calle": "Calle Anahí Toledo 892",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "9.712.362-4",
+    "fono": "+56 2 2501 7158"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "I",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV jIu-POjr",
+  "voyage": "1324N",
+  "nave": "MV Gnt-dODH",
+  "viaje": "3424N",
+  "bandera": "CL",
+  "port_loading": {
+    "nombre": "Valencia, España",
+    "locode": "ESVLC"
+  },
+  "port_discharge": {
+    "nombre": "Valparaíso",
+    "locode": "CLVAP"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Miami, USA",
+  "destino_final": "Valencia, España",
+  "transbordos": "—",
+  "lugar_recepcion": "Valencia, España CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "ZKSU7019527",
+    "tipo": "42G1",
+    "sello": "7117294",
+    "status": "LCL/LCL",
+    "peso": 8741.9,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "qkrL-evWH / N° 01",
+      "bultos": 11,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 4771.84,
+      "volumen": 6.98,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "HSfU-JeNa / N° 02",
+      "bultos": 12,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3970.01,
+      "volumen": 5.28,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 23,
+  "peso_total": 8741.85,
+  "volumen_total": 12.26,
+  "mercancia": "Aceite de Oliva",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "qkrL-evWH / N° 01",
+      "cantidad": 11,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 4771.84,
+      "volumen": 6.98,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "HSfU-JeNa / N° 02",
+      "cantidad": 12,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3970.01,
+      "volumen": 5.28,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-154682",
+  "bl_madre": "SUDU782554053",
+  "bl_madre_aceptacion": "CNEYQ0024094",
+  "folio": "FN-1996-03085",
+  "codigo_verificacion": "a57663e429edf05b5865ee3ca7f2411e"
+}

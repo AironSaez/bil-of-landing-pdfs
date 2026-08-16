@@ -1,0 +1,182 @@
+{
+  "id": 17,
+  "template": "master_exportacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "qU-1980-93092",
+  "export_ref": "PO-4108 / INV-04057",
+  "fecha_emision": "07-AUG-2026",
+  "fecha_embarque": "12-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Quezada, Norambuena y Becerra Limitada",
+    "calle": "Los Higos 79",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "92.181.214-0",
+    "fono": "+56 2 2231 7857"
+  },
+  "consignee": {
+    "nombre": "Céspedes Limitada",
+    "calle": "Rosa Moreno 355 Of. 628",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "fono": "+56 9 7798 9322"
+  },
+  "notify": {
+    "nombre": "Compañía Rojas y Asociados S.A.",
+    "calle": "Calle Alonso de Ercilla 252",
+    "ciudad": "Valencia",
+    "pais": "España",
+    "fono": "+56 42 341 4461",
+    "correo": "reinaldo39@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Neira y Molina S.A.",
+    "calle": "Pasaje José García 7958 Piso 2",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 2 3986 1625",
+    "correo": "tvalencia@example.net"
+  },
+  "embarcador": {
+    "nombre": "Quezada, Norambuena y Becerra Limitada",
+    "calle": "Los Higos 79",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "92.181.214-0",
+    "fono": "+56 2 2231 7857"
+  },
+  "consignatario": {
+    "nombre": "Céspedes Limitada",
+    "calle": "Rosa Moreno 355 Of. 628",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "fono": "+56 9 7798 9322"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Fuentealba y Quinteros Sociedad Anónima",
+    "calle": "Manuel Rodríguez 4",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "53.100.850-2",
+    "fono": "+56 9 8736 7800",
+    "correo": "luis35@example.net",
+    "adu": "A-64"
+  },
+  "representante": {
+    "nombre": "Sepúlveda y Garcés SPA",
+    "calle": "David Pérez 8641",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "12.676.719-6",
+    "fono": "+56 2 2100 5249"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV sQH-ybFf",
+  "voyage": "9646N",
+  "nave": "MV DXG-XogH",
+  "viaje": "4531N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "port_discharge": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Valencia, España",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "HPWU2992960",
+    "tipo": "45R1",
+    "sello": "2755603",
+    "status": "FCL/FCL",
+    "peso": 15344.4,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "KQMP-zwmH / N° 01",
+      "bultos": 10,
+      "unidad": "PALLETS",
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 7818.81,
+      "volumen": 11.61,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "ztJi-mEBH / N° 02",
+      "bultos": 9,
+      "unidad": "PALLETS",
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 7525.56,
+      "volumen": 11.47,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 19,
+  "peso_total": 15344.37,
+  "volumen_total": 23.08,
+  "mercancia": "Cobre Refinado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "KQMP-zwmH / N° 01",
+      "cantidad": 10,
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 7818.81,
+      "volumen": 11.61,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "ztJi-mEBH / N° 02",
+      "cantidad": 9,
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 7525.56,
+      "volumen": 11.47,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "HPWU2992960",
+      "tipo": "45R1",
+      "sello": "2755603",
+      "status": "FCL/FCL",
+      "peso": 15344.4,
+      "operador": "SHIPPER OWNER",
+      "bultos": 19,
+      "volumen": 23.08
+    }
+  ]
+}

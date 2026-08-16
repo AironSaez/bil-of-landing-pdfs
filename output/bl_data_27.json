@@ -1,0 +1,174 @@
+{
+  "id": 27,
+  "template": "master_exportacion.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "YC-2021-38663",
+  "export_ref": "PO-4624 / INV-01886",
+  "fecha_emision": "01-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Bravo y Durán S.A.",
+    "calle": "Cochrane 414",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "39.401.968-2"
+  },
+  "consignee": {
+    "nombre": "Sabina Cerda Suazo E.I.R.L.",
+    "calle": "Colo Colo 170",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "notify": {
+    "nombre": "Industrias Torres y Sandoval S.p.A.",
+    "calle": "Los Coihues 95",
+    "ciudad": "Rotterdam",
+    "pais": "Países Bajos",
+    "correo": "crojas@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Álvarez, Rodríguez y Abarca SPA",
+    "calle": "Víctor Torres 35",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "fono": "+56 800 553 695"
+  },
+  "embarcador": {
+    "nombre": "Bravo y Durán S.A.",
+    "calle": "Cochrane 414",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "39.401.968-2"
+  },
+  "consignatario": {
+    "nombre": "Sabina Cerda Suazo E.I.R.L.",
+    "calle": "Colo Colo 170",
+    "ciudad": "Los Angeles",
+    "pais": "USA"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Silva S.p.A.",
+    "calle": "Calle Gabriela Mistral 5591",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "88.595.349-2",
+    "adu": "A-25"
+  },
+  "representante": {
+    "nombre": "Corporación Arroyo y Loyola S.A.",
+    "calle": "Viviana Rojas 44 Dpto. 597",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "25.393.798-K",
+    "fono": "+56 9 5747 2203"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "S",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV Kab-ZgAD",
+  "voyage": "2185N",
+  "nave": "MV Wkl-hoyF",
+  "viaje": "6511N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "port_discharge": {
+    "nombre": "Valencia, España",
+    "locode": "ESVLC"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Valencia, España",
+  "destino_final": "Hamburg, Alemania",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "DDKU3200925",
+    "tipo": "45G0",
+    "sello": "3413936",
+    "status": "FCL/FCL",
+    "peso": 5010.3,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "swLu-dyec / N° 01",
+      "bultos": 14,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2906.54,
+      "volumen": 9.44,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "IfHZ-fIPF / N° 02",
+      "bultos": 18,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2103.79,
+      "volumen": 10.51,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 32,
+  "peso_total": 5010.33,
+  "volumen_total": 19.95,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "swLu-dyec / N° 01",
+      "cantidad": 14,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2906.54,
+      "volumen": 9.44,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "IfHZ-fIPF / N° 02",
+      "cantidad": 18,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2103.79,
+      "volumen": 10.51,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "PORT OF LOADING CY - DOOR DELIVERY / MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "DDKU3200925",
+      "tipo": "45G0",
+      "sello": "3413936",
+      "status": "FCL/FCL",
+      "peso": 5010.3,
+      "operador": "CARRIER OWNED",
+      "bultos": 32,
+      "volumen": 19.95
+    }
+  ]
+}

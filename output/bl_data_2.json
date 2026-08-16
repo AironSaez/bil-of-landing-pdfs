@@ -1,0 +1,173 @@
+{
+  "id": 2,
+  "template": "master_exportacion.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "vO-2005-50037",
+  "export_ref": "PO-0382 / INV-65384",
+  "fecha_emision": "06-AUG-2026",
+  "fecha_embarque": "13-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Cristian Oscar Oyarzún Zúñiga E.I.R.L.",
+    "calle": "Calle Mario Silva 24 Dpto. 630",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "55.761.163-0"
+  },
+  "consignee": {
+    "nombre": "Corporación Rivera, Martínez y Toro SPA",
+    "calle": "Avenida Francisco Bilbao 994",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 2 3114 1621",
+    "correo": "magdalena21@example.net"
+  },
+  "notify": {
+    "nombre": "Vásquez y Cortez S.A.",
+    "calle": "Calle Juan Salazar 74 Dpto. 01",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "correo": "luis89@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Oyarzún y Salas Ltda.",
+    "calle": "José Miguel Carrera 661",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "fono": "+56 9 6564 5060"
+  },
+  "embarcador": {
+    "nombre": "Cristian Oscar Oyarzún Zúñiga E.I.R.L.",
+    "calle": "Calle Mario Silva 24 Dpto. 630",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "55.761.163-0"
+  },
+  "consignatario": {
+    "nombre": "Corporación Rivera, Martínez y Toro SPA",
+    "calle": "Avenida Francisco Bilbao 994",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 2 3114 1621",
+    "correo": "magdalena21@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Álvarez y Angulo Sociedad Anónima",
+    "calle": "José Miguel Carrera 953 Dpto. 12",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "6.008.835-7",
+    "correo": "cristobalsan-martin@example.net",
+    "adu": "A-40"
+  },
+  "representante": {
+    "nombre": "Mónica Constanza Romero Espinoza E.I.R.L.",
+    "calle": "Calle Iván Orrego 364",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "31.635.974-4",
+    "fono": "+56 2 2604 8764"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV xwD-ODJZ",
+  "voyage": "7943N",
+  "nave": "MV kOA-jFaw",
+  "viaje": "8602N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "port_discharge": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Rotterdam, Netherlands",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "San Vicente CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "UNYU1681810",
+    "tipo": "42G1",
+    "sello": "2646861",
+    "status": "FCL/FCL",
+    "peso": 10762.8,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "cPId-CWPm / N° 01",
+      "bultos": 13,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5266.9,
+      "volumen": 11.48,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "ETRb-iPHn / N° 02",
+      "bultos": 14,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5495.85,
+      "volumen": 9.1,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 27,
+  "peso_total": 10762.75,
+  "volumen_total": 20.58,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "cPId-CWPm / N° 01",
+      "cantidad": 13,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5266.9,
+      "volumen": 11.48,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "ETRb-iPHn / N° 02",
+      "cantidad": 14,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5495.85,
+      "volumen": 9.1,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 14/08",
+  "encargado_reefer": "Orlando Cancino"
+}

@@ -1,0 +1,172 @@
+{
+  "id": 25,
+  "template": "master_importacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "eK-2003-49635",
+  "export_ref": "PO-5565 / INV-84640",
+  "fecha_emision": "11-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Compañía López y Guajardo Limitada",
+    "calle": "Los Laureles 66",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 72 324 4949",
+    "correo": "maite69@example.org"
+  },
+  "consignee": {
+    "nombre": "Casanova y Hidalgo Limitada",
+    "calle": "Los Aromos 824 Piso 20",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "69.206.668-5",
+    "fono": "+56 2 2211 2083"
+  },
+  "notify": {
+    "nombre": "Espinoza, Troncoso y Salinas S.p.A.",
+    "calle": "Arturo Prat 317",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "fono": "+56 2 2849 6540"
+  },
+  "forwarding_agent": {
+    "nombre": "Compañía Ibáñez, Pacheco y Román Ltda.",
+    "calle": "María Reyes 200 Dpto. 958",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "fono": "+56 9 7610 8562"
+  },
+  "embarcador": {
+    "nombre": "Compañía López y Guajardo Limitada",
+    "calle": "Los Laureles 66",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 72 324 4949",
+    "correo": "maite69@example.org"
+  },
+  "consignatario": {
+    "nombre": "Casanova y Hidalgo Limitada",
+    "calle": "Los Aromos 824 Piso 20",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "69.206.668-5",
+    "fono": "+56 2 2211 2083"
+  },
+  "consignatario_rut": "69.206.668-5",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Grupo Ávila y Muñoz Ltda.",
+    "calle": "Avenida Isabella Silva 56",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "41.760.041-8",
+    "adu": "A-71"
+  },
+  "representante": {
+    "nombre": "Fuentes y Reyes Limitada",
+    "calle": "Juana Vargas 5860 Piso 32",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "13.689.341-6"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "I",
+  "incoterm": "CIF",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV urZ-GAKi",
+  "voyage": "5245N",
+  "nave": "MV Fok-hqFv",
+  "viaje": "5313N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "port_discharge": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Callao, Perú",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Hamburg, Alemania CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "TKQU9803576",
+    "tipo": "45G0",
+    "sello": "5797379",
+    "status": "EMPTY",
+    "peso": 12535.3,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "Lndp-mbUX / N° 01",
+      "bultos": 18,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 6602.67,
+      "volumen": 11.18,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "OmQk-GnlB / N° 02",
+      "bultos": 9,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5932.63,
+      "volumen": 10.31,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 27,
+  "peso_total": 12535.3,
+  "volumen_total": 21.49,
+  "mercancia": "Vino Embotellado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "Lndp-mbUX / N° 01",
+      "cantidad": 18,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 6602.67,
+      "volumen": 11.18,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "OmQk-GnlB / N° 02",
+      "cantidad": 9,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5932.63,
+      "volumen": 10.31,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID / CY/CY - FCL/FCL / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-089998",
+  "bl_madre": "SUDU612113161",
+  "bl_madre_aceptacion": "XKAPK9813869",
+  "folio": "eK-2003-49635",
+  "codigo_verificacion": "f2d28c0ba3b161262c023df7af449976"
+}

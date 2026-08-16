@@ -1,0 +1,159 @@
+{
+  "id": 14,
+  "template": "master_peligrosa.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "MN-2023-56816",
+  "export_ref": "PO-2104 / INV-81035",
+  "fecha_emision": "11-AUG-2026",
+  "fecha_embarque": "12-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Diego Véliz Luna EIRL",
+    "calle": "Calle César Gálvez 851 Piso 7",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "98.770.491-8",
+    "correo": "dayala@example.org"
+  },
+  "consignee": {
+    "nombre": "Corporación León, Torres y Sandoval Limitada",
+    "calle": "Gabriela Olivares 866 Dpto. 469",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "correo": "ksanchez@example.org"
+  },
+  "notify": {
+    "nombre": "Fica, Muñoz y Astorga Limitada",
+    "calle": "Raquel Águila 396 Dpto. 45",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "fono": "+56 61 281 8480"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Opazo, Salas y Blanco Sociedad Anónima",
+    "calle": "Calle Lucy Meléndez 14 Dpto. 152",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 58 363 8653"
+  },
+  "embarcador": {
+    "nombre": "Diego Véliz Luna EIRL",
+    "calle": "Calle César Gálvez 851 Piso 7",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "98.770.491-8",
+    "correo": "dayala@example.org"
+  },
+  "consignatario": {
+    "nombre": "Corporación León, Torres y Sandoval Limitada",
+    "calle": "Gabriela Olivares 866 Dpto. 469",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "correo": "ksanchez@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Proyectos Verdugo y Álvarez Sociedad Anónima",
+    "calle": "Arturo Alessandri Palma 804 Of. 791",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "89.640.553-5",
+    "fono": "+56 2 3862 4921",
+    "correo": "penamax@example.net",
+    "adu": "A-74"
+  },
+  "representante": {
+    "nombre": "Abarca y Velásquez Limitada",
+    "calle": "Esmeralda 4504 Piso 71",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "6.870.015-9",
+    "fono": "+56 43 234 3817"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "S",
+  "incoterm": "CIF",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV EGC-xmcc",
+  "voyage": "5029N",
+  "nave": "MV FOU-DxCt",
+  "viaje": "8878N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "port_discharge": {
+    "nombre": "Miami, USA",
+    "locode": "USMIA"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Buenos Aires, Argentina",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "San Vicente CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "FCSU5046529",
+    "tipo": "45R1",
+    "sello": "0784431",
+    "status": "FCL/FCL",
+    "peso": 9265.9,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "aQVO-tKhx / N° 01",
+      "bultos": 19,
+      "unidad": "SACOS",
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 9265.92,
+      "volumen": 14.69,
+      "imo": "9",
+      "onu": "UN2216",
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 19,
+  "peso_total": 9265.92,
+  "volumen_total": 14.69,
+  "mercancia": "Harina de Pescado",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "aQVO-tKhx / N° 01",
+      "cantidad": 19,
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 9265.92,
+      "volumen": 14.69,
+      "imo": "9",
+      "onu": "UN2216"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID / TEMP CONTROL: +1°C (REEFER) / PORT OF LOADING CY - DOOR DELIVERY",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "FISH MEAL (STABILIZED)",
+  "clase_imo": "9",
+  "numero_onu": "UN2216",
+  "grupo_embalaje": "III",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-I",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "ON DECK ONLY",
+  "numero_certificado": "DGC-1683"
+}

@@ -1,0 +1,175 @@
+{
+  "id": 30,
+  "template": "master_reefer.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "vv-2006-74923",
+  "export_ref": "PO-1197 / INV-42425",
+  "fecha_emision": "05-AUG-2026",
+  "fecha_embarque": "08-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Rojas y Angulo S.A.",
+    "calle": "Julia Fuentes 652 Of. 6493",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "30.290.148-1",
+    "correo": "carrenocarlos@example.com"
+  },
+  "consignee": {
+    "nombre": "Comercial Jaramillo y Asociados S.A.",
+    "calle": "Gabriela Miranda 520",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "fono": "+56 800 436 208",
+    "correo": "maureiraerwin@example.org"
+  },
+  "notify": {
+    "nombre": "Ricardo Rodolfo Saavedra Faúndez EIRL",
+    "calle": "Gabriela Mistral 52",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 800 133 022",
+    "correo": "dleon@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Proyectos Baeza y Cabello S.p.A.",
+    "calle": "Av. Pedro de Valdivia 8941",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Rojas y Angulo S.A.",
+    "calle": "Julia Fuentes 652 Of. 6493",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "30.290.148-1",
+    "correo": "carrenocarlos@example.com"
+  },
+  "consignatario": {
+    "nombre": "Comercial Jaramillo y Asociados S.A.",
+    "calle": "Gabriela Miranda 520",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "fono": "+56 800 436 208",
+    "correo": "maureiraerwin@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Zúñiga y Ponce Sociedad Anónima",
+    "calle": "Arturo Prat 2 Dpto. 252",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "98.567.821-9",
+    "fono": "+56 9 2764 3735",
+    "adu": "A-28"
+  },
+  "representante": {
+    "nombre": "Holding Rebolledo y Asociados Limitada",
+    "calle": "Arturo Prat 66",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "65.289.451-8",
+    "correo": "hanspina@example.org"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "S",
+  "incoterm": "CIF",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV woP-DMtZ",
+  "voyage": "0718N",
+  "nave": "MV TbQ-dBlc",
+  "viaje": "5534N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "port_discharge": {
+    "nombre": "Shanghai, China",
+    "locode": "CNSHA"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "SXUU4669315",
+    "tipo": "22T1",
+    "sello": "4504855",
+    "status": "FCL/FCL",
+    "peso": 10625.5,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "bHhQ-KXQF / N° 01",
+      "bultos": 17,
+      "unidad": "CAJAS",
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5425.87,
+      "volumen": 10.81,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "OOdi-AjOD / N° 02",
+      "bultos": 17,
+      "unidad": "CAJAS",
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5199.64,
+      "volumen": 8.73,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 34,
+  "peso_total": 10625.51,
+  "volumen_total": 19.54,
+  "mercancia": "Salmón Atlántico Congelado",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "bHhQ-KXQF / N° 01",
+      "cantidad": 17,
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5425.87,
+      "volumen": 10.81,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "OOdi-AjOD / N° 02",
+      "cantidad": 17,
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5199.64,
+      "volumen": 8.73,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE / CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "-20°C",
+  "ventilacion": "CLOSED",
+  "humedad": "—",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 09/08",
+  "encargado_reefer": "Nelson Joaquín Salas Rivas"
+}

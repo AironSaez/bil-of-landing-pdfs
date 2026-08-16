@@ -1,0 +1,156 @@
+{
+  "id": 31,
+  "template": "master_reefer.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "QX-2024-06281",
+  "export_ref": "PO-9198 / INV-79915",
+  "fecha_emision": "13-AUG-2026",
+  "fecha_embarque": "16-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Club Riquelme, Cuevas y Bravo Ltda.",
+    "calle": "Avenida Caupolicán 456",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "30.515.062-2",
+    "fono": "+56 9 8249 0063"
+  },
+  "consignee": {
+    "nombre": "Cid y Núñez Sociedad Anónima",
+    "calle": "Los Robles 36",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 9 9705 5558",
+    "correo": "patricio53@example.org"
+  },
+  "notify": {
+    "nombre": "Industrias Jerez y Pérez SPA",
+    "calle": "Calle Manuel Rodríguez 59",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur"
+  },
+  "forwarding_agent": {
+    "nombre": "Laboratorio Cárcamo y Asociados S.p.A.",
+    "calle": "Avenida Manuel Rodríguez 94",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 2 3678 6638",
+    "correo": "fuentespatricia@example.com"
+  },
+  "embarcador": {
+    "nombre": "Club Riquelme, Cuevas y Bravo Ltda.",
+    "calle": "Avenida Caupolicán 456",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "30.515.062-2",
+    "fono": "+56 9 8249 0063"
+  },
+  "consignatario": {
+    "nombre": "Cid y Núñez Sociedad Anónima",
+    "calle": "Los Robles 36",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 9 9705 5558",
+    "correo": "patricio53@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Industrias Ortiz y Asociados Ltda.",
+    "calle": "Calle Esmeralda 22 Of. 439",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "82.980.731-9",
+    "fono": "+56 600 922 902",
+    "correo": "santibanezmaria@example.org",
+    "adu": "A-92"
+  },
+  "representante": {
+    "nombre": "Club Reyes, Pizarro y Guzmán Limitada",
+    "calle": "Calle Domingo Santa María 3438 Dpto. 315",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "42.698.771-6",
+    "fono": "+56 2 2149 3337"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV LMH-zsEH",
+  "voyage": "9401N",
+  "nave": "MV JXr-aCRo",
+  "viaje": "7279N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "port_discharge": {
+    "nombre": "Busan, Corea del Sur",
+    "locode": "KRPUS"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Busan, Corea del Sur",
+  "destino_final": "Santos, Brasil",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "San Antonio CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "USLU9248282",
+    "tipo": "45U1",
+    "sello": "3493887",
+    "status": "FCL/FCL",
+    "peso": 11690.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "YIwp-JYTR / N° 01",
+      "bultos": 20,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 11690.12,
+      "volumen": 19.18,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 20,
+  "peso_total": 11690.12,
+  "volumen_total": 19.18,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "YIwp-JYTR / N° 01",
+      "cantidad": 20,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 11690.12,
+      "volumen": 19.18,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "14 DAYS FREE TIME DEMURRAGE / MERCHANT'S STOWAGE / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 08/08",
+  "encargado_reefer": "Pablo Roberto Cordero Araneda"
+}

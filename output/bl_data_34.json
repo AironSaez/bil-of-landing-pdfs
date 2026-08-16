@@ -1,0 +1,183 @@
+{
+  "id": 34,
+  "template": "master_exportacion.html",
+  "naviera": "ANDES CARRIER CO.",
+  "bl_number": "VV-2010-00602",
+  "export_ref": "PO-6529 / INV-23166",
+  "fecha_emision": "07-AUG-2026",
+  "fecha_embarque": "08-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Ingrid Retamal Casanova EIRL",
+    "calle": "José Oyarzo 14",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "5.224.115-4",
+    "fono": "+56 35 351 5241",
+    "correo": "bvaldes@example.net"
+  },
+  "consignee": {
+    "nombre": "Hernández, Sepúlveda y Ríos S.A.",
+    "calle": "Av. René Aguirre 5 Piso 93",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 800 526 552"
+  },
+  "notify": {
+    "nombre": "Díaz SPA",
+    "calle": "Calle Silvana Campos 5212",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 55 262 9795",
+    "correo": "ypacheco@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Castillo y Castro S.A.",
+    "calle": "Camino María Herrera 7726",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "fono": "+56 600 323 187",
+    "correo": "alfarobruno@example.net"
+  },
+  "embarcador": {
+    "nombre": "Ingrid Retamal Casanova EIRL",
+    "calle": "José Oyarzo 14",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "5.224.115-4",
+    "fono": "+56 35 351 5241",
+    "correo": "bvaldes@example.net"
+  },
+  "consignatario": {
+    "nombre": "Hernández, Sepúlveda y Ríos S.A.",
+    "calle": "Av. René Aguirre 5 Piso 93",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 800 526 552"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Reyes, Ojeda y Torres S.A.",
+    "calle": "Los Palmitos 720",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "13.256.347-0",
+    "fono": "+56 2 3989 6977",
+    "adu": "A-21"
+  },
+  "representante": {
+    "nombre": "Alondra Figueroa Salas E.I.R.L.",
+    "calle": "Fabiola Díaz 60 Piso 2",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "23.228.361-0",
+    "fono": "+56 2 3582 0717"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "S",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV PPV-PQoT",
+  "voyage": "1232N",
+  "nave": "MV TLs-BGva",
+  "viaje": "7569N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "port_discharge": {
+    "nombre": "Busan, Corea del Sur",
+    "locode": "KRPUS"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "Arica CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "WHZU9161995",
+    "tipo": "45P1",
+    "sello": "9536347",
+    "status": "FCL/FCL",
+    "peso": 10718.8,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "yxdF-AyNW / N° 01",
+      "bultos": 16,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5247.86,
+      "volumen": 13.05,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "EOFI-fxIq / N° 02",
+      "bultos": 9,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5470.91,
+      "volumen": 11.46,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 25,
+  "peso_total": 10718.77,
+  "volumen_total": 24.51,
+  "mercancia": "Vino Embotellado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "yxdF-AyNW / N° 01",
+      "cantidad": 16,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5247.86,
+      "volumen": 13.05,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "EOFI-fxIq / N° 02",
+      "cantidad": 9,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5470.91,
+      "volumen": 11.46,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "CLEAN ON BOARD / PORT OF LOADING CY - DOOR DELIVERY / 14 DAYS FREE TIME DEMURRAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "WHZU9161995",
+      "tipo": "45P1",
+      "sello": "9536347",
+      "status": "FCL/FCL",
+      "peso": 10718.8,
+      "operador": "SHIPPER OWNER",
+      "bultos": 25,
+      "volumen": 24.51
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": 5,
+  "template": "master_peligrosa.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "aN-2005-42640",
+  "export_ref": "PO-7942 / INV-60791",
+  "fecha_emision": "13-AUG-2026",
+  "fecha_embarque": "13-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Colomba Elizabeth Fuentealba Barrios EIRL",
+    "calle": "Las Rosas 681",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "30.098.671-4",
+    "fono": "+56 9 3782 7611"
+  },
+  "consignee": {
+    "nombre": "María Aurora Hernández Vargas E.I.R.L.",
+    "calle": "Calle Álvaro Casanova 28 Piso 8",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "correo": "marilyn78@example.net"
+  },
+  "notify": {
+    "nombre": "Celis Limitada",
+    "calle": "Calle Esmeralda 1304 Piso 4",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "fono": "+56 600 888 983"
+  },
+  "forwarding_agent": {
+    "nombre": "Sanhueza Limitada",
+    "calle": "Los Piñones 9066 Dpto. 79",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "fono": "+56 2 3528 3856",
+    "correo": "gloriagonzalez@example.org"
+  },
+  "embarcador": {
+    "nombre": "Colomba Elizabeth Fuentealba Barrios EIRL",
+    "calle": "Las Rosas 681",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "30.098.671-4",
+    "fono": "+56 9 3782 7611"
+  },
+  "consignatario": {
+    "nombre": "María Aurora Hernández Vargas E.I.R.L.",
+    "calle": "Calle Álvaro Casanova 28 Piso 8",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "correo": "marilyn78@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Proyectos Cartes, Cofré y Beltrán S.p.A.",
+    "calle": "Esmeralda 720",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "13.024.518-8",
+    "fono": "+56 800 269 585",
+    "correo": "calderonpedro@example.com",
+    "adu": "A-34"
+  },
+  "representante": {
+    "nombre": "Grupo Valdivia, González y Muñoz Ltda.",
+    "calle": "Las Lilas 9729",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "89.870.639-7"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "I",
+  "incoterm": "CPT",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV uCZ-eyrC",
+  "voyage": "7447N",
+  "nave": "MV VNA-Esuk",
+  "viaje": "1980N",
+  "bandera": "LR",
+  "port_loading": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "port_discharge": {
+    "nombre": "Valparaíso",
+    "locode": "CLVAP"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Santos, Brasil",
+  "destino_final": "Valencia, España",
+  "transbordos": "—",
+  "lugar_recepcion": "Guayaquil, Ecuador CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "UQQU5062910",
+    "tipo": "45G0",
+    "sello": "8073608",
+    "status": "FCL/FCL",
+    "peso": 9791.1,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "AcFp-MlCm / N° 01",
+      "bultos": 18,
+      "unidad": "BULTOS",
+      "descripcion": "Nitrato de amonio grado fertilizante (FGAN)",
+      "peso": 9791.14,
+      "volumen": 17.82,
+      "imo": "5.1",
+      "onu": "UN1942",
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 18,
+  "peso_total": 9791.14,
+  "volumen_total": 17.82,
+  "mercancia": "Nitrato de Amonio",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "AcFp-MlCm / N° 01",
+      "cantidad": 18,
+      "descripcion": "Nitrato de amonio grado fertilizante (FGAN)",
+      "peso": 9791.14,
+      "volumen": 17.82,
+      "imo": "5.1",
+      "onu": "UN1942"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "TEMP CONTROL: +1°C (REEFER) / PORT OF LOADING CY - DOOR DELIVERY / CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "AMMONIUM NITRATE, FERTILIZER",
+  "clase_imo": "5.1",
+  "numero_onu": "UN1942",
+  "grupo_embalaje": "III",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-Q",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "ON DECK ONLY",
+  "numero_certificado": "DGC-7112"
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BILL OF LADING - EXPORT FCL/FCL</title>
+<style>
+/* ============================================================
+   TEMPLATE 2 · SALIDA FCL/FCL (INGLÉS)
+   Tema: verde corporativo + sans-serif (Helvetica/Arial).
+   Formato estándar internacional.
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 11mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #14231a;
+  font-size: 9pt;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ---------- Encabezado ---------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px double #1f5c3d;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+.header .brand h1 {
+  margin: 0;
+  font-size: 16pt;
+  font-weight: 900;
+  color: #1f5c3d;
+  letter-spacing: 3px;
+}
+.header .brand p { margin: 0; font-size: 7.5pt; color: #5c6e63; letter-spacing: 1px; }
+.header .doc-code { text-align: right; font-size: 8pt; }
+.header .doc-code strong { display: block; font-size: 10.5pt; color: #1f5c3d; }
+
+/* ---------- Cajas de partes ---------- */
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.party {
+  flex: 1 1 49%;
+  min-height: 66px;
+  border: 1.5px solid #1f5c3d;
+  border-radius: 4px;
+  padding: 5px 8px;
+  background: #f6faf7;
+}
+.party .label {
+  font-weight: bold;
+  font-size: 7.5pt;
+  letter-spacing: 1.5px;
+  color: #1f5c3d;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cfe0d4;
+  display: block;
+  margin-bottom: 3px;
+}
+.party .name { font-weight: bold; font-size: 9.5pt; }
+.party .addr { color: #3f5346; font-size: 8pt; }
+
+/* ---------- Ruta ---------- */
+.route {
+  display: flex;
+  border: 1.5px solid #1f5c3d;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.route > div {
+  flex: 1;
+  padding: 5px 8px;
+  border-right: 1px solid #cfe0d4;
+}
+.route > div:last-child { border-right: none; }
+.route .label {
+  font-weight: bold;
+  font-size: 7.5pt;
+  letter-spacing: 1px;
+  color: #1f5c3d;
+  text-transform: uppercase;
+}
+.route .value { font-size: 9.5pt; font-weight: bold; }
+
+/* ---------- Contenedor ---------- */
+.cont {
+  display: flex;
+  border: 1.5px solid #1f5c3d;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #f6faf7;
+}
+.cont > div {
+  flex: 1;
+  padding: 5px 8px;
+  border-right: 1px solid #cfe0d4;
+}
+.cont > div:last-child { border-right: none; }
+.cont .label {
+  font-weight: bold;
+  font-size: 7pt;
+  letter-spacing: 1px;
+  color: #1f5c3d;
+  text-transform: uppercase;
+}
+.cont .value { font-size: 10pt; font-weight: bold; }
+
+/* ---------- Mercancía ---------- */
+.goods {
+  border: 1.5px solid #1f5c3d;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.goods .g-head {
+  background: #1f5c3d;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 8pt;
+  letter-spacing: 1px;
+}
+.goods .g-body { padding: 6px 8px; min-height: 64px; }
+.goods .marks { color: #3f5346; font-size: 8pt; margin-bottom: 4px; }
+.goods table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+.goods th, .goods td {
+  border: 1px solid #cfe0d4;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 8pt;
+}
+.goods th { background: #e4efe8; color: #1f5c3d; }
+
+/* ---------- Pie ---------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer .obs {
+  flex: 1;
+  border: 1px solid #1f5c3d;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 8pt;
+  min-height: 44px;
+  color: #3f5346;
+}
+.footer .obs .label { font-weight: bold; color: #1f5c3d; }
+.footer .sign { text-align: center; margin-left: 10px; font-size: 7.5pt; }
+.footer .sign .line {
+  width: 140px;
+  border-top: 1px solid #14231a;
+  margin-top: 24px;
+  padding-top: 2px;
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<div class="header">
+  <div class="brand">
+    <h1>{{ naviera }}</h1>
+    <p>OCEAN TRANSPORT · EXPORT DIVISION</p>
+  </div>
+  <div class="doc-code">
+    <strong>BILL OF LADING</strong>
+    B/L N° {{ bl_number }}<br>
+    Issue date: {{ fecha_emision }}
+  </div>
+</div>
+
+<!-- ================= PARTIES ================= -->
+<div class="parties">
+  <div class="party">
+    <span class="label">Shipper</span>
+    <div class="name">{{ shipper.company }}</div>
+    <div class="addr">{{ shipper.address }}<br>{{ shipper.city }}, {{ shipper.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Consignee</span>
+    <div class="name">{{ consignee.company }}</div>
+    <div class="addr">{{ consignee.address }}<br>{{ consignee.city }}, {{ consignee.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Forwarding Agent</span>
+    <div class="name">{{ forwarding_agent.company }}</div>
+    <div class="addr">{{ forwarding_agent.address }}<br>{{ forwarding_agent.city }}, {{ forwarding_agent.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">Notify Party</span>
+    <div class="name">{{ notify.company }}</div>
+    <div class="addr">{{ notify.address }}<br>{{ notify.city }}, {{ notify.country }}</div>
+  </div>
+</div>
+
+<!-- ================= ROUTE ================= -->
+<div class="route">
+  <div>
+    <div class="label">Port of Loading (National)</div>
+    <div class="value">{{ port_loading }}</div>
+  </div>
+  <div>
+    <div class="label">Final Destination</div>
+    <div class="value">{{ final_destination }}</div>
+  </div>
+  <div>
+    <div class="label">Vessel / Voyage</div>
+    <div class="value">{{ vessel }} — V.{{ voyage }}</div>
+  </div>
+  <div>
+    <div class="label">Service</div>
+    <div class="value">{{ tipo_servicio }} · {{ cond_transporte }}</div>
+  </div>
+</div>
+
+<!-- ================= CONTAINER ================= -->
+<div class="cont">
+  <div>
+    <div class="label">Container N°</div>
+    <div class="value">{{ contenedor.numero }}</div>
+  </div>
+  <div>
+    <div class="label">Type</div>
+    <div class="value">{{ contenedor.tipo }}</div>
+  </div>
+  <div>
+    <div class="label">Seal</div>
+    <div class="value">{{ contenedor.sello }}</div>
+  </div>
+  <div>
+    <div class="label">Status</div>
+    <div class="value">{{ contenedor.status }}</div>
+  </div>
+  <div>
+    <div class="label">Gross Weight (KGM)</div>
+    <div class="value">{{ "%.1f"|format(contenedor.peso) }}</div>
+  </div>
+</div>
+
+<!-- ================= CARGO ================= -->
+<div class="goods">
+  <div class="g-head">DESCRIPTION OF GOODS</div>
+  <div class="g-body">
+    <div class="marks"><b>Marks &amp; Numbers:</b> {{ marcas }}</div>
+    <div>{{ mercancia }}</div>
+    <table>
+      <tr>
+        <th>Packages</th>
+        <th>Unit</th>
+        <th>Gross Weight (KGM)</th>
+        <th>Measurement (MTQ)</th>
+      </tr>
+      <tr>
+        <td>{{ bultos }}</td>
+        <td>{{ unidades }}</td>
+        <td>{{ "%.2f"|format(peso_bruto) }}</td>
+        <td>{{ "%.2f"|format(volumen) }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<div class="footer">
+  <div class="obs">
+    <span class="label">REMARKS</span><br>
+    {{ observaciones }}
+  </div>
+  <div class="sign">
+    <div class="line">Shipper&apos;s Signature</div>
+  </div>
+</div>
+
+</body>
+</html>

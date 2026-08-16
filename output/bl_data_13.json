@@ -1,0 +1,155 @@
+{
+  "id": 13,
+  "template": "master_importacion.html",
+  "naviera": "ATACAMA OCEAN FREIGHT",
+  "bl_number": "CM-2000-83768",
+  "export_ref": "PO-9177 / INV-60342",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "10-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Beltrán, Carrasco y Riquelme S.A.",
+    "calle": "Avda. Manuel Vargas 330 Dpto. 165",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 2 3138 4305",
+    "correo": "ncontreras@example.org"
+  },
+  "consignee": {
+    "nombre": "Industrias Bravo, Reyes y Carrasco SPA",
+    "calle": "Calle Los Naranjos 6519",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "98.914.545-2",
+    "fono": "+56 71 223 9298"
+  },
+  "notify": {
+    "nombre": "Fuentes, Muñoz y Uribe Sociedad Anónima",
+    "calle": "Calle Pedro Ávila 2152 Piso 75",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "fono": "+56 44 395 2605",
+    "correo": "bustosraul@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Laboratorio Espinoza y Asociados Limitada",
+    "calle": "Los Tilos 8131",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "fono": "+56 63 270 6016"
+  },
+  "embarcador": {
+    "nombre": "Beltrán, Carrasco y Riquelme S.A.",
+    "calle": "Avda. Manuel Vargas 330 Dpto. 165",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 2 3138 4305",
+    "correo": "ncontreras@example.org"
+  },
+  "consignatario": {
+    "nombre": "Industrias Bravo, Reyes y Carrasco SPA",
+    "calle": "Calle Los Naranjos 6519",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "98.914.545-2",
+    "fono": "+56 71 223 9298"
+  },
+  "consignatario_rut": "98.914.545-2",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Rafael Soto Ramírez EIRL",
+    "calle": "Calle Francisca Riquelme 96 Dpto. 1257",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "92.594.962-0",
+    "fono": "+56 600 476 125",
+    "adu": "A-98"
+  },
+  "representante": {
+    "nombre": "Holding Godoy, Gajardo y Aguilera Ltda.",
+    "calle": "Calle María Rojas 827 Dpto. 5326",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "67.247.561-9",
+    "correo": "linda68@example.org"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "I",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV uTK-ASyc",
+  "voyage": "2683N",
+  "nave": "MV Cvr-VDrg",
+  "viaje": "5477N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Valencia, España",
+    "locode": "ESVLC"
+  },
+  "port_discharge": {
+    "nombre": "Valparaíso",
+    "locode": "CLVAP"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Busan, Corea del Sur",
+  "destino_final": "Valencia, España",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "Valencia, España CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "AJZU6608843",
+    "tipo": "45G0",
+    "sello": "8300071",
+    "status": "LCL/LCL",
+    "peso": 23236.5,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "IXzw-VLtB / N° 01",
+      "bultos": 14,
+      "unidad": "PIEZAS",
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 23236.55,
+      "volumen": 21.28,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 14,
+  "peso_total": 23236.55,
+  "volumen_total": 21.28,
+  "mercancia": "Maquinaria Minera",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "IXzw-VLtB / N° 01",
+      "cantidad": 14,
+      "descripcion": "Maquinaria y componentes para minería (no peligroso)",
+      "peso": 23236.55,
+      "volumen": 21.28,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-333743",
+  "bl_madre": "SUDU663044618",
+  "bl_madre_aceptacion": "FHGPN1782054",
+  "folio": "CM-2000-83768",
+  "codigo_verificacion": "11f7fa1fa358e48afb01f491e33b239d"
+}

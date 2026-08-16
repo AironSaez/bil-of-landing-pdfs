@@ -1,0 +1,161 @@
+{
+  "id": 11,
+  "template": "master_transito.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "Be-2026-34069",
+  "export_ref": "PO-5631 / INV-43954",
+  "fecha_emision": "04-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Salazar, Aguayo y Velásquez S.A.",
+    "calle": "Lautaro 80 Of. 648",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 65 221 0133",
+    "correo": "alejandro40@example.net"
+  },
+  "consignee": {
+    "nombre": "Industrias Valdés y Asociados Sociedad Anónima",
+    "calle": "Florencia Vicencio 6019 Of. 5442",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "fono": "+56 35 235 7539",
+    "nit": "102549092"
+  },
+  "notify": {
+    "nombre": "Arellano y Fernández S.A.",
+    "calle": "Calle Las Mandarinas 559 Of. 7806",
+    "ciudad": "Santa Cruz de la Sierra",
+    "pais": "Bolivia"
+  },
+  "forwarding_agent": {
+    "nombre": "Lorca y Mella Limitada",
+    "calle": "Calle Benjamín Caro 5863 Dpto. 56",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "fono": "+56 63 235 0694",
+    "correo": "pcalderon@example.net"
+  },
+  "embarcador": {
+    "nombre": "Salazar, Aguayo y Velásquez S.A.",
+    "calle": "Lautaro 80 Of. 648",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 65 221 0133",
+    "correo": "alejandro40@example.net"
+  },
+  "consignatario": {
+    "nombre": "Industrias Valdés y Asociados Sociedad Anónima",
+    "calle": "Florencia Vicencio 6019 Of. 5442",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "fono": "+56 35 235 7539",
+    "nit": "102549092"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "102549092",
+  "almacenista": {
+    "nombre": "Laboratorio Delgado y Marín Ltda.",
+    "calle": "Calle Los Pinos 4142",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "66.185.516-9",
+    "fono": "+56 600 636 979",
+    "adu": "A-16"
+  },
+  "representante": {
+    "nombre": "Grupo León y Valenzuela S.p.A.",
+    "calle": "Calle Los Cactus 877",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "52.791.986-K",
+    "fono": "+56 2 3188 6918"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "TR",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV GdU-CWwy",
+  "voyage": "7817N",
+  "nave": "MV jSr-Syzs",
+  "viaje": "1220N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Callao, Perú",
+    "locode": "PECLL"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Cochabamba",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "Callao, Perú CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "DWAU4479514",
+    "tipo": "22G1",
+    "sello": "4501145",
+    "status": "FCL/FCL",
+    "peso": 17309.9,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "EgFS-znsu / N° 01",
+      "bultos": 8,
+      "unidad": "PALLETS",
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 17309.88,
+      "volumen": 19.76,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 8,
+  "peso_total": 17309.88,
+  "volumen_total": 19.76,
+  "mercancia": "Cobre Refinado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "EgFS-znsu / N° 01",
+      "cantidad": 8,
+      "descripcion": "Cátodos de cobre refinado grado A (LME)",
+      "peso": 17309.88,
+      "volumen": 19.76,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-THREE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "PORT OF LOADING CY - DOOR DELIVERY / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "DWAU4479514",
+      "tipo": "22G1",
+      "sello": "4501145",
+      "status": "FCL/FCL",
+      "peso": 17309.9,
+      "operador": "LEASED",
+      "bultos": 8,
+      "volumen": 19.76
+    }
+  ]
+}

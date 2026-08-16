@@ -1,0 +1,206 @@
+{
+  "id": 10,
+  "template": "master_transbordo.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "eD-2022-74664",
+  "export_ref": "PO-3231 / INV-67779",
+  "fecha_emision": "11-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Álvarez Sociedad Anónima",
+    "calle": "Pasaje Los Robles 68 Piso 32",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "61.029.008-6",
+    "fono": "+56 51 351 2974"
+  },
+  "consignee": {
+    "nombre": "Michael Jairo Cáceres Araya EIRL",
+    "calle": "Aníbal Pinto 6496",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 32 359 6056"
+  },
+  "notify": {
+    "nombre": "Despacho Fuentes y Asociados S.p.A.",
+    "calle": "Paula Jaraquemada 709",
+    "ciudad": "Santos",
+    "pais": "Brasil"
+  },
+  "forwarding_agent": {
+    "nombre": "Castro, Ortiz y Arriagada Sociedad Anónima",
+    "calle": "Los Abedules 3683",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "fono": "+56 57 370 7568"
+  },
+  "embarcador": {
+    "nombre": "Álvarez Sociedad Anónima",
+    "calle": "Pasaje Los Robles 68 Piso 32",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "61.029.008-6",
+    "fono": "+56 51 351 2974"
+  },
+  "consignatario": {
+    "nombre": "Michael Jairo Cáceres Araya EIRL",
+    "calle": "Aníbal Pinto 6496",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 32 359 6056"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Pérez y Gálvez SPA",
+    "calle": "Las Azucenas 703",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "23.940.889-3",
+    "fono": "+56 2 3609 8769",
+    "correo": "eliasolmedo@example.net",
+    "adu": "A-71"
+  },
+  "representante": {
+    "nombre": "Corporación González y Donoso SPA",
+    "calle": "Salvador Allende Gossens 1822 Piso 0",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "85.350.774-1",
+    "fono": "+56 71 332 9844"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "TRB",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV sfS-xnWs",
+  "voyage": "4796N",
+  "nave": "MV CiP-wleI",
+  "viaje": "9903N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "port_discharge": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Miami, USA",
+  "destino_final": "Busan, Corea del Sur",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Kaohsiung, Taiwan CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "SVXU7256595",
+    "tipo": "45U1",
+    "sello": "6378776",
+    "status": "FCL/FCL",
+    "peso": 10676.4,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "GzVO-eoxZ / N° 01",
+      "bultos": 10,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4718.04,
+      "volumen": 10.88,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    },
+    {
+      "marcas": "iUhU-illn / N° 02",
+      "bultos": 11,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5958.37,
+      "volumen": 10.68,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 21,
+  "peso_total": 10676.41,
+  "volumen_total": 21.56,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "GzVO-eoxZ / N° 01",
+      "cantidad": 10,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4718.04,
+      "volumen": 10.88,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "iUhU-illn / N° 02",
+      "cantidad": 11,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5958.37,
+      "volumen": 10.68,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "3 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "FBTU7397740",
+      "tipo": "45G0",
+      "sello": "6869227",
+      "status": "FCL/FCL",
+      "peso": 3558.8,
+      "operador": "SHIPPER OWNER",
+      "bultos": 7,
+      "volumen": 7.19
+    },
+    {
+      "numero": "WFEU8071101",
+      "tipo": "45U1",
+      "sello": "1294715",
+      "status": "FCL/FCL",
+      "peso": 3558.8,
+      "operador": "LEASED",
+      "bultos": 7,
+      "volumen": 7.18
+    },
+    {
+      "numero": "RXSU6693009",
+      "tipo": "45R1",
+      "sello": "9529207",
+      "status": "FCL/FCL",
+      "peso": 3558.8,
+      "operador": "LEASED",
+      "bultos": 7,
+      "volumen": 7.19
+    }
+  ],
+  "bl_madre": "SUDU425657983",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 10/08",
+  "encargado_reefer": "Margarita Vargas"
+}

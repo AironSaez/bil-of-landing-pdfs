@@ -1,0 +1,156 @@
+{
+  "id": 40,
+  "template": "master_peligrosa.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "wu-2025-02197",
+  "export_ref": "PO-0214 / INV-42356",
+  "fecha_emision": "09-AUG-2026",
+  "fecha_embarque": "06-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Ortiz, Gutiérrez y Vásquez Ltda.",
+    "calle": "Calle Silvia Estay 6912",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "50.397.696-K",
+    "correo": "zdiaz@example.net"
+  },
+  "consignee": {
+    "nombre": "Gutiérrez S.p.A.",
+    "calle": "Calle Esmeralda Toledo 764 Piso 44",
+    "ciudad": "Santos",
+    "pais": "Brasil"
+  },
+  "notify": {
+    "nombre": "Neira Limitada",
+    "calle": "Los Naranjos 7",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "correo": "vasquezximena@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Mardones y Ramírez Ltda.",
+    "calle": "Las Maravillas 4 Of. 845",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "correo": "rrojas@example.com"
+  },
+  "embarcador": {
+    "nombre": "Ortiz, Gutiérrez y Vásquez Ltda.",
+    "calle": "Calle Silvia Estay 6912",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "50.397.696-K",
+    "correo": "zdiaz@example.net"
+  },
+  "consignatario": {
+    "nombre": "Gutiérrez S.p.A.",
+    "calle": "Calle Esmeralda Toledo 764 Piso 44",
+    "ciudad": "Santos",
+    "pais": "Brasil"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Proyectos Torres y Asociados Ltda.",
+    "calle": "Caupolicán 217 Piso 2",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "72.975.924-4",
+    "correo": "faraya@example.net",
+    "adu": "A-58"
+  },
+  "representante": {
+    "nombre": "Castillo y Bustamante Sociedad Anónima",
+    "calle": "Calle Los Encinos 5 Piso 61",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "95.102.343-4",
+    "fono": "+56 2 2602 2619"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "I",
+  "incoterm": "CPT",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV PXV-Xpdy",
+  "voyage": "7884N",
+  "nave": "MV BVB-uxsC",
+  "viaje": "4924N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Shanghai, China",
+    "locode": "CNSHA"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Santos, Brasil",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Shanghai, China CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "KNCU6217940",
+    "tipo": "45R1",
+    "sello": "8026664",
+    "status": "EMPTY",
+    "peso": 10877.7,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "mCRa-BOXu / N° 01",
+      "bultos": 17,
+      "unidad": "SACOS",
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 10877.7,
+      "volumen": 16.33,
+      "imo": "9",
+      "onu": "UN2216",
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 17,
+  "peso_total": 10877.7,
+  "volumen_total": 16.33,
+  "mercancia": "Harina de Pescado",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "mCRa-BOXu / N° 01",
+      "cantidad": 17,
+      "descripcion": "Harina de pescado estabilizada (auto-calentamiento)",
+      "peso": 10877.7,
+      "volumen": 16.33,
+      "imo": "9",
+      "onu": "UN2216"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "PORT OF LOADING CY - DOOR DELIVERY",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "FISH MEAL (STABILIZED)",
+  "clase_imo": "9",
+  "numero_onu": "UN2216",
+  "grupo_embalaje": "III",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-I",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "SEPARATED FROM FOODSTUFFS",
+  "numero_certificado": "DGC-0996"
+}

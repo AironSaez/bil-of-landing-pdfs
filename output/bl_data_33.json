@@ -1,0 +1,179 @@
+{
+  "id": 33,
+  "template": "master_transito.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "bi-2006-94028",
+  "export_ref": "PO-5324 / INV-94309",
+  "fecha_emision": "15-AUG-2026",
+  "fecha_embarque": "13-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Club Vega y Asociados Limitada",
+    "calle": "Pasaje Yordan Díaz 2464",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "fono": "+56 2 2604 5312"
+  },
+  "consignee": {
+    "nombre": "Fabiola Scarlett Toro Toro EIRL",
+    "calle": "Avda. Las Rosas 901",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "fono": "+56 2 2761 3982",
+    "nit": "586606051"
+  },
+  "notify": {
+    "nombre": "Holding Muñoz, Vera y Reyes SPA",
+    "calle": "Calle Teresa Contreras 2396 Dpto. 632",
+    "ciudad": "Cochabamba",
+    "pais": "Bolivia"
+  },
+  "forwarding_agent": {
+    "nombre": "Proyectos Sanhueza y Asociados S.A.",
+    "calle": "Esmeralda 6539 Piso 2",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "correo": "baliaga@example.org"
+  },
+  "embarcador": {
+    "nombre": "Club Vega y Asociados Limitada",
+    "calle": "Pasaje Yordan Díaz 2464",
+    "ciudad": "Miami",
+    "pais": "USA",
+    "fono": "+56 2 2604 5312"
+  },
+  "consignatario": {
+    "nombre": "Fabiola Scarlett Toro Toro EIRL",
+    "calle": "Avda. Las Rosas 901",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "fono": "+56 2 2761 3982",
+    "nit": "586606051"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "586606051",
+  "almacenista": {
+    "nombre": "Despacho Zapata y Parada S.A.",
+    "calle": "Avda. Gabriela Mistral 2711",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "91.756.222-9",
+    "fono": "+56 63 248 9627",
+    "correo": "luisdominguez@example.net",
+    "adu": "A-42"
+  },
+  "representante": {
+    "nombre": "Comercial Bahamondes y Asociados SPA",
+    "calle": "Juan Muñoz 182 Piso 29",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "65.442.179-K",
+    "fono": "+56 63 277 3675"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "TR",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV kRU-Tyrk",
+  "voyage": "1184N",
+  "nave": "MV OwJ-ONCB",
+  "viaje": "1054N",
+  "bandera": "CL",
+  "port_loading": {
+    "nombre": "Busan, Corea del Sur",
+    "locode": "KRPUS"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Cochabamba",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Busan, Corea del Sur CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "XWZU7980780",
+    "tipo": "45G0",
+    "sello": "4513476",
+    "status": "FCL/FCL",
+    "peso": 5830.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "pBgO-FBfT / N° 01",
+      "bultos": 17,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2918.63,
+      "volumen": 10.96,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "deiK-IsSG / N° 02",
+      "bultos": 14,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2911.52,
+      "volumen": 10.31,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 31,
+  "peso_total": 5830.15,
+  "volumen_total": 21.27,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "pBgO-FBfT / N° 01",
+      "cantidad": 17,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2918.63,
+      "volumen": 10.96,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "deiK-IsSG / N° 02",
+      "cantidad": 14,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2911.52,
+      "volumen": 10.31,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "PORT OF LOADING CY - DOOR DELIVERY",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "XWZU7980780",
+      "tipo": "45G0",
+      "sello": "4513476",
+      "status": "FCL/FCL",
+      "peso": 5830.1,
+      "operador": "LEASED",
+      "bultos": 31,
+      "volumen": 21.27
+    }
+  ]
+}

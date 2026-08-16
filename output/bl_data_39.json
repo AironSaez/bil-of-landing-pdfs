@@ -1,0 +1,210 @@
+{
+  "id": 39,
+  "template": "master_transbordo.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "Yx-1983-66232",
+  "export_ref": "PO-2740 / INV-20733",
+  "fecha_emision": "11-AUG-2026",
+  "fecha_embarque": "08-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Industrias Valderrama y Asociados Sociedad Anónima",
+    "calle": "Eusebio Lillo 62 Piso 4",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "90.368.495-K",
+    "fono": "+56 43 284 9269",
+    "correo": "monica39@example.org"
+  },
+  "consignee": {
+    "nombre": "Martha Luisa Arancibia-Acevedo Soto E.I.R.L.",
+    "calle": "Camilo Henríquez 778 Of. 2667",
+    "ciudad": "Kaohsiung",
+    "pais": "Taiwán",
+    "fono": "+56 9 8344 5691",
+    "correo": "adonoso@example.org"
+  },
+  "notify": {
+    "nombre": "Laboratorio Gutiérrez y Flores S.p.A.",
+    "calle": "Calle Pedro Barra 257 Dpto. 286",
+    "ciudad": "Hong Kong",
+    "pais": "China",
+    "fono": "+56 61 273 1836"
+  },
+  "forwarding_agent": {
+    "nombre": "Salinas y Navarrete Limitada",
+    "calle": "Arturo Prat 705",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "fono": "+56 41 377 7277"
+  },
+  "embarcador": {
+    "nombre": "Industrias Valderrama y Asociados Sociedad Anónima",
+    "calle": "Eusebio Lillo 62 Piso 4",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "90.368.495-K",
+    "fono": "+56 43 284 9269",
+    "correo": "monica39@example.org"
+  },
+  "consignatario": {
+    "nombre": "Martha Luisa Arancibia-Acevedo Soto E.I.R.L.",
+    "calle": "Camilo Henríquez 778 Of. 2667",
+    "ciudad": "Kaohsiung",
+    "pais": "Taiwán",
+    "fono": "+56 9 8344 5691",
+    "correo": "adonoso@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Moya y Jiménez S.p.A.",
+    "calle": "Los Lirios 174 Dpto. 7328",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "2.500.908-8",
+    "fono": "+56 2 3719 5895",
+    "adu": "A-59"
+  },
+  "representante": {
+    "nombre": "Comercial Castro, Salgado y Figueroa S.p.A.",
+    "calle": "Margarita Montenegro 43 Dpto. 5131",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "72.745.260-5",
+    "fono": "+56 600 960 409"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "TRB",
+  "incoterm": "FOB",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV QNR-xSzT",
+  "voyage": "4510N",
+  "nave": "MV BtC-PUTy",
+  "viaje": "0123N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "port_discharge": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Buenos Aires, Argentina",
+  "destino_final": "Santos, Brasil",
+  "transbordos": "—",
+  "lugar_recepcion": "Kaohsiung, Taiwan CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "TSGU4220715",
+    "tipo": "45G0",
+    "sello": "0407753",
+    "status": "FCL/FCL",
+    "peso": 9899.7,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "SATi-nJCU / N° 01",
+      "bultos": 13,
+      "unidad": "PALLETS",
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4853.55,
+      "volumen": 8.57,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "ugkV-VPne / N° 02",
+      "bultos": 13,
+      "unidad": "PALLETS",
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 5046.14,
+      "volumen": 8.65,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 26,
+  "peso_total": 9899.69,
+  "volumen_total": 17.22,
+  "mercancia": "Cerezas Frescas",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "SATi-nJCU / N° 01",
+      "cantidad": 13,
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 4853.55,
+      "volumen": 8.57,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "ugkV-VPne / N° 02",
+      "cantidad": 13,
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 5046.14,
+      "volumen": 8.65,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "VERU8898166",
+      "tipo": "42G1",
+      "sello": "9311739",
+      "status": "FCL/FCL",
+      "peso": 3299.9,
+      "operador": "LEASED",
+      "bultos": 9,
+      "volumen": 5.74
+    },
+    {
+      "numero": "LCEU3792140",
+      "tipo": "45P1",
+      "sello": "6848533",
+      "status": "FCL/FCL",
+      "peso": 3299.9,
+      "operador": "LEASED",
+      "bultos": 8,
+      "volumen": 5.74
+    },
+    {
+      "numero": "FTRU9748950",
+      "tipo": "22U1",
+      "sello": "4291702",
+      "status": "FCL/FCL",
+      "peso": 3299.9,
+      "operador": "SHIPPER OWNER",
+      "bultos": 9,
+      "volumen": 5.74
+    }
+  ],
+  "bl_madre": "SUDU645283633",
+  "temperatura": "+1°C",
+  "ventilacion": "25 CFM",
+  "humedad": "85-90%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 15/08",
+  "encargado_reefer": "Joaquín Patricio Pereira Saavedra"
+}

@@ -1,0 +1,159 @@
+{
+  "id": 43,
+  "template": "master_peligrosa.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "IX-1971-45341",
+  "export_ref": "PO-8304 / INV-01642",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "08-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Gómez y Osorio S.p.A.",
+    "calle": "Calle Los Aromos 165",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "57.896.445-2",
+    "fono": "+56 9 4460 0686"
+  },
+  "consignee": {
+    "nombre": "Montecino Sociedad Anónima",
+    "calle": "Calle Las Araucarias 644",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "fono": "+56 72 327 2688"
+  },
+  "notify": {
+    "nombre": "Alberto Jorge Araya Ramos EIRL",
+    "calle": "Erika González 431",
+    "ciudad": "Busan",
+    "pais": "Corea del Sur",
+    "fono": "+56 2 3993 8704"
+  },
+  "forwarding_agent": {
+    "nombre": "Proyectos Arias y Asociados Sociedad Anónima",
+    "calle": "Los Naranjos 264",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "correo": "angel10@example.com"
+  },
+  "embarcador": {
+    "nombre": "Gómez y Osorio S.p.A.",
+    "calle": "Calle Los Aromos 165",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "57.896.445-2",
+    "fono": "+56 9 4460 0686"
+  },
+  "consignatario": {
+    "nombre": "Montecino Sociedad Anónima",
+    "calle": "Calle Las Araucarias 644",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "fono": "+56 72 327 2688"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Tapia, Ossandón y Figueroa S.p.A.",
+    "calle": "Los Coihues 419",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "11.545.439-0",
+    "fono": "+56 2 2204 6787",
+    "adu": "A-09"
+  },
+  "representante": {
+    "nombre": "Grupo Saavedra y Asociados SPA",
+    "calle": "Calle Caupolicán 2333",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "44.377.212-K",
+    "fono": "+56 43 313 8250",
+    "correo": "gonzalezjose@example.org"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV zre-pCFz",
+  "voyage": "7864N",
+  "nave": "MV fkS-FTKM",
+  "viaje": "8029N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "port_discharge": {
+    "nombre": "Rotterdam, Netherlands",
+    "locode": "NLRTM"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Callao, Perú",
+  "destino_final": "Miami, USA",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "San Antonio CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "XCPU1329852",
+    "tipo": "45P1",
+    "sello": "8640486",
+    "status": "FCL/FCL",
+    "peso": 10500.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "XWMr-VRuF / N° 01",
+      "bultos": 8,
+      "unidad": "BULTOS",
+      "descripcion": "Nitrato de amonio grado fertilizante (FGAN)",
+      "peso": 10500.14,
+      "volumen": 15.07,
+      "imo": "5.1",
+      "onu": "UN1942",
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 8,
+  "peso_total": 10500.14,
+  "volumen_total": 15.07,
+  "mercancia": "Nitrato de Amonio",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "XWMr-VRuF / N° 01",
+      "cantidad": 8,
+      "descripcion": "Nitrato de amonio grado fertilizante (FGAN)",
+      "peso": 10500.14,
+      "volumen": 15.07,
+      "imo": "5.1",
+      "onu": "UN1942"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE / CY/CY - FCL/FCL / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "AMMONIUM NITRATE, FERTILIZER",
+  "clase_imo": "5.1",
+  "numero_onu": "UN1942",
+  "grupo_embalaje": "III",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-Q",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "ON DECK ONLY",
+  "numero_certificado": "DGC-1834"
+}

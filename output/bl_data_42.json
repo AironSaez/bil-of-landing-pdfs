@@ -1,0 +1,190 @@
+{
+  "id": 42,
+  "template": "master_transbordo.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "FX-1999-92954",
+  "export_ref": "PO-0077 / INV-21191",
+  "fecha_emision": "05-AUG-2026",
+  "fecha_embarque": "06-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Torres Ltda.",
+    "calle": "Avenida Las Manzanillas 4049 Dpto. 735",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "39.152.453-K",
+    "fono": "+56 32 274 3286"
+  },
+  "consignee": {
+    "nombre": "Laboratorio Quintana y Navarrete SPA",
+    "calle": "Calle Benjamín Vicuña Mackenna 4692 Piso 9",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "correo": "luissanhueza@example.com"
+  },
+  "notify": {
+    "nombre": "Julio Hernán Riquelme Díaz EIRL",
+    "calle": "Los Palmitos 1732 Of. 6961",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "fono": "+56 600 378 156"
+  },
+  "forwarding_agent": {
+    "nombre": "Millaray Oyarce Caro E.I.R.L.",
+    "calle": "Lautaro 973",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "correo": "kbaez@example.org"
+  },
+  "embarcador": {
+    "nombre": "Torres Ltda.",
+    "calle": "Avenida Las Manzanillas 4049 Dpto. 735",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "39.152.453-K",
+    "fono": "+56 32 274 3286"
+  },
+  "consignatario": {
+    "nombre": "Laboratorio Quintana y Navarrete SPA",
+    "calle": "Calle Benjamín Vicuña Mackenna 4692 Piso 9",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "correo": "luissanhueza@example.com"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Isaías Bahamondes Saavedra EIRL",
+    "calle": "Pedro de Valdivia 3484",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "23.978.176-4",
+    "fono": "+56 2 3820 5921",
+    "correo": "gladys34@example.org",
+    "adu": "A-01"
+  },
+  "representante": {
+    "nombre": "Grupo Vivanco y Asociados S.p.A.",
+    "calle": "Calle Raquel Arancibia 165 Of. 3701",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "13.020.423-6"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "TRB",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV nYo-usPl",
+  "voyage": "1397N",
+  "nave": "MV WHr-mvNr",
+  "viaje": "4452N",
+  "bandera": "HK",
+  "port_loading": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "port_discharge": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Long Beach, USA",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "Hamburg, Alemania CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "BHSU6423664",
+    "tipo": "22U1",
+    "sello": "8986366",
+    "status": "FCL/FCL",
+    "peso": 11467.3,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "RsgS-UBMg / N° 01",
+      "bultos": 20,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5546.86,
+      "volumen": 12.77,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "XiIU-oCkM / N° 02",
+      "bultos": 10,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5920.43,
+      "volumen": 11.77,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 30,
+  "peso_total": 11467.29,
+  "volumen_total": 24.54,
+  "mercancia": "Vino Embotellado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "RsgS-UBMg / N° 01",
+      "cantidad": 20,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5546.86,
+      "volumen": 12.77,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "XiIU-oCkM / N° 02",
+      "cantidad": 10,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5920.43,
+      "volumen": 11.77,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "LMSU4910432",
+      "tipo": "45R1",
+      "sello": "0940839",
+      "status": "FCL/FCL",
+      "peso": 5733.6,
+      "operador": "LEASED",
+      "bultos": 15,
+      "volumen": 12.27
+    },
+    {
+      "numero": "EUTU8685731",
+      "tipo": "22U1",
+      "sello": "7835394",
+      "status": "FCL/FCL",
+      "peso": 5733.7,
+      "operador": "CARRIER OWNED",
+      "bultos": 15,
+      "volumen": 12.27
+    }
+  ],
+  "bl_madre": "SUDU055122438"
+}

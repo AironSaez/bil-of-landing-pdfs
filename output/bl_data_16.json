@@ -1,0 +1,180 @@
+{
+  "id": 16,
+  "template": "master_peligrosa.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "dp-1995-34546",
+  "export_ref": "PO-2685 / INV-72130",
+  "fecha_emision": "05-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Grupo Pinto, Zambrano y González Limitada",
+    "calle": "Lastarria 2001",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "3.631.615-2",
+    "fono": "+56 9 9253 0700"
+  },
+  "consignee": {
+    "nombre": "Alfaro y Vidal Sociedad Anónima",
+    "calle": "Calle Manuel Baquedano 32",
+    "ciudad": "Callao",
+    "pais": "Perú",
+    "fono": "+56 44 215 9949",
+    "correo": "veronica93@example.net"
+  },
+  "notify": {
+    "nombre": "Despacho Soto y Venegas Sociedad Anónima",
+    "calle": "Calle Christian Muñoz 686",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 600 460 661"
+  },
+  "forwarding_agent": {
+    "nombre": "Grupo Cerda, Jaque y Vera S.A.",
+    "calle": "Las Lilas 517 Piso 4",
+    "ciudad": "Valparaíso",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Grupo Pinto, Zambrano y González Limitada",
+    "calle": "Lastarria 2001",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "3.631.615-2",
+    "fono": "+56 9 9253 0700"
+  },
+  "consignatario": {
+    "nombre": "Alfaro y Vidal Sociedad Anónima",
+    "calle": "Calle Manuel Baquedano 32",
+    "ciudad": "Callao",
+    "pais": "Perú",
+    "fono": "+56 44 215 9949",
+    "correo": "veronica93@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Compañía Cárcamo, Vidal y Pizarro Limitada",
+    "calle": "Los Pinos 10 Dpto. 83",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "39.875.850-1",
+    "fono": "+56 51 289 3529",
+    "correo": "maria77@example.org",
+    "adu": "A-94"
+  },
+  "representante": {
+    "nombre": "Berríos, Figueroa y Gómez Limitada",
+    "calle": "Las Rosas 5103",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "98.714.592-7",
+    "fono": "+56 2 2175 1228"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "I",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV BYP-WhAD",
+  "voyage": "6505N",
+  "nave": "MV TjA-vfVC",
+  "viaje": "0336N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "port_discharge": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Long Beach, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "Kaohsiung, Taiwan CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "KGAU2115760",
+    "tipo": "45P1",
+    "sello": "4076415",
+    "status": "FCL/FCL",
+    "peso": 4075.6,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "vVce-KgLY / N° 01",
+      "bultos": 14,
+      "unidad": "CAJAS",
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2024.52,
+      "volumen": 5.89,
+      "imo": "9",
+      "onu": "UN3480",
+      "obs_item": ""
+    },
+    {
+      "marcas": "yujd-cpPs / N° 02",
+      "bultos": 17,
+      "unidad": "CAJAS",
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2051.06,
+      "volumen": 4.93,
+      "imo": "9",
+      "onu": "UN3480",
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 31,
+  "peso_total": 4075.58,
+  "volumen_total": 10.82,
+  "mercancia": "Baterías de Litio",
+  "es_peligrosa": true,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "vVce-KgLY / N° 01",
+      "cantidad": 14,
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2024.52,
+      "volumen": 5.89,
+      "imo": "9",
+      "onu": "UN3480"
+    },
+    {
+      "marcas": "yujd-cpPs / N° 02",
+      "cantidad": 17,
+      "descripcion": "Baterías de ion-litio embaladas (mercancía peligrosa clase 9)",
+      "peso": 2051.06,
+      "volumen": 4.93,
+      "imo": "9",
+      "onu": "UN3480"
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "TEMP CONTROL: +1°C (REEFER)",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "nombre_embarque": "LITHIUM ION BATTERIES",
+  "clase_imo": "9",
+  "numero_onu": "UN3480",
+  "grupo_embalaje": "II",
+  "punto_inflamacion": "N/A",
+  "ems": "F-A, S-I",
+  "contaminante_marino": "NO",
+  "contacto_emergencia": "CHEMTREC 24H",
+  "telefono_emergencia": "+1-800-424-9300",
+  "estiba": "AWAY FROM HEAT SOURCES",
+  "numero_certificado": "DGC-8569"
+}

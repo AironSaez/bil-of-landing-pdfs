@@ -1,0 +1,159 @@
+{
+  "id": 28,
+  "template": "master_transito.html",
+  "naviera": "TRANSOCEAN CHILE S.A.",
+  "bl_number": "er-2010-03108",
+  "export_ref": "PO-3249 / INV-57556",
+  "fecha_emision": "03-AUG-2026",
+  "fecha_embarque": "11-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Toro, Mena y González Sociedad Anónima",
+    "calle": "Av. José Maureira 7242 Of. 230",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "fono": "+56 2 3657 5988",
+    "correo": "teresagodoy@example.com"
+  },
+  "consignee": {
+    "nombre": "Industrias Quijada y Aránguiz Sociedad Anónima",
+    "calle": "Psje. Esmeralda 193",
+    "ciudad": "Santa Cruz de la Sierra",
+    "pais": "Bolivia",
+    "fono": "+56 2 2493 0407",
+    "nit": "360139253"
+  },
+  "notify": {
+    "nombre": "Ángel Olivares E.I.R.L.",
+    "calle": "Camino Los Tilos 6149 Of. 3213",
+    "ciudad": "Cochabamba",
+    "pais": "Bolivia",
+    "fono": "+56 9 8135 1896",
+    "correo": "sofiadelgado@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Comercial Morales y Asociados S.A.",
+    "calle": "Av. Victoria Navarrete 73",
+    "ciudad": "Antofagasta",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Toro, Mena y González Sociedad Anónima",
+    "calle": "Av. José Maureira 7242 Of. 230",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "fono": "+56 2 3657 5988",
+    "correo": "teresagodoy@example.com"
+  },
+  "consignatario": {
+    "nombre": "Industrias Quijada y Aránguiz Sociedad Anónima",
+    "calle": "Psje. Esmeralda 193",
+    "ciudad": "Santa Cruz de la Sierra",
+    "pais": "Bolivia",
+    "fono": "+56 2 2493 0407",
+    "nit": "360139253"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "360139253",
+  "almacenista": {
+    "nombre": "Brito y Salas S.p.A.",
+    "calle": "Calle Ernestina Vega 8876 Of. 5506",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "18.060.280-1",
+    "adu": "A-12"
+  },
+  "representante": {
+    "nombre": "Despacho Jofré y Acevedo Limitada",
+    "calle": "Los Encinos 3625",
+    "ciudad": "Antofagasta",
+    "pais": "Chile",
+    "rut": "6.840.151-8"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "TR",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV NGC-raFz",
+  "voyage": "0400N",
+  "nave": "MV HEM-oozC",
+  "viaje": "3106N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Buenos Aires, Argentina",
+    "locode": "ARBUE"
+  },
+  "port_discharge": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Kaohsiung, Taiwan",
+  "destino_final": "La Paz",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "Buenos Aires, Argentina CY",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "GAPU9914974",
+    "tipo": "45P1",
+    "sello": "5091444",
+    "status": "LCL/LCL",
+    "peso": 5548.0,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "IuGc-XJWv / N° 01",
+      "bultos": 12,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 5548.03,
+      "volumen": 21.12,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 12,
+  "peso_total": 5548.03,
+  "volumen_total": 21.12,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "IuGc-XJWv / N° 01",
+      "cantidad": 12,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 5548.03,
+      "volumen": 21.12,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "CY/CY - FCL/FCL / FREIGHT PREPAID / TEMP CONTROL: +1°C (REEFER)",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "GAPU9914974",
+      "tipo": "45P1",
+      "sello": "5091444",
+      "status": "LCL/LCL",
+      "peso": 5548.0,
+      "operador": "LEASED",
+      "bultos": 12,
+      "volumen": 21.12
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": 37,
+  "template": "master_importacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "Da-1996-20579",
+  "export_ref": "PO-6335 / INV-91526",
+  "fecha_emision": "16-AUG-2026",
+  "fecha_embarque": "10-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Iris Luz González Jerez EIRL",
+    "calle": "Calle Romina Rivas 738 Of. 7936",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 600 467 128"
+  },
+  "consignee": {
+    "nombre": "Rojas, Hidalgo y Martínez SPA",
+    "calle": "Las Rosas 9 Dpto. 118",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "69.505.752-0",
+    "fono": "+56 64 398 8214",
+    "correo": "quijadafrancisca@example.net"
+  },
+  "notify": {
+    "nombre": "Isidora Gutiérrez Cortés E.I.R.L.",
+    "calle": "Calle Lucila Candia 3770",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "fono": "+56 9 3940 9896",
+    "correo": "zepedagina@example.net"
+  },
+  "forwarding_agent": {
+    "nombre": "Cristian Bernardo Rozas Cofré EIRL",
+    "calle": "Calle Paola Baeza 2185",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "fono": "+56 55 328 6118",
+    "correo": "osvaldo16@example.net"
+  },
+  "embarcador": {
+    "nombre": "Iris Luz González Jerez EIRL",
+    "calle": "Calle Romina Rivas 738 Of. 7936",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 600 467 128"
+  },
+  "consignatario": {
+    "nombre": "Rojas, Hidalgo y Martínez SPA",
+    "calle": "Las Rosas 9 Dpto. 118",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "69.505.752-0",
+    "fono": "+56 64 398 8214",
+    "correo": "quijadafrancisca@example.net"
+  },
+  "consignatario_rut": "69.505.752-0",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Corporación Godoy y Barrientos Sociedad Anónima",
+    "calle": "Las Manzanillas 6960 Piso 8",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "98.790.299-K",
+    "fono": "+56 2 2318 2020",
+    "correo": "perezmanuel@example.com",
+    "adu": "A-67"
+  },
+  "representante": {
+    "nombre": "Comercial Valenzuela y Asociados S.A.",
+    "calle": "Esmeralda 8 Piso 6",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "91.469.973-8",
+    "correo": "laura69@example.com"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "I",
+  "incoterm": "CFR",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV wBq-nFer",
+  "voyage": "3790N",
+  "nave": "MV baN-xsgE",
+  "viaje": "2702N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Hamburg, Alemania",
+    "locode": "DEHAM"
+  },
+  "port_discharge": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Callao, Perú",
+  "destino_final": "Miami, USA",
+  "transbordos": "—",
+  "lugar_recepcion": "Hamburg, Alemania CY",
+  "aduana_destino": "ADUANA ARICA",
+  "contenedor": {
+    "numero": "VKQU8771219",
+    "tipo": "45G0",
+    "sello": "2953633",
+    "status": "LCL/LCL",
+    "peso": 11508.7,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "CQBV-AkGg / N° 01",
+      "bultos": 18,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5361.39,
+      "volumen": 12.32,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "QJxt-uIcD / N° 02",
+      "bultos": 12,
+      "unidad": "CAJAS",
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 6147.3,
+      "volumen": 10.99,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 30,
+  "peso_total": 11508.69,
+  "volumen_total": 23.31,
+  "mercancia": "Vino Embotellado",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "CQBV-AkGg / N° 01",
+      "cantidad": 18,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 5361.39,
+      "volumen": 12.32,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "QJxt-uIcD / N° 02",
+      "cantidad": 12,
+      "descripcion": "Vino tinto embotellado en cajas de cartón (12x750ml)",
+      "peso": 6147.3,
+      "volumen": 10.99,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "CY/CY - FCL/FCL / 14 DAYS FREE TIME DEMURRAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-776631",
+  "bl_madre": "SUDU603887135",
+  "bl_madre_aceptacion": "FYAKH9181589",
+  "folio": "Da-1996-20579",
+  "codigo_verificacion": "1ef9fb8897f08eabcc31347e3c560c70"
+}

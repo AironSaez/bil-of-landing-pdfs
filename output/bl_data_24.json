@@ -1,0 +1,150 @@
+{
+  "id": 24,
+  "template": "master_reefer.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "OG-2009-58781",
+  "export_ref": "PO-1585 / INV-60522",
+  "fecha_emision": "05-AUG-2026",
+  "fecha_embarque": "14-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Danilo Vergara Gómez E.I.R.L.",
+    "calle": "Calle Patricio Lynch 48",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "28.952.444-4"
+  },
+  "consignee": {
+    "nombre": "Comercial Reyes y Asociados SPA",
+    "calle": "Los Laureles 144 Dpto. 887",
+    "ciudad": "New York",
+    "pais": "USA",
+    "fono": "+56 2 3394 0094"
+  },
+  "notify": {
+    "nombre": "Laboratorio Gálvez y Asociados SPA",
+    "calle": "Manuel Rodríguez 2060 Piso 34",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina"
+  },
+  "forwarding_agent": {
+    "nombre": "Angélica Araceli Garrido Peña EIRL",
+    "calle": "Calle Omar Tapia 45 Of. 274",
+    "ciudad": "Iquique",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Danilo Vergara Gómez E.I.R.L.",
+    "calle": "Calle Patricio Lynch 48",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "28.952.444-4"
+  },
+  "consignatario": {
+    "nombre": "Comercial Reyes y Asociados SPA",
+    "calle": "Los Laureles 144 Dpto. 887",
+    "ciudad": "New York",
+    "pais": "USA",
+    "fono": "+56 2 3394 0094"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "José Gutiérrez EIRL",
+    "calle": "Calle Javier Cancino 7",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "53.605.425-1",
+    "fono": "+56 72 214 7266",
+    "adu": "A-39"
+  },
+  "representante": {
+    "nombre": "Andrade, Molina y Alvarado Sociedad Anónima",
+    "calle": "Av. Pedro de Valdivia 6827 Of. 814",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "98.085.977-0",
+    "fono": "+56 9 6625 6776",
+    "correo": "abrahamcatalan@example.com"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "S",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV DOc-qWcj",
+  "voyage": "6449N",
+  "nave": "MV vtW-htSL",
+  "viaje": "5054N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "port_discharge": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Miami, USA",
+  "destino_final": "Rotterdam, Netherlands",
+  "transbordos": "—",
+  "lugar_recepcion": "San Vicente CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "GWLU7155231",
+    "tipo": "42G1",
+    "sello": "1112573",
+    "status": "EMPTY",
+    "peso": 9255.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "qjdz-kcvp / N° 01",
+      "bultos": 19,
+      "unidad": "PALLETS",
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 9255.11,
+      "volumen": 16.7,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 19,
+  "peso_total": 9255.11,
+  "volumen_total": 16.7,
+  "mercancia": "Cerezas Frescas",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "qjdz-kcvp / N° 01",
+      "cantidad": 19,
+      "descripcion": "Cerezas frescas refrigeradas (1°C) para exportación",
+      "peso": 9255.11,
+      "volumen": 16.7,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "SHIPPER'S LOAD, STOW AND COUNT / CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+1°C",
+  "ventilacion": "25 CFM",
+  "humedad": "85-90%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 10/08",
+  "encargado_reefer": "Miriam Canales Valencia"
+}

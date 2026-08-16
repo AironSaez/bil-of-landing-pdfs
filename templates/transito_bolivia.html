@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>CONOCIMIENTO DE EMBARQUE - TRANSITO A BOLIVIA</title>
+<style>
+/* ============================================================
+   TEMPLATE 3 · TRÁNSITO A BOLIVIA
+   Tema: naranja + tipografía condensada. Destaca una gran
+   sección "OBSERVACIONES" al pie con la glosa obligatoria.
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #261300;
+  font-size: 8.8pt;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ---------- Encabezado ---------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a0f05;
+  color: #fff;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+}
+.header .brand h1 {
+  margin: 0;
+  font-size: 14pt;
+  letter-spacing: 4px;
+  color: #ffb057;
+}
+.header .brand p { margin: 0; font-size: 7pt; color: #d9b98c; }
+.header .doc-code { text-align: right; font-size: 8pt; }
+.header .doc-code strong { display: block; font-size: 10pt; color: #ffb057; }
+
+/* ---------- Cajas de partes ---------- */
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  border: 2px solid #d95700;
+}
+.party {
+  flex: 1 1 50%;
+  min-height: 58px;
+  padding: 4px 6px;
+  border: 1px solid #f0b27a;
+}
+.party .label {
+  font-weight: bold;
+  font-size: 7pt;
+  letter-spacing: 2px;
+  background: #d95700;
+  color: #fff;
+  padding: 1px 5px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.party .name { font-weight: bold; font-size: 9.5pt; }
+.party .addr { color: #6b4a26; font-size: 8pt; }
+
+/* ---------- Nave / viaje destacado ---------- */
+.ship {
+  display: flex;
+  border: 2px solid #d95700;
+  margin-bottom: 8px;
+  background: #fff3e6;
+}
+.ship > div {
+  flex: 1;
+  padding: 5px 7px;
+  border-right: 1px solid #f0b27a;
+}
+.ship > div:last-child { border-right: none; }
+.ship .label {
+  font-weight: bold;
+  font-size: 7pt;
+  letter-spacing: 1px;
+  color: #d95700;
+  text-transform: uppercase;
+}
+.ship .value { font-size: 10pt; font-weight: bold; }
+
+/* ---------- Contenedor ---------- */
+.cont {
+  display: flex;
+  border: 2px solid #d95700;
+  margin-bottom: 8px;
+}
+.cont > div {
+  flex: 1;
+  padding: 4px 6px;
+  border-right: 1px solid #f0b27a;
+}
+.cont > div:last-child { border-right: none; }
+.cont .label {
+  font-weight: bold;
+  font-size: 7pt;
+  color: #d95700;
+  text-transform: uppercase;
+}
+.cont .value { font-size: 9.5pt; font-weight: bold; }
+
+/* ---------- Mercancía ---------- */
+.goods {
+  border: 2px solid #d95700;
+  margin-bottom: 8px;
+}
+.goods .g-head {
+  background: #d95700;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 7px;
+  font-size: 8pt;
+  letter-spacing: 1px;
+}
+.goods .g-body { padding: 5px 7px; min-height: 56px; }
+.goods table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+.goods th, .goods td {
+  border: 1px solid #f0b27a;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 8pt;
+}
+.goods th { background: #ffe3c2; color: #b34700; }
+
+/* ---------- OBSERVACIONES GRANDES (glosa obligatoria) ---------- */
+.observaciones {
+  border: 3px solid #d95700;
+  margin-bottom: 8px;
+}
+.observaciones .o-head {
+  background: #d95700;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 10pt;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.observaciones .o-body {
+  min-height: 120px;
+  padding: 10px 12px;
+  font-size: 10pt;
+}
+.observaciones .glosa {
+  font-weight: bold;
+  font-size: 13pt;
+  letter-spacing: 2px;
+  color: #b34700;
+  text-align: center;
+  border: 2px dashed #d95700;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.observaciones .extra { color: #6b4a26; }
+
+/* ---------- Firma ---------- */
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sign .line {
+  width: 150px;
+  border-top: 1px solid #261300;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 7.5pt;
+}
+</style>
+</head>
+<body>
+
+<!-- ================= ENCABEZADO ================= -->
+<div class="header">
+  <div class="brand">
+    <h1>{{ naviera }}</h1>
+    <p>CORREDOR BIOOCEÁNICO · RUTA PACÍFICO - ATLÁNTICO</p>
+  </div>
+  <div class="doc-code">
+    <strong>CONOCIMIENTO DE EMBARQUE</strong>
+    B/L N° {{ bl_number }}<br>
+    Emisión: {{ fecha_emision }}
+  </div>
+</div>
+
+<!-- ================= PARTES ================= -->
+<div class="parties">
+  <div class="party">
+    <span class="label">EMBARCADOR</span>
+    <div class="name">{{ embarcador.company }}</div>
+    <div class="addr">{{ embarcador.address }}<br>{{ embarcador.city }}, {{ embarcador.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">CONSIGNATARIO</span>
+    <div class="name">{{ consignatario.company }}</div>
+    <div class="addr">{{ consignatario.address }}<br>{{ consignatario.city }}, {{ consignatario.country }}</div>
+    <div class="name">RUT: {{ consignatario.rut }}</div>
+  </div>
+  <div class="party">
+    <span class="label">NOTIFY</span>
+    <div class="name">{{ notify.company }}</div>
+    <div class="addr">{{ notify.address }}<br>{{ notify.city }}, {{ notify.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">ALMACENISTA</span>
+    <div class="name">{{ almacenista.company }}</div>
+    <div class="addr">{{ almacenista.address }}<br>{{ almacenista.city }}, {{ almacenista.country }}</div>
+    <div class="name">RUT: {{ almacenista.rut }}</div>
+  </div>
+</div>
+
+<!-- ================= NAVE / VIAJE ================= -->
+<div class="ship">
+  <div>
+    <div class="label">Nave</div>
+    <div class="value">{{ nave }}</div>
+  </div>
+  <div>
+    <div class="label">Viaje</div>
+    <div class="value">{{ viaje }} · [{{ bandera }}]</div>
+  </div>
+  <div>
+    <div class="label">Puerto Embarque</div>
+    <div class="value">{{ puerto_embarque }}</div>
+  </div>
+  <div>
+    <div class="label">Puerto Desembarque</div>
+    <div class="value">{{ puerto_desembarque }}</div>
+  </div>
+  <div>
+    <div class="label">Destino Final (Tránsito)</div>
+    <div class="value">{{ destino_final }}</div>
+  </div>
+</div>
+
+<!-- ================= CONTENEDOR ================= -->
+<div class="cont">
+  <div>
+    <div class="label">Contenedor</div>
+    <div class="value">{{ contenedor.numero }}</div>
+  </div>
+  <div>
+    <div class="label">Tipo</div>
+    <div class="value">{{ contenedor.tipo }}</div>
+  </div>
+  <div>
+    <div class="label">Sello</div>
+    <div class="value">{{ contenedor.sello }}</div>
+  </div>
+  <div>
+    <div class="label">Status</div>
+    <div class="value">{{ contenedor.status }}</div>
+  </div>
+  <div>
+    <div class="label">Peso (KGM)</div>
+    <div class="value">{{ "%.1f"|format(contenedor.peso) }}</div>
+  </div>
+</div>
+
+<!-- ================= MERCANCÍA ================= -->
+<div class="goods">
+  <div class="g-head">CARGA</div>
+  <div class="g-body">
+    <div><b>Marcas:</b> {{ marcas }}</div>
+    <div>{{ mercancia }}</div>
+    <table>
+      <tr>
+        <th>Bultos</th>
+        <th>Unidad</th>
+        <th>Peso Bruto (KGM)</th>
+        <th>Volumen (MTQ)</th>
+      </tr>
+      <tr>
+        <td>{{ bultos }}</td>
+        <td>{{ unidades }}</td>
+        <td>{{ "%.2f"|format(peso_bruto) }}</td>
+        <td>{{ "%.2f"|format(volumen) }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= OBSERVACIONES (GLOSA OBLIGATORIA) ================= -->
+<div class="observaciones">
+  <div class="o-head">OBSERVACIONES</div>
+  <div class="o-body">
+    <div class="glosa">{{ glosa }}</div>
+    <div class="extra">{{ observaciones }}</div>
+  </div>
+</div>
+
+<!-- ================= FIRMA ================= -->
+<div class="sign">
+  <div class="line">Firma del Agente Naviero</div>
+  <div class="line">Sello de la Aduana de Destino</div>
+</div>
+
+</body>
+</html>

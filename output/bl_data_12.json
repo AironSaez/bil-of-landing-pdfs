@@ -1,0 +1,159 @@
+{
+  "id": 12,
+  "template": "master_exportacion.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "YY-1992-86627",
+  "export_ref": "PO-1252 / INV-04265",
+  "fecha_emision": "14-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Macarena Ortiz Burgos EIRL",
+    "calle": "Jessica Serrano 657 Piso 6",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "50.941.170-0"
+  },
+  "consignee": {
+    "nombre": "Quijada y Álvarez SPA",
+    "calle": "Michimalonco 678",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3816 2448",
+    "correo": "ruizdaniela@example.org"
+  },
+  "notify": {
+    "nombre": "Javiera María Mora Parra E.I.R.L.",
+    "calle": "María Fuentealba 905",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "fono": "+56 2 2677 7854"
+  },
+  "forwarding_agent": {
+    "nombre": "Rosalba Pascal Acevedo Venegas EIRL",
+    "calle": "Jorge Saavedra 5",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "fono": "+56 35 264 3511"
+  },
+  "embarcador": {
+    "nombre": "Macarena Ortiz Burgos EIRL",
+    "calle": "Jessica Serrano 657 Piso 6",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "50.941.170-0"
+  },
+  "consignatario": {
+    "nombre": "Quijada y Álvarez SPA",
+    "calle": "Michimalonco 678",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3816 2448",
+    "correo": "ruizdaniela@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Industrias Inostroza y Asociados S.p.A.",
+    "calle": "Matta 84",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "11.153.280-K",
+    "fono": "+56 61 253 2312",
+    "adu": "A-52"
+  },
+  "representante": {
+    "nombre": "Alexis Pedro Benavides Pardo EIRL",
+    "calle": "Av. Luisa Zúñiga 2243 Piso 3",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "46.202.616-1",
+    "fono": "+56 9 3683 8149"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "S",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV RRY-Tylz",
+  "voyage": "9583N",
+  "nave": "MV wVN-dlEZ",
+  "viaje": "1052N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Valparaíso",
+    "locode": "CLVAP"
+  },
+  "port_discharge": {
+    "nombre": "Shanghai, China",
+    "locode": "CNSHA"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Hamburg, Alemania",
+  "destino_final": "Busan, Corea del Sur",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA LA PAZ",
+  "contenedor": {
+    "numero": "VADU3850459",
+    "tipo": "45P1",
+    "sello": "7978176",
+    "status": "FCL/FCL",
+    "peso": 9465.6,
+    "operador": "CARRIER OWNED"
+  },
+  "carga": [
+    {
+      "marcas": "lGrJ-viQv / N° 01",
+      "bultos": 13,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 9465.64,
+      "volumen": 13.27,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 13,
+  "peso_total": 9465.64,
+  "volumen_total": 13.27,
+  "mercancia": "Aceite de Oliva",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "lGrJ-viQv / N° 01",
+      "cantidad": 13,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 9465.64,
+      "volumen": 13.27,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "PREPAID",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "VADU3850459",
+      "tipo": "45P1",
+      "sello": "7978176",
+      "status": "FCL/FCL",
+      "peso": 9465.6,
+      "operador": "CARRIER OWNED",
+      "bultos": 13,
+      "volumen": 13.27
+    }
+  ]
+}

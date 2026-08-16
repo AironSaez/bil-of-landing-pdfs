@@ -1,0 +1,174 @@
+{
+  "id": 15,
+  "template": "master_exportacion.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "dH-2022-34098",
+  "export_ref": "PO-3943 / INV-94911",
+  "fecha_emision": "16-AUG-2026",
+  "fecha_embarque": "09-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Camila Alfaro EIRL",
+    "calle": "Calle Ayleen Ortiz 514 Dpto. 137",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "13.222.356-4",
+    "correo": "juanruz@example.org"
+  },
+  "consignee": {
+    "nombre": "Luis José García Núñez E.I.R.L.",
+    "calle": "Calle Benjamín Jofré 501",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 55 367 6126",
+    "correo": "sofiaperez@example.net"
+  },
+  "notify": {
+    "nombre": "Compañía Sánchez y Moncada S.p.A.",
+    "calle": "Calle Lautaro 3883",
+    "ciudad": "New York",
+    "pais": "USA",
+    "fono": "+56 35 396 3392"
+  },
+  "forwarding_agent": {
+    "nombre": "Rodríguez y Bahamonde Limitada",
+    "calle": "Patricia Fernández 2143 Dpto. 357",
+    "ciudad": "Valparaíso",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Camila Alfaro EIRL",
+    "calle": "Calle Ayleen Ortiz 514 Dpto. 137",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "13.222.356-4",
+    "correo": "juanruz@example.org"
+  },
+  "consignatario": {
+    "nombre": "Luis José García Núñez E.I.R.L.",
+    "calle": "Calle Benjamín Jofré 501",
+    "ciudad": "Los Angeles",
+    "pais": "USA",
+    "fono": "+56 55 367 6126",
+    "correo": "sofiaperez@example.net"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Chamorro SPA",
+    "calle": "Los Aromos 79",
+    "ciudad": "Arica",
+    "pais": "Chile",
+    "rut": "17.324.484-3",
+    "correo": "camila95@example.com",
+    "adu": "A-21"
+  },
+  "representante": {
+    "nombre": "Compañía Cofré y Salazar S.p.A.",
+    "calle": "Hugo Vargas 3567",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "15.201.954-8",
+    "fono": "+56 35 391 2116"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "S",
+  "incoterm": "CIF",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV beq-EIqL",
+  "voyage": "9204N",
+  "nave": "MV bXs-UTLe",
+  "viaje": "8053N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "San Antonio",
+    "locode": "CLSAI"
+  },
+  "port_discharge": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Busan, Corea del Sur",
+  "destino_final": "Miami, USA",
+  "transbordos": "COBUN / Buenaventura, Colombia",
+  "lugar_recepcion": "San Antonio CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "LVZU5235742",
+    "tipo": "45U1",
+    "sello": "7123762",
+    "status": "FCL/FCL",
+    "peso": 10233.3,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "fcSe-aGgc / N° 01",
+      "bultos": 11,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5319.15,
+      "volumen": 11.39,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "imic-NUnd / N° 02",
+      "bultos": 19,
+      "unidad": "PALLETS",
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4914.17,
+      "volumen": 9.11,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 30,
+  "peso_total": 10233.32,
+  "volumen_total": 20.5,
+  "mercancia": "Cítricos Frescos",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "fcSe-aGgc / N° 01",
+      "cantidad": 11,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 5319.15,
+      "volumen": 11.39,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "imic-NUnd / N° 02",
+      "cantidad": 19,
+      "descripcion": "Cítricos frescos (naranjas/limones) con ventilación forzada",
+      "peso": 4914.17,
+      "volumen": 9.11,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "PREPAID",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "MERCHANT'S STOWAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "+5°C",
+  "ventilacion": "60 CFM",
+  "humedad": "85%",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 14/08",
+  "encargado_reefer": "Valentina Díaz Carrasco"
+}

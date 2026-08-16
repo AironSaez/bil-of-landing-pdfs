@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OCEAN BILL OF LADING - MASTER</title>
+<style>
+/* =====================================================================
+   TEMPLATE MASTER · BILL OF LADING HIPER-REALISTA (CSS GRID)
+   Estructura estricta en cajas con borde 1px solid black.
+   Títulos diminutos en la esquina superior izquierda de cada caja.
+   Datos en Courier New bold (aspecto máquina de escribir).
+   ===================================================================== */
+@page {
+  size: A4;
+  margin: 7mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+  background: #fff;
+}
+
+/* ---- Borde exterior grueso del documento ---- */
+.doc {
+  border: 3px solid #000;
+  background: #fff;
+}
+
+/* ---- Título diminuto de caja (esquina superior izquierda) ---- */
+.t {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+}
+
+/* ---- Dato inyectado (máquina de escribir) ---- */
+.d {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+.d small { font-weight: normal; }
+
+/* ---- Caja estándar con borde ---- */
+.box {
+  border: 1px solid #000;
+  padding: 3px 6px;
+  min-height: 46px;
+}
+
+/* =====================================================================
+   TERCIO SUPERIOR · dividido verticalmente a la mitad
+   Izquierda: Shipper / Consignee / Notify
+   Derecha  : Logo naviera / B/L Number / Export References / Forwarding
+   ===================================================================== */
+.grid-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #000;
+}
+.col-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-right: 1px solid #000;
+}
+.col-right {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 64px;
+}
+.logo .naviera {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1;
+}
+.logo .tagline {
+  font-size: 8px;
+  color: #444;
+  letter-spacing: 2px;
+}
+
+/* =====================================================================
+   TERCIO MEDIO · cajas horizontales
+   Pre-Carriage / Vessel / Port of Loading / Port of Discharge
+   ===================================================================== */
+.grid-mid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.2fr 1fr 1fr;
+  border-bottom: 1px solid #000;
+}
+.grid-mid .box { border-bottom: none; border-right: 1px solid #000; }
+.grid-mid .box:last-child { border-right: none; }
+
+/* =====================================================================
+   TERCIO INFERIOR · grilla de carga (5 columnas)
+   ===================================================================== */
+table.cargo {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  table-layout: fixed;
+}
+table.cargo th {
+  border: 1px solid #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 3px 5px;
+  background: #f4f4f4;
+}
+table.cargo td {
+  border: 1px solid #000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9.5px;
+  font-weight: bold;
+  padding: 3px 5px;
+  vertical-align: top;
+}
+table.cargo td.num { text-align: right; white-space: nowrap; }
+table.cargo tr.total td {
+  font-weight: bold;
+  background: #eaeaea;
+  font-size: 9.5px;
+}
+table.cargo .imo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  color: #900;
+  font-weight: bold;
+}
+td.c-marks { width: 22%; }
+td.c-pkg   { width: 13%; }
+td.c-desc  { width: 32%; }
+td.c-wgt   { width: 16%; }
+td.c-vol   { width: 17%; }
+
+/* =====================================================================
+   PIE · observaciones + términos ilegibles + firma
+   ===================================================================== */
+.obs {
+  border: 1px solid #000;
+  border-top: none;
+  padding: 3px 6px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9px;
+  font-weight: bold;
+  min-height: 30px;
+}
+.foot {
+  display: grid;
+  grid-template-columns: 2.1fr 1fr;
+  border-top: 1px solid #000;
+}
+.terms {
+  border-right: 1px solid #000;
+  padding: 4px 6px;
+  column-count: 2;
+  column-gap: 8px;
+}
+.terms .legal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  color: #777;
+  line-height: 1.45;
+  text-align: justify;
+}
+.sign {
+  padding: 4px 6px;
+  text-align: center;
+}
+.sign .sig-line {
+  border-top: 1px solid #000;
+  margin-top: 34px;
+  padding-top: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6.5px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+</style>
+</head>
+<body>
+
+<div class="doc">
+
+  <!-- ================= TERCIO SUPERIOR ================= -->
+  <div class="grid-top">
+    <!-- Columna izquierda -->
+    <div class="col-left">
+      <div class="box">
+        <div class="t">1. Shipper/Exporter (Complete Name And Address)</div>
+        <div class="d">{{ shipper.calle }}<br>{{ shipper.ciudad }}, {{ shipper.pais }}<br><small>R.U.T.: {{ shipper.rut }}</small></div>
+      </div>
+      <div class="box">
+        <div class="t">2. Consignee (Complete Name And Address)</div>
+        <div class="d">{{ consignee.calle }}<br>{{ consignee.ciudad }}, {{ consignee.pais }}</div>
+      </div>
+      <div class="box">
+        <div class="t">3. Notify Party (Complete Name And Address)</div>
+        <div class="d">{{ notify.calle }}<br>{{ notify.ciudad }}, {{ notify.pais }}</div>
+      </div>
+    </div>
+    <!-- Columna derecha -->
+    <div class="col-right">
+      <div class="box logo">
+        <div>
+          <div class="naviera">{{ naviera }}</div>
+          <div class="tagline">OCEAN TRANSPORT · BILL OF LADING</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="t">Bill Of Lading No.</div>
+        <div class="d">{{ bl_number }}</div>
+      </div>
+      <div class="box">
+        <div class="t">Export References</div>
+        <div class="d">{{ export_ref }}<br><small>{{ fecha_emision }}</small></div>
+      </div>
+      <div class="box">
+        <div class="t">Forwarding Agent (Name And Address)</div>
+        <div class="d">{{ forwarding_agent.calle }}<br>{{ forwarding_agent.ciudad }}, {{ forwarding_agent.pais }}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TERCIO MEDIO ================= -->
+  <div class="grid-mid">
+    <div class="box">
+      <div class="t">Pre-Carriage By</div>
+      <div class="d">{{ pre_carriage }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Ocean Vessel / Voyage</div>
+      <div class="d">{{ vessel }}<br><small>V. {{ voyage }} · [{{ bandera }}]</small></div>
+    </div>
+    <div class="box">
+      <div class="t">Port Of Loading</div>
+      <div class="d">{{ port_loading }}</div>
+    </div>
+    <div class="box">
+      <div class="t">Port Of Discharge / Final Destination</div>
+      <div class="d">{{ port_discharge }}<br><small>THRU {{ final_destination }}</small></div>
+    </div>
+  </div>
+
+  <!-- ================= TERCIO INFERIOR · GRILLA DE CARGA ================= -->
+  <table class="cargo">
+    <thead>
+      <tr>
+        <th>Marks &amp; Numbers</th>
+        <th>Number Of Packages</th>
+        <th>Description Of Goods</th>
+        <th>Gross Weight (KGS)</th>
+        <th>Measurement (CBM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in carga %}
+      <tr>
+        <td class="c-marks">
+          {% if loop.first %}
+            {{ contenedor.numero }}<br>SEAL: {{ contenedor.sello }}<br>{{ contenedor.tipo }}<br>
+          {% endif %}
+          {{ item.marcas }}
+        </td>
+        <td class="c-pkg">{{ item.bultos }}<br><small>{{ item.unidad }}</small></td>
+        <td class="c-desc">
+          {{ item.descripcion }}
+          {% if item.imo %}
+            <br><span class="imo">IMO {{ item.imo }} / {{ item.onu }}</span>
+          {% endif %}
+        </td>
+        <td class="c-wgt num">{{ item.peso|miles }}</td>
+        <td class="c-vol num">{{ item.volumen|miles }}</td>
+      </tr>
+      {% endfor %}
+      <tr class="total">
+        <td class="c-marks">TOTAL</td>
+        <td class="c-pkg">{{ bultos_total }}</td>
+        <td class="c-desc"></td>
+        <td class="c-wgt num">{{ peso_total|miles }}</td>
+        <td class="c-vol num">{{ volumen_total|miles }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Observaciones -->
+  <div class="obs">
+    <span class="t">Remarks / Observaciones: </span>{{ observaciones }}
+  </div>
+
+  <!-- ================= PIE ================= -->
+  <div class="foot">
+    <div class="terms">
+      <div class="legal">
+        RECEIVED by the Carrier from the Shipper in apparent good order and
+        condition (unless otherwise noted herein) the total number or quantity
+        of Containers or other packages or units stated in the box entitled
+        "Total Number of Containers/Packages" on this Bill of Lading, said
+        particulars of the goods as declared by the Shipper, to be carried
+        subject to all the terms and conditions hereinafter contained and all
+        terms and conditions of the Carrier's Applicable Tariff, which shall
+        be deemed to be incorporated herein. The Carrier's liability shall in
+        no event exceed the limits provided for by the Hague-Visby Rules or
+        the Carrier's Applicable Tariff, whichever is the lesser, and in no
+        event shall the Carrier be liable for any consequential or indirect
+        loss or damage. Shipper warrants that the goods are packed in a manner
+        adequate to withstand the ordinary risks of the intended carriage.
+        Except as otherwise provided herein, this Bill of Lading shall have
+        effect subject to the provisions of the Hague-Visby Rules. By
+        accepting this Bill of Lading the Merchant agrees to be bound by all
+        of its terms and conditions whether written, printed, stamped or
+        incorporated on the front or reverse side hereof, as if all such terms
+        and conditions had been signed by the Merchant. In witness whereof the
+        number of original Bills of Lading stated below has been signed, one
+        of which being accomplished the others to stand void. Freight and
+        charges payable as stated and due at the place of receipt or delivery
+        notwithstanding any custom or privilege to the contrary. This document
+        is a computer generated facsimile and is valid without an original
+        signature where a valid EDI transmission has been effected.
+      </div>
+    </div>
+    <div class="sign">
+      <div class="t">Place And Date Of Issue</div>
+      <div class="d" style="font-size:9px;">{{ lugar_emision }}, {{ fecha_emision }}</div>
+      <div class="sig-line">Signed As Agent For The Carrier</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

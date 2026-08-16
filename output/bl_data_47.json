@@ -1,0 +1,172 @@
+{
+  "id": 47,
+  "template": "master_importacion.html",
+  "naviera": "ANDES CARRIER CO.",
+  "bl_number": "PB-1993-82592",
+  "export_ref": "PO-0944 / INV-81003",
+  "fecha_emision": "08-AUG-2026",
+  "fecha_embarque": "16-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Camila Bascuñán E.I.R.L.",
+    "calle": "Avda. Danae Bustos 9208 Of. 3096",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 800 687 917"
+  },
+  "consignee": {
+    "nombre": "Laboratorio Figueroa y Orellana SPA",
+    "calle": "Fernando Seguel 380 Dpto. 484",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "34.999.666-9",
+    "fono": "+56 800 390 908"
+  },
+  "notify": {
+    "nombre": "Club Fuentes y Chandía Limitada",
+    "calle": "Calle Gabriela Mistral 895",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "fono": "+56 600 978 679"
+  },
+  "forwarding_agent": {
+    "nombre": "Club Cáceres y Asociados S.p.A.",
+    "calle": "Manuel Valdés 91",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "correo": "victor84@example.org"
+  },
+  "embarcador": {
+    "nombre": "Camila Bascuñán E.I.R.L.",
+    "calle": "Avda. Danae Bustos 9208 Of. 3096",
+    "ciudad": "Long Beach",
+    "pais": "USA",
+    "fono": "+56 800 687 917"
+  },
+  "consignatario": {
+    "nombre": "Laboratorio Figueroa y Orellana SPA",
+    "calle": "Fernando Seguel 380 Dpto. 484",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "34.999.666-9",
+    "fono": "+56 800 390 908"
+  },
+  "consignatario_rut": "34.999.666-9",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Valdés Limitada",
+    "calle": "Camino Juan Mackenna 658 Dpto. 245",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "87.158.095-2",
+    "fono": "+56 2 3958 8330",
+    "adu": "A-48"
+  },
+  "representante": {
+    "nombre": "Astudillo y Mella Sociedad Anónima",
+    "calle": "Pasaje Arturo Prat 581 Dpto. 20",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "rut": "14.093.771-1",
+    "correo": "victor59@example.org"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "CY/CY",
+  "sentido_operacion": "I",
+  "incoterm": "EXW",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "RAIL - FEPASA",
+  "vessel": "MV QGu-JqqG",
+  "voyage": "0397N",
+  "nave": "MV hzm-tGXd",
+  "viaje": "5909N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "port_discharge": {
+    "nombre": "San Vicente",
+    "locode": "CLSVE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Callao, Perú",
+  "destino_final": "Callao, Perú",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "Kaohsiung, Taiwan CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "UJGU4951878",
+    "tipo": "22G1",
+    "sello": "3887752",
+    "status": "EMPTY",
+    "peso": 4072.3,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "EPIG-QSKQ / N° 01",
+      "bultos": 18,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 1767.87,
+      "volumen": 8.09,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    },
+    {
+      "marcas": "SGQh-Zwnf / N° 02",
+      "bultos": 14,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2304.42,
+      "volumen": 10.78,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    }
+  ],
+  "bultos_total": 32,
+  "peso_total": 4072.29,
+  "volumen_total": 18.87,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "EPIG-QSKQ / N° 01",
+      "cantidad": 18,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 1767.87,
+      "volumen": 8.09,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "SGQh-Zwnf / N° 02",
+      "cantidad": 14,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 2304.42,
+      "volumen": 10.78,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "COLLECT",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "5 / THREE-THREE",
+  "glosa": "",
+  "observaciones": "TEMP CONTROL: +1°C (REEFER)",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "mfto_nro": "MFTO-702921",
+  "bl_madre": "SUDU596883169",
+  "bl_madre_aceptacion": "QVWHG7846246",
+  "folio": "PB-1993-82592",
+  "codigo_verificacion": "70c502a2965ed82673881e0a612e8e2b"
+}

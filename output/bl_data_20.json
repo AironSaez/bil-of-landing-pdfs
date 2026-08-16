@@ -1,0 +1,156 @@
+{
+  "id": 20,
+  "template": "master_transito.html",
+  "naviera": "MAGELLAN MARITIME",
+  "bl_number": "Kw-1975-08828",
+  "export_ref": "PO-3259 / INV-48935",
+  "fecha_emision": "07-AUG-2026",
+  "fecha_embarque": "07-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Grupo Rodríguez y Palacios Limitada",
+    "calle": "Calle Los Copihues 9 Dpto. 26",
+    "ciudad": "New York",
+    "pais": "USA"
+  },
+  "consignee": {
+    "nombre": "Adriana Jocelyn Marchant Cofré E.I.R.L.",
+    "calle": "Las Mosquetas 513",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "nit": "207794165"
+  },
+  "notify": {
+    "nombre": "Fernández, Castro y Rubilar Limitada",
+    "calle": "Calle Camilo Lobos 2494",
+    "ciudad": "Oruro",
+    "pais": "Bolivia"
+  },
+  "forwarding_agent": {
+    "nombre": "Milton Tobar EIRL",
+    "calle": "Pasaje Esmeralda 8362",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "fono": "+56 2 2730 4618",
+    "correo": "fcerda@example.com"
+  },
+  "embarcador": {
+    "nombre": "Grupo Rodríguez y Palacios Limitada",
+    "calle": "Calle Los Copihues 9 Dpto. 26",
+    "ciudad": "New York",
+    "pais": "USA"
+  },
+  "consignatario": {
+    "nombre": "Adriana Jocelyn Marchant Cofré E.I.R.L.",
+    "calle": "Las Mosquetas 513",
+    "ciudad": "Oruro",
+    "pais": "Bolivia",
+    "nit": "207794165"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "207794165",
+  "almacenista": {
+    "nombre": "Vidal y Salinas S.A.",
+    "calle": "Santa Rosa 476 Piso 4",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "4.637.023-6",
+    "fono": "+56 2 3739 3518",
+    "adu": "A-35"
+  },
+  "representante": {
+    "nombre": "Varas y Vallejos Limitada",
+    "calle": "Calle Macarena Alarcón 2862 Of. 8542",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "19.745.343-5",
+    "fono": "+56 800 146 221",
+    "correo": "noeliamanriquez@example.net"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "CFS/CFS",
+  "sentido_operacion": "TR",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV htA-Qxjv",
+  "voyage": "8324N",
+  "nave": "MV XpB-oeJS",
+  "viaje": "4768N",
+  "bandera": "GR",
+  "port_loading": {
+    "nombre": "Callao, Perú",
+    "locode": "PECLL"
+  },
+  "port_discharge": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "puerto_transbordo": {
+    "nombre": "Manzanillo, Panamá",
+    "locode": "PAMIT"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Oruro",
+  "transbordos": "PAMIT / Manzanillo, Panamá",
+  "lugar_recepcion": "Callao, Perú CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "RFAU0113362",
+    "tipo": "45P1",
+    "sello": "0620139",
+    "status": "FCL/FCL",
+    "peso": 4909.1,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "LSGs-qqyv / N° 01",
+      "bultos": 12,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4909.1,
+      "volumen": 19.77,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 12,
+  "peso_total": 4909.1,
+  "volumen_total": 19.77,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "LSGs-qqyv / N° 01",
+      "cantidad": 12,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4909.1,
+      "volumen": 19.77,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "5 / THREE-FIVE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "14 DAYS FREE TIME DEMURRAGE",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "RFAU0113362",
+      "tipo": "45P1",
+      "sello": "0620139",
+      "status": "FCL/FCL",
+      "peso": 4909.1,
+      "operador": "LEASED",
+      "bultos": 12,
+      "volumen": 19.77
+    }
+  ]
+}

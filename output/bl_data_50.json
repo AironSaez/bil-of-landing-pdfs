@@ -1,0 +1,178 @@
+{
+  "id": 50,
+  "template": "master_transbordo.html",
+  "naviera": "SOUTHERN CROSS SHIPPING",
+  "bl_number": "Nh-2011-09688",
+  "export_ref": "PO-5310 / INV-69511",
+  "fecha_emision": "14-AUG-2026",
+  "fecha_embarque": "13-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "VALPARAÍSO, CHILE",
+  "shipper": {
+    "nombre": "Rosa Suárez-Sepúlveda EIRL",
+    "calle": "Los Pinos 307",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "15.794.107-0",
+    "fono": "+56 2 2957 1692"
+  },
+  "consignee": {
+    "nombre": "Felipe Sepúlveda Sepúlveda E.I.R.L.",
+    "calle": "Calle María Gutiérrez 81",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3335 2700"
+  },
+  "notify": {
+    "nombre": "Peña y Rubilar S.A.",
+    "calle": "Avenida Manuel Antonio Matta 14",
+    "ciudad": "Santos",
+    "pais": "Brasil",
+    "correo": "laraestela@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Juana Jara EIRL",
+    "calle": "Calle Gabriel Cisterna 3773",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile"
+  },
+  "embarcador": {
+    "nombre": "Rosa Suárez-Sepúlveda EIRL",
+    "calle": "Los Pinos 307",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "rut": "15.794.107-0",
+    "fono": "+56 2 2957 1692"
+  },
+  "consignatario": {
+    "nombre": "Felipe Sepúlveda Sepúlveda E.I.R.L.",
+    "calle": "Calle María Gutiérrez 81",
+    "ciudad": "Shanghai",
+    "pais": "China",
+    "fono": "+56 2 3335 2700"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Corporación Guzmán y Asociados Ltda.",
+    "calle": "Benjamín Quintana 6373 Of. 8485",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "59.022.449-9",
+    "adu": "A-88"
+  },
+  "representante": {
+    "nombre": "Rodrigo Cristian López Paredes E.I.R.L.",
+    "calle": "Calle José Luna 439",
+    "ciudad": "Iquique",
+    "pais": "Chile",
+    "rut": "61.094.288-1",
+    "fono": "+56 2 3769 7985"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "PP",
+  "sentido_operacion": "TRB",
+  "incoterm": "DAP",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "NA",
+  "vessel": "MV dDQ-RhTu",
+  "voyage": "8054N",
+  "nave": "MV EXM-DHAV",
+  "viaje": "8338N",
+  "bandera": "CL",
+  "port_loading": {
+    "nombre": "Kaohsiung, Taiwan",
+    "locode": "TWKHH"
+  },
+  "port_discharge": {
+    "nombre": "Antofagasta",
+    "locode": "CLANF"
+  },
+  "puerto_transbordo": {
+    "nombre": "Cartagena, Colombia",
+    "locode": "COCTG"
+  },
+  "final_destination": "Rotterdam, Netherlands",
+  "destino_final": "Callao, Perú",
+  "transbordos": "COCTG / Cartagena, Colombia",
+  "lugar_recepcion": "Kaohsiung, Taiwan CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "LADU0189026",
+    "tipo": "22U1",
+    "sello": "0375169",
+    "status": "FCL/FCL",
+    "peso": 4344.8,
+    "operador": "LEASED"
+  },
+  "carga": [
+    {
+      "marcas": "nNlf-QOjR / N° 01",
+      "bultos": 7,
+      "unidad": "CAJAS",
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4344.84,
+      "volumen": 18.49,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    }
+  ],
+  "bultos_total": 7,
+  "peso_total": 4344.84,
+  "volumen_total": 18.49,
+  "mercancia": "Textiles",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "nNlf-QOjR / N° 01",
+      "cantidad": 7,
+      "descripcion": "Prendas de vestir y textiles en cajas (carga liviana)",
+      "peso": 4344.84,
+      "volumen": 18.49,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "4 / THREE-FOUR",
+  "glosa": "",
+  "observaciones": "CY/CY - FCL/FCL / FREIGHT PREPAID",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "NCKU5433610",
+      "tipo": "45R1",
+      "sello": "3985296",
+      "status": "FCL/FCL",
+      "peso": 1448.3,
+      "operador": "CARRIER OWNED",
+      "bultos": 2,
+      "volumen": 6.16
+    },
+    {
+      "numero": "YYRU6788500",
+      "tipo": "45U1",
+      "sello": "3453227",
+      "status": "FCL/FCL",
+      "peso": 1448.3,
+      "operador": "LEASED",
+      "bultos": 2,
+      "volumen": 6.16
+    },
+    {
+      "numero": "NWSU2997121",
+      "tipo": "22T1",
+      "sello": "3758359",
+      "status": "FCL/FCL",
+      "peso": 1448.2,
+      "operador": "SHIPPER OWNER",
+      "bultos": 3,
+      "volumen": 6.17
+    }
+  ],
+  "bl_madre": "SUDU449526745"
+}

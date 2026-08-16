@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>BILL OF LADING - INGRESO LCL/LCL</title>
+<style>
+/* ============================================================
+   TEMPLATE 1 · INGRESO LCL/LCL (ESPAÑOL)
+   Tema: azul marino + serif (Times) — simula naviera tradicional.
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #0b1f3a;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ---------- Encabezado ---------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #123a6d;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.header .brand h1 {
+  margin: 0;
+  font-size: 17pt;
+  letter-spacing: 2px;
+  color: #123a6d;
+  font-variant: small-caps;
+}
+.header .brand p { margin: 0; font-size: 8pt; color: #4a5a75; }
+.header .doc-code {
+  text-align: right;
+  font-size: 8.5pt;
+}
+.header .doc-code strong { display: block; font-size: 11pt; color: #123a6d; }
+
+/* ---------- Cajas de partes ---------- */
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #123a6d;
+  margin-bottom: 8px;
+}
+.party {
+  flex: 1 1 50%;
+  min-height: 62px;
+  padding: 5px 7px;
+  border: 1px solid #b9c6da;
+}
+.party .label {
+  font-weight: bold;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  background: #123a6d;
+  color: #fff;
+  padding: 1px 4px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.party .name { font-weight: bold; font-size: 10pt; }
+.party .rut { color: #7a1f1f; font-weight: bold; font-size: 8.5pt; }
+.party .addr { color: #33445e; font-size: 8.5pt; }
+
+/* ---------- Grilla viaje / servicio ---------- */
+.voyage-grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #123a6d;
+  margin-bottom: 8px;
+}
+.voyage-cell {
+  flex: 1 1 33.333%;
+  padding: 5px 7px;
+  border: 1px solid #b9c6da;
+}
+.voyage-cell .label {
+  font-weight: bold;
+  font-size: 7.5pt;
+  letter-spacing: 1px;
+  color: #123a6d;
+  text-transform: uppercase;
+}
+.voyage-cell .value { font-size: 10pt; font-weight: bold; }
+
+/* ---------- Datos del contenedor (LCL) ---------- */
+.cont {
+  display: flex;
+  border: 2px solid #123a6d;
+  margin-bottom: 8px;
+}
+.cont > div {
+  flex: 1;
+  padding: 5px 7px;
+  border-right: 1px solid #b9c6da;
+}
+.cont > div:last-child { border-right: none; }
+.cont .label {
+  font-weight: bold;
+  font-size: 7.5pt;
+  letter-spacing: 1px;
+  color: #123a6d;
+  text-transform: uppercase;
+}
+.cont .value { font-size: 10pt; font-weight: bold; }
+
+/* ---------- Mercancía ---------- */
+.goods {
+  border: 2px solid #123a6d;
+  margin-bottom: 8px;
+}
+.goods .g-head {
+  background: #123a6d;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 7px;
+  font-size: 8.5pt;
+  letter-spacing: 1px;
+}
+.goods .g-body { padding: 6px 7px; min-height: 70px; }
+.goods .marcas { color: #33445e; font-size: 8.5pt; margin-bottom: 4px; }
+.goods table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+.goods th, .goods td {
+  border: 1px solid #b9c6da;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 8.5pt;
+}
+.goods th { background: #e8eef7; color: #123a6d; }
+
+/* ---------- Observaciones / pie ---------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 8px;
+}
+.footer .obs {
+  flex: 1;
+  border: 1.5px solid #123a6d;
+  padding: 5px 7px;
+  font-size: 8.5pt;
+  min-height: 46px;
+  color: #33445e;
+}
+.footer .obs .label { font-weight: bold; color: #123a6d; letter-spacing: 1px; }
+.footer .sign {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 8pt;
+}
+.footer .sign .line {
+  width: 130px;
+  border-top: 1px solid #0b1f3a;
+  margin-top: 26px;
+  padding-top: 2px;
+  color: #0b1f3a;
+}
+</style>
+</head>
+<body>
+
+<!-- ================= ENCABEZADO ================= -->
+<div class="header">
+  <div class="brand">
+    <h1>{{ naviera }}</h1>
+    <p>Agente Naviero · Servicio de Transporte Marítimo Internacional</p>
+  </div>
+  <div class="doc-code">
+    <strong>CONOCIMIENTO DE EMBARQUE</strong>
+    B/L N° {{ bl_number }}<br>
+    Emisión: {{ fecha_emision }}
+  </div>
+</div>
+
+<!-- ================= PARTES ================= -->
+<div class="parties">
+  <div class="party">
+    <span class="label">EMISOR</span>
+    <div class="name">{{ emisor.company }}</div>
+    <div class="addr">{{ emisor.address }}<br>{{ emisor.city }}, {{ emisor.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">EMB · EMBARCADOR</span>
+    <div class="name">{{ embarcador.company }}</div>
+    <div class="addr">{{ embarcador.address }}<br>{{ embarcador.city }}, {{ embarcador.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">CONS · CONSIGNATARIO</span>
+    <div class="name">{{ consignatario.company }}</div>
+    <div class="addr">{{ consignatario.address }}<br>{{ consignatario.city }}, {{ consignatario.country }}</div>
+    <div class="rut">RUT: {{ consignatario.rut }}</div>
+  </div>
+  <div class="party">
+    <span class="label">NOTI · NOTIFY</span>
+    <div class="name">{{ notify.company }}</div>
+    <div class="addr">{{ notify.address }}<br>{{ notify.city }}, {{ notify.country }}</div>
+  </div>
+  <div class="party">
+    <span class="label">ALM · ALMACENISTA</span>
+    <div class="name">{{ almacenista.company }}</div>
+    <div class="addr">{{ almacenista.address }}<br>{{ almacenista.city }}, {{ almacenista.country }}</div>
+    <div class="rut">RUT: {{ almacenista.rut }}</div>
+  </div>
+  <div class="party">
+    <span class="label">CONDICIONES</span>
+    <div class="name">Servicio: {{ tipo_servicio }}</div>
+    <div class="addr">Transporte: {{ cond_transporte }}<br>Sentido: {{ sentido_operacion }}<br>Servicio Naviero: {{ servicio_naviero }}</div>
+  </div>
+</div>
+
+<!-- ================= VIAJE ================= -->
+<div class="voyage-grid">
+  <div class="voyage-cell">
+    <div class="label">Puerto de Embarque (Extranjero)</div>
+    <div class="value">{{ puerto_embarque }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Puerto de Desembarque (Nacional)</div>
+    <div class="value">{{ puerto_desembarque }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Nave / Viaje</div>
+    <div class="value">{{ nave }} — V.{{ viaje }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Bandera</div>
+    <div class="value">[{{ bandera }}] {{ servicio_naviero }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Fecha de Embarque</div>
+    <div class="value">{{ fecha_embarque }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Flete Pagadero En</div>
+    <div class="value">{{ flete_pagadero_en }}</div>
+  </div>
+  <div class="voyage-cell">
+    <div class="label">Lugar de Emisión</div>
+    <div class="value">{{ lugar_emision }}</div>
+  </div>
+</div>
+
+<!-- ================= CONTENEDOR ================= -->
+<div class="cont">
+  <div>
+    <div class="label">N° Contenedor</div>
+    <div class="value">{{ contenedor.numero }}</div>
+  </div>
+  <div>
+    <div class="label">Tipo</div>
+    <div class="value">{{ contenedor.tipo }}</div>
+  </div>
+  <div>
+    <div class="label">Sello</div>
+    <div class="value">{{ contenedor.sello }}</div>
+  </div>
+  <div>
+    <div class="label">Status</div>
+    <div class="value">{{ contenedor.status }}</div>
+  </div>
+  <div>
+    <div class="label">Peso (KGM)</div>
+    <div class="value">{{ "%.1f"|format(contenedor.peso) }}</div>
+  </div>
+</div>
+
+<!-- ================= MERCANCÍA ================= -->
+<div class="goods">
+  <div class="g-head">DETALLE DE LA CARGA</div>
+  <div class="g-body">
+    <div class="marcas"><b>Marcas y Números:</b> {{ marcas }}</div>
+    <div>{{ mercancia }}</div>
+    <table>
+      <tr>
+        <th>Bultos</th>
+        <th>Unidad</th>
+        <th>Peso Bruto (KGM)</th>
+        <th>Volumen (MTQ)</th>
+      </tr>
+      <tr>
+        <td>{{ bultos }}</td>
+        <td>{{ unidades }}</td>
+        <td>{{ "%.2f"|format(peso_bruto) }}</td>
+        <td>{{ "%.2f"|format(volumen) }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- ================= OBSERVACIONES / FIRMA ================= -->
+<div class="footer">
+  <div class="obs">
+    <span class="label">OBSERVACIONES</span><br>
+    {{ observaciones }}
+  </div>
+  <div class="sign">
+    <div class="line">Firma y Sello del Emisor</div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+{
+  "id": 32,
+  "template": "master_reefer.html",
+  "naviera": "ATACAMA OCEAN FREIGHT",
+  "bl_number": "gA-2006-31272",
+  "export_ref": "PO-8871 / INV-41581",
+  "fecha_emision": "13-AUG-2026",
+  "fecha_embarque": "06-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:25",
+  "lugar_emision": "SANTIAGO, CHILE",
+  "shipper": {
+    "nombre": "Vergara, Gómez y Godoy Limitada",
+    "calle": "Av. Jennifer Sobarzo 47 Piso 52",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "91.772.267-6",
+    "fono": "+56 800 711 879",
+    "correo": "fernandezines@example.com"
+  },
+  "consignee": {
+    "nombre": "Mariano Rafael Fierro Vargas E.I.R.L.",
+    "calle": "Alejandra Gallegos 82",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "fono": "+56 9 7713 6502",
+    "correo": "luz52@example.org"
+  },
+  "notify": {
+    "nombre": "Caro y Romero S.p.A.",
+    "calle": "Humberto Cisternas 6890 Piso 8",
+    "ciudad": "Valencia",
+    "pais": "España",
+    "correo": "reyeseduardo@example.com"
+  },
+  "forwarding_agent": {
+    "nombre": "Comercial Andrade y Asociados S.p.A.",
+    "calle": "Eliodoro Yáñez 22 Dpto. 11",
+    "ciudad": "Viña del Mar",
+    "pais": "Chile",
+    "correo": "bmardones@example.com"
+  },
+  "embarcador": {
+    "nombre": "Vergara, Gómez y Godoy Limitada",
+    "calle": "Av. Jennifer Sobarzo 47 Piso 52",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "rut": "91.772.267-6",
+    "fono": "+56 800 711 879",
+    "correo": "fernandezines@example.com"
+  },
+  "consignatario": {
+    "nombre": "Mariano Rafael Fierro Vargas E.I.R.L.",
+    "calle": "Alejandra Gallegos 82",
+    "ciudad": "Hamburg",
+    "pais": "Alemania",
+    "fono": "+56 9 7713 6502",
+    "correo": "luz52@example.org"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "",
+  "almacenista": {
+    "nombre": "Compañía Toledo y Vergara S.p.A.",
+    "calle": "Calle Irene Salazar 984",
+    "ciudad": "Concepción",
+    "pais": "Chile",
+    "rut": "22.094.294-5",
+    "fono": "+56 9 3249 7712",
+    "adu": "A-47"
+  },
+  "representante": {
+    "nombre": "Despacho Rojas, Álvarez y Martínez Ltda.",
+    "calle": "Colo Colo 9562 Piso 83",
+    "ciudad": "Valparaíso",
+    "pais": "Chile",
+    "rut": "13.837.491-2",
+    "fono": "+56 44 353 6535"
+  },
+  "tipo_servicio": "FCL/FCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "S",
+  "incoterm": "FCA",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - TRANS-CHILE",
+  "vessel": "MV sMA-lmvN",
+  "voyage": "6905N",
+  "nave": "MV Vwh-SjgU",
+  "viaje": "9279N",
+  "bandera": "BS",
+  "port_loading": {
+    "nombre": "Arica",
+    "locode": "CLARI"
+  },
+  "port_discharge": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Shanghai, China",
+  "destino_final": "Guayaquil, Ecuador",
+  "transbordos": "—",
+  "lugar_recepcion": "SANTIAGO HUB INTERMODAL",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "XREU4440654",
+    "tipo": "22G1",
+    "sello": "5899558",
+    "status": "FCL/FCL",
+    "peso": 11838.9,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "ZNvu-Qdzh / N° 01",
+      "bultos": 9,
+      "unidad": "CAJAS",
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5925.14,
+      "volumen": 10.75,
+      "imo": null,
+      "onu": null,
+      "obs_item": ""
+    },
+    {
+      "marcas": "bqJT-WwWe / N° 02",
+      "bultos": 12,
+      "unidad": "CAJAS",
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5913.72,
+      "volumen": 10.05,
+      "imo": null,
+      "onu": null,
+      "obs_item": "N/M"
+    }
+  ],
+  "bultos_total": 21,
+  "peso_total": 11838.86,
+  "volumen_total": 20.8,
+  "mercancia": "Salmón Atlántico Congelado",
+  "es_peligrosa": false,
+  "es_reefer": true,
+  "bultos_detalle": [
+    {
+      "marcas": "ZNvu-Qdzh / N° 01",
+      "cantidad": 9,
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5925.14,
+      "volumen": 10.75,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "bqJT-WwWe / N° 02",
+      "cantidad": 12,
+      "descripcion": "Salmón atlántico congelado en cajas (bloque IQF)",
+      "peso": 5913.72,
+      "volumen": 10.05,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "PREPAID",
+  "numero_originales": "3 / THREE-FIVE",
+  "glosa": "",
+  "observaciones": "CLEAN ON BOARD",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "temperatura": "-20°C",
+  "ventilacion": "CLOSED",
+  "humedad": "—",
+  "suministro_potencia": "440V / 60Hz / 3PH",
+  "pre_trip": "PTI OK - 13/08",
+  "encargado_reefer": "Génesis Andrade Rodríguez"
+}

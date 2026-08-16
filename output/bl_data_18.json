@@ -1,0 +1,177 @@
+{
+  "id": 18,
+  "template": "master_transito.html",
+  "naviera": "PACIFIC STAR LINE",
+  "bl_number": "Kh-1977-31709",
+  "export_ref": "PO-0574 / INV-71966",
+  "fecha_emision": "10-AUG-2026",
+  "fecha_embarque": "15-AUG-2026",
+  "fecha_generacion": "16-08-2026 17:24",
+  "lugar_emision": "SAN ANTONIO, CHILE",
+  "shipper": {
+    "nombre": "Romero, Ruiz y Aguilar Sociedad Anónima",
+    "calle": "Calle Mackenna 97",
+    "ciudad": "Hamburg",
+    "pais": "Alemania"
+  },
+  "consignee": {
+    "nombre": "Graciela Cárdenas EIRL",
+    "calle": "Calle Gabriela Mistral 2684 Of. 6681",
+    "ciudad": "Santa Cruz de la Sierra",
+    "pais": "Bolivia",
+    "fono": "+56 2 3207 4899",
+    "nit": "979510054"
+  },
+  "notify": {
+    "nombre": "Barrientos Sociedad Anónima",
+    "calle": "Eduardo Pérez 641 Piso 4",
+    "ciudad": "Cochabamba",
+    "pais": "Bolivia",
+    "fono": "+56 9 2932 7069",
+    "correo": "matiascontreras@example.org"
+  },
+  "forwarding_agent": {
+    "nombre": "Comercial Vidal y Asociados Sociedad Anónima",
+    "calle": "Los Abedules 44",
+    "ciudad": "Puerto Montt",
+    "pais": "Chile",
+    "correo": "juvenalmillan@example.net"
+  },
+  "embarcador": {
+    "nombre": "Romero, Ruiz y Aguilar Sociedad Anónima",
+    "calle": "Calle Mackenna 97",
+    "ciudad": "Hamburg",
+    "pais": "Alemania"
+  },
+  "consignatario": {
+    "nombre": "Graciela Cárdenas EIRL",
+    "calle": "Calle Gabriela Mistral 2684 Of. 6681",
+    "ciudad": "Santa Cruz de la Sierra",
+    "pais": "Bolivia",
+    "fono": "+56 2 3207 4899",
+    "nit": "979510054"
+  },
+  "consignatario_rut": "",
+  "nit_bolivia": "979510054",
+  "almacenista": {
+    "nombre": "Alexander Pozo E.I.R.L.",
+    "calle": "Arturo Alessandri 248 Dpto. 427",
+    "ciudad": "San Antonio",
+    "pais": "Chile",
+    "rut": "23.362.719-4",
+    "fono": "+56 9 8734 7698",
+    "adu": "A-04"
+  },
+  "representante": {
+    "nombre": "Luz Pizarro Reyes E.I.R.L.",
+    "calle": "Calle Los Tilos 5755 Dpto. 1481",
+    "ciudad": "La Serena",
+    "pais": "Chile",
+    "rut": "84.134.051-5"
+  },
+  "tipo_servicio": "LCL/LCL",
+  "cond_transporte": "DOOR/DOOR",
+  "sentido_operacion": "TR",
+  "incoterm": "FOB",
+  "servicio_naviero": "LINER",
+  "pre_carriage": "TRUCK - SANTIAGO HUB",
+  "vessel": "MV rLO-SJwa",
+  "voyage": "9342N",
+  "nave": "MV nbs-bute",
+  "viaje": "8735N",
+  "bandera": "PA",
+  "port_loading": {
+    "nombre": "Guayaquil, Ecuador",
+    "locode": "ECGYE"
+  },
+  "port_discharge": {
+    "nombre": "Iquique",
+    "locode": "CLIQQ"
+  },
+  "puerto_transbordo": {
+    "nombre": "Buenaventura, Colombia",
+    "locode": "COBUN"
+  },
+  "final_destination": "Kaohsiung, Taiwan",
+  "destino_final": "Oruro",
+  "transbordos": "—",
+  "lugar_recepcion": "Guayaquil, Ecuador CY",
+  "aduana_destino": "ADUANA IQUIQUE",
+  "contenedor": {
+    "numero": "UAHU3521559",
+    "tipo": "45P1",
+    "sello": "8920420",
+    "status": "LCL/LCL",
+    "peso": 8273.4,
+    "operador": "SHIPPER OWNER"
+  },
+  "carga": [
+    {
+      "marcas": "ruoa-jvtt / N° 01",
+      "bultos": 7,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3777.37,
+      "volumen": 6.54,
+      "imo": null,
+      "onu": null,
+      "obs_item": "STC"
+    },
+    {
+      "marcas": "fOlf-YgEO / N° 02",
+      "bultos": 17,
+      "unidad": "TAMBORES",
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 4496.04,
+      "volumen": 5.55,
+      "imo": null,
+      "onu": null,
+      "obs_item": "FCL"
+    }
+  ],
+  "bultos_total": 24,
+  "peso_total": 8273.41,
+  "volumen_total": 12.09,
+  "mercancia": "Aceite de Oliva",
+  "es_peligrosa": false,
+  "es_reefer": false,
+  "bultos_detalle": [
+    {
+      "marcas": "ruoa-jvtt / N° 01",
+      "cantidad": 7,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 3777.37,
+      "volumen": 6.54,
+      "imo": null,
+      "onu": null
+    },
+    {
+      "marcas": "fOlf-YgEO / N° 02",
+      "cantidad": 17,
+      "descripcion": "Aceite de oliva extra virgen en tambores metálicos",
+      "peso": 4496.04,
+      "volumen": 5.55,
+      "imo": null,
+      "onu": null
+    }
+  ],
+  "flete_ocean": "PREPAID",
+  "thc_origen": "COLLECT",
+  "thc_destino": "COLLECT",
+  "numero_originales": "3 / THREE-THREE",
+  "glosa": "TRANSITO A BOLIVIA",
+  "observaciones": "FREIGHT PREPAID / SHIPPER'S LOAD, STOW AND COUNT / CY/CY - FCL/FCL",
+  "terms": "RECEIVED by the Carrier from the Shipper in apparent good order and condition the total number or quantity of Containers or other packages stated in this Bill of Lading, subject to the terms and conditions of the Carrier's Tariff. Carrier's liability limited per the Hague-Visby Rules.",
+  "contenedores": [
+    {
+      "numero": "UAHU3521559",
+      "tipo": "45P1",
+      "sello": "8920420",
+      "status": "LCL/LCL",
+      "peso": 8273.4,
+      "operador": "SHIPPER OWNER",
+      "bultos": 24,
+      "volumen": 12.09
+    }
+  ]
+}
